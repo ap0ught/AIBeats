@@ -1,0 +1,32 @@
+746	PICKUP||wooden sword||item: $0x657 0 -> 1
+6678	PICKUP||clock||item: $0x66C 0 -> 1
+6917	PICKUP||clock||item: $0x66C 1 -> 0
+7575	PICKUP||raft||item: $0x660 0 -> 1
+9853	PICKUP||map for level 3||item: $0x668 00 -> 04 - dungeon treasure, not a purchase; see testing/probe_map_chest.py
+10499	PICKUP||heart container 4||heart_container: containers 3 -> 4
+10751	PICKUP||Triforce piece 3 of 8||triforce: triforce 00 -> 04
+15900	PICKUP||heart container 5||heart_container: containers 4 -> 5
+20290	PICKUP||blue candle||item: $0x65B 0 -> 1
+22435	PICKUP||white sword||item: $0x657 1 -> 2
+29520	PICKUP||bow||item: $0x65A 0 -> 1
+32976	PICKUP||heart container 6||heart_container: containers 5 -> 6
+33331	PICKUP||Triforce piece 1 of 8||triforce: triforce 04 -> 05
+35280	PICKUP||heart container 7||heart_container: containers 6 -> 7
+41804	PICKUP||ladder||item: $0x663 0 -> 1
+46764	PICKUP||heart container 8||heart_container: containers 7 -> 8
+47219	PICKUP||Triforce piece 4 of 8||triforce: triforce 05 -> 0D
+60647	PICKUP||heart container 9||heart_container: containers 8 -> 9
+61095	PICKUP||Triforce piece 8 of 8||triforce: triforce 0D -> 8D
+66872	PICKUP||heart container 10||heart_container: containers 9 -> 10
+67287	PICKUP||Triforce piece 2 of 8||triforce: triforce 8D -> 8F
+76045	PICKUP||whistle||item: $0x65C 0 -> 1
+83368	PICKUP||heart container 11||heart_container: containers 10 -> 11
+83728	PICKUP||Triforce piece 5 of 8||triforce: triforce 8F -> 9F
+86763	PICKUP||arrow||item: $0x659 0 -> 1
+92997	PICKUP||map for level 7||item: $0x668 04 -> 44 - dungeon treasure, not a purchase; see testing/probe_map_chest.py
+97983	PICKUP||heart container 12||heart_container: containers 11 -> 12
+98589	PICKUP||Triforce piece 7 of 8||triforce: triforce 9F -> DF
+102507	PICKUP||magical sword||item: $0x657 2 -> 3
+110719	PICKUP||heart container 13||heart_container: containers 12 -> 13
+111090	PICKUP||Triforce piece 6 of 8||triforce: triforce DF -> FF
+125127	PICKUP||silver arrow||item: $0x659 1 -> 2

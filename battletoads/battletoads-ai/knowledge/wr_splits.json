@@ -1,0 +1,66 @@
+{
+ "source": "jay_cee 12:29.250, youtube A7czTlY7OI0; re-measured 2026-10-02 by reading the video's pixels every 1/30 s: 'end' = the FIRST black frame after the level (run time = video time - 20.69 s), +-0.04 s. On a warp the screen goes black ~170 frames BEFORE the level byte changes (the warp text page sits in between), so our side must use its own first black frame too (blackcal.py), not the byte change.",
+ "total": 749.25,
+ "levels": [
+  {
+   "byte": 1,
+   "num": 1,
+   "name": "Ragnarok's Canyon",
+   "end": 3.53
+  },
+  {
+   "byte": 3,
+   "num": 3,
+   "name": "Turbo Tunnel",
+   "end": 47.18
+  },
+  {
+   "byte": 4,
+   "num": 4,
+   "name": "Arctic Caverns",
+   "end": 127.61
+  },
+  {
+   "byte": 8,
+   "num": 6,
+   "name": "Karnath's Lair",
+   "end": 168.81
+  },
+  {
+   "byte": 7,
+   "num": 8,
+   "name": "Intruder Excluder",
+   "end": 251.74
+  },
+  {
+   "byte": 11,
+   "num": 9,
+   "name": "Terra Tubes",
+   "end": 413.79
+  },
+  {
+   "byte": 9,
+   "num": 10,
+   "name": "Rat Race",
+   "end": 449.94
+  },
+  {
+   "byte": 10,
+   "num": 11,
+   "name": "Clinger-Winger",
+   "end": 563.11
+  },
+  {
+   "byte": 5,
+   "num": 12,
+   "name": "The Revolution",
+   "end": 706.63
+  },
+  {
+   "byte": 13,
+   "num": 13,
+   "name": "Armageddon",
+   "end": 749.25
+  }
+ ]
+}

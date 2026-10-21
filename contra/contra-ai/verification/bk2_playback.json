@@ -1,0 +1,74 @@
+{
+ "movie": "contra_ai_9m24s.bk2",
+ "movie_sha1": "7884aecaa22247765d463a40e66653ba16bc0e72",
+ "rom_whole_sha1": "c9ea66bb7cb30ad5343f1721b1d4d3219859319b",
+ "rom_headerless_sha1": "979494e7869ac7ab4815fdbd1dc99f893f713fbf",
+ "seconds": 238.4,
+ "bizhawk": {
+  "start_framecount": "1",
+  "movie_loaded": "true",
+  "movie_mode": "PLAY",
+  "movie_length": "34568",
+  "movie_startsfromsavestate": "false",
+  "movie_header Core": "NesHawk",
+  "movie_header SHA1": "C9EA66BB7CB30AD5343F1721B1D4D3219859319B",
+  "romhash": "C9EA66BB7CB30AD5343F1721B1D4D3219859319B",
+  "board": "UxROM",
+  "end_framecount": "34568",
+  "end_movie_mode": "FINISHED"
+ },
+ "movie_modes": [
+  "movie_mode_at_frame 2 PLAY",
+  "movie_mode_at_frame 34568 FINISHED"
+ ],
+ "core_seen": "NesHawk",
+ "trace_sha1_2_to_34568": "9573e94d483c393b76f758818fe1bb9f242d1a61",
+ "ram_sha1_at_34568": "2242cdd88af3f06e8ed6a43de637fc42cb50d619",
+ "lag_frames_2_to_34568": 158,
+ "clock_ram": {
+  "N_medals_written": 593,
+  "A_control_lost": 34507,
+  "P_bill_standing": 34508,
+  "pad_at_A": 4
+ },
+ "clock": {
+  "start_seen": 594,
+  "end_seen": 34509,
+  "frames": 33915,
+  "seconds": 564.321,
+  "time": "9:24.321"
+ },
+ "pictures": {
+  "590": {
+   "medal_blue_pixels_in_hud_box": 0,
+   "identical_to_reference": true
+  },
+  "591": {
+   "medal_blue_pixels_in_hud_box": 0,
+   "identical_to_reference": true
+  },
+  "592": {
+   "medal_blue_pixels_in_hud_box": 0,
+   "identical_to_reference": true
+  },
+  "593": {
+   "medal_blue_pixels_in_hud_box": 0,
+   "identical_to_reference": true
+  },
+  "594": {
+   "medal_blue_pixels_in_hud_box": 70,
+   "identical_to_reference": true
+  },
+  "34508": {
+   "medal_blue_pixels_in_hud_box": 140,
+   "identical_to_reference": true
+  },
+  "34509": {
+   "medal_blue_pixels_in_hud_box": 140,
+   "identical_to_reference": true
+  }
+ },
+ "result": "PASS",
+ "failures": [],
+ "checked_utc": "2026-10-17 04:06:28"
+}

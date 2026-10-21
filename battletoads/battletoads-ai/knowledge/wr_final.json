@@ -1,0 +1,109 @@
+{
+ "what": "The world record's own ending, read from the video frame by frame (track END, 2026-10-09). jay_cee 12:29.250, Battletoads NES Any% (No Credits Warp), youtube A7czTlY7OI0 (1280x720, 60.00 fps; the NES runs 60.0988, so 1 video frame = 1.0016467 NES frames).",
+ "method": "Built-in browser: the YouTube player's frames drawn into a canvas at t = n/60 + 0.008 s for every frame n (745.0-773.0 s, 19.2-22.3 s, 726.7-728.0 s). Game area = x >= 33.5 % of the picture. Signals: mean luminance (cuts to black), 24-cell picture difference (9 identical frames = a hit's freeze; a jump every 4th frame = the camera shake after the dead Queen's bounce), the scroll position of Level 1's horizon (the landing). The same signals were measured on our own capture/emulator to tie each one to a RAM event (end_black.py, logs/fix/land/).",
+ "fps_video": 60.0,
+ "fps_nes": 60.0988,
+ "video_frames": {
+  "landing_level1": 1249,
+  "level12_first_black": 43639,
+  "hit_freezes_before_the_end": [
+   44766,
+   44827,
+   44892
+  ],
+  "final_blow": 45032.5,
+  "final_blow_frozen_picture": [
+   45032,
+   45041
+  ],
+  "camera_shake_first_last": [
+   45133,
+   45185
+  ],
+  "queen_speech_cut": 45684,
+  "tower_fade_in_steps": [
+   45709,
+   45713,
+   45717,
+   45721
+  ],
+  "back_on_tower_derived": 45694,
+  "tbird_cut": 46202,
+  "tbird_first_fully_black": 46203,
+  "tbird_picture": 46212
+ },
+ "video_seconds": {
+  "landing_level1": 20.817,
+  "level12_first_black": 727.317,
+  "final_blow": 750.542,
+  "queen_speech_cut": 761.4,
+  "back_on_tower_derived": 761.567,
+  "tbird_cut": 770.033
+ },
+ "run_seconds_from_landing": {
+  "level12_first_black": 706.5,
+  "final_blow": 729.725,
+  "queen_speech_cut": 740.583,
+  "back_on_tower_derived": 740.75,
+  "tbird_cut": 749.217
+ },
+ "nes_frames_from_landing": {
+  "level12_first_black": 42459.8,
+  "final_blow": 43855.6,
+  "queen_speech_cut": 44508.2,
+  "back_on_tower_derived": 44518.2,
+  "tbird_cut": 45027.0
+ },
+ "equivalent_frame_in_our_runs_landing_2074": {
+  "level12_first_black": 44533.8,
+  "final_blow": 45929.6,
+  "queen_speech_cut": 46582.2,
+  "tbird_cut": 47101.0
+ },
+ "leaderboard": {
+  "time": "12:29.250",
+  "seconds": 749.25,
+  "video_frames_at_60": 44955,
+  "nes_frames": 45029.0,
+  "tbird_cut_frame_for_landing_2074": 47103.0,
+  "note": "749.250 s x 60 = 44955 video frames exactly, so the board's time is a frame count on this video. Our event definitions (landing = first frame at rest, video 1249; end = the frame the level byte turns 254 = last frame with the status bar still drawn, video 46202) give 44953 frames = 749.217 s: the retime starts/ends one frame wider on each side. CONFIRMED: 749.25 s is the cut to Professor T. Bird, not the cut to the Queen's speech (that is at 740.58 s)."
+ },
+ "to_beat_it": {
+  "tbird_cut_at_or_before": 47102,
+  "safe_against_1_frame_reading_error": 47100,
+  "by_direct_frame_count_his_cut_is_our_frame": 47101.0
+ },
+ "tail": {
+  "final_blow_to_tbird_video_frames": 1169.5,
+  "final_blow_to_tbird_nes_frames": 1171.4,
+  "uncertainty_frames": 1.5,
+  "pieces_by_the_model": {
+   "flight": 154,
+   "countdown": 207,
+   "rise1": "171-172",
+   "stand": 122,
+   "speech_skip": 10,
+   "reload": 14,
+   "tower": 340,
+   "final_wait": "153-155"
+  },
+  "last_hit_height": "on the floor (h 44): the first camera shake comes 100 frames after the blow = 9 frozen + 92 of flight",
+  "final_blow_to_queen_speech_cut_nes": 652.6,
+  "queen_speech_cut_to_tbird_nes": 518.9,
+  "compare": {
+   "up14_tail": 1168,
+   "up14_best_tail_same_fight": 1085,
+   "best_possible_tail": 1071
+  }
+ },
+ "level13": {
+  "first_black_to_final_blow_nes": 1395.8,
+  "ours_up14_level_byte_13_to_last_hit": 1028,
+  "note": "we enter Level 13 about 523 frames behind the record (his first black 706.50 s on the landing clock = our-frame 44534; ours 45057), win about 368 in the fight, are 155 behind at the final blow and 152 behind at the T. Bird cut."
+ },
+ "clock_offset": {
+  "journal_014_said": 20.69,
+  "measured_landing_video_seconds": 20.817,
+  "note": "run time = video time - 20.82 s (landing), or - 20.80 s on the leaderboard's own count. knowledge/wr_splits.json was built with 20.69, so its level ends (not its total) read about 0.12 s (7 frames) late: e.g. Level 12's first black frame is video 727.317 s = 706.50 s after the landing, not 706.63."
+ }
+}

@@ -1,0 +1,107 @@
+[
+ {
+  "type": "level",
+  "frame": 1904,
+  "text": "LEVEL 1: RAGNAROK'S CANYON",
+  "y": 340,
+  "size": 70
+ },
+ {
+  "type": "credit",
+  "frame": 1904,
+  "dur": 5,
+  "title": "jay_cee — world record 12:29.25",
+  "body": "the route and the time to beat",
+  "pos": "top"
+ },
+ {
+  "type": "credit",
+  "frame": 2469,
+  "dur": 5,
+  "title": "jc583 — run notes (Speed Demos Archive)",
+  "body": "warps, dash-jumps, the rat boot"
+ },
+ {
+  "type": "level",
+  "frame": 2528,
+  "text": "LEVEL 3: TURBO TUNNEL",
+  "size": 70
+ },
+ {
+  "type": "credit",
+  "frame": 4134,
+  "dur": 5,
+  "title": "TASVideos #5093 — feos, Alyosha & Samsara",
+  "body": "the bike skip mechanics and the tower fights"
+ },
+ {
+  "type": "level",
+  "frame": 4778,
+  "text": "LEVEL 4: ARCTIC CAVERNS",
+  "size": 70
+ },
+ {
+  "type": "level",
+  "frame": 9892,
+  "text": "LEVEL 6: KARNATH'S LAIR",
+  "size": 70
+ },
+ {
+  "type": "credit",
+  "frame": 9892,
+  "dur": 5,
+  "title": "feos's disassembly + DataCrystal RAM map",
+  "body": "how the game's memory is laid out"
+ },
+ {
+  "type": "level",
+  "frame": 12373,
+  "text": "LEVEL 8: INTRUDER EXCLUDER",
+  "size": 70
+ },
+ {
+  "type": "level",
+  "frame": 16226,
+  "text": "LEVEL 9: TERRA TUBES",
+  "size": 70
+ },
+ {
+  "type": "level",
+  "frame": 26009,
+  "text": "LEVEL 10: RAT RACE",
+  "size": 70
+ },
+ {
+  "type": "level",
+  "frame": 27952,
+  "text": "LEVEL 11: CLINGER-WINGER",
+  "size": 70
+ },
+ {
+  "type": "level",
+  "frame": 34828,
+  "text": "LEVEL 12: THE REVOLUTION",
+  "size": 70
+ },
+ {
+  "type": "credit",
+  "frame": 34828,
+  "dur": 5,
+  "title": "1-player TAS (feos, Alyosha, Samsara)",
+  "body": "the Level 12 kills and spring pumps the AI copied"
+ },
+ {
+  "type": "level",
+  "frame": 42985,
+  "text": "LEVEL 13: ARMAGEDDON",
+  "size": 70
+ },
+ {
+  "type": "final",
+  "frame": 45186,
+  "dur": 1.5,
+  "text": "11:54.02",
+  "sub": "WORLD RECORD 12:29.25  ·  35.23 s FASTER",
+  "sub2": "1 player  ·  human speedrun rules  ·  timed to the cut to Professor T. Bird"
+ }
+]

@@ -1,0 +1,48 @@
+1	POWER ON. Right held from frame 1: with a direction held through the logos the title accepts Start 349 frames sooner.||Found by pressing Start on every frame from 1,161
+1171	START on the first frame the title counts it.||1,169 is ignored - bisected
+1175	Holding A: each story page closes the moment the game allows it.||Nothing, Start, Select, directions: all slower
+1904	LEVEL 1: RAGNAROK'S CANYON. The clock starts when the toad lands.||speedrun.com Any% (No Credits Warp)
+1924	The left pig first, the moment it can be hurt; then ONE dash to the right: ram the second pig on the way, dash-jump onto the rock, portal.||First version headbutted leftwards and had to come back: 300 frames, now 239
+2469	MEGA WARP to LEVEL 3 - a designed shortcut, skips level 2. Start mashed through every cutscene page.||Cutscenes are on the clock: nothing 860 f, Start held 673 f, mashed 191 f
+2531	LEVEL 3: TURBO TUNNEL. A tool-assisted run's own inputs for as long as they are legal: frame for frame through the first three rats.||It breaks at that run's first Left+Right press (banned)
+3271	TWO BLOWS PER RAT: a flying attack (jump, B in the air) stuns it, then THE BOOT - dash, B, a 24-frame wind-up - kills it whatever its health.||About 95 frames per rat; our first searches took 324 to 655
+3541	This rat drops in BEHIND the toad when the camera reaches the pit. Jump back at it while it is still falling, boot it, then the pit.||While a rat lives the camera will not scroll
+3831	Third rat: back off, flying attack to the right, boot. After a boot the game refuses a dash for 11 frames - the reference run cheats that with Left+Right.||We wait the 11 frames
+4137	THE BIKE SKIP. Mount, roll the bike back with Left+Up taps, drive it into the gap between the lanes before the first checkpoint saves.||The respawn then reads the level's object list from the wrong memory
+4327	Respawned with the object-list pointer inside the game's own variables: it walks through live memory, 11 bytes a frame.||When it reaches a byte holding 127 it spawns object 127 - the level-end fireworks
+4607	Object 127 spawned: the level is over. The whole 2.3-minute bike course never happens.||Allowed in Any% (No Credits Warp); costs one life
+4783	LEVEL 4: ARCTIC CAVERNS. The intro page skips on any button. Then the reference run's own inputs, frame for frame, through three checkpoints.||Its inputs are legal until its first Left+Right press
+6313	The reference run stops the ice block with a banned press. Legal version: brake, wait 26 frames, grab it - then a search carries it down the shaft into barrier 4.||53 frames instead of its 60
+6853	CHECKPOINT 5, THE TAS'S WAY: keep Right held through the landing - a flying kick ON the landing frame keeps the sprint - drop at the wall, dash-jump left, kick the snowman from the air, two throws from its pile.||The 1-player TAS's own inputs replay from our sprint; we run 1 px behind, so each landing is re-synced by repeating the input
+7503	THE DAMAGE BOOST (from the world record run). The ice ball sweeps the pit floor every 192 frames: take the hit on the ice slide at x 185, get up, walk into the spikes while still invulnerable.||Getting up, the toad is invulnerable for half a second: long enough to walk INTO the spikes
+7688	...and fall through them, through the rock, into the chamber two screens down. The floating platforms and the whole switchback never happen.||Hold Left in the fall or the game puts the toad off screen
+7773	But the game spawns objects from a list that waits on the camera - and the list is now stuck on the part we skipped. Run RIGHT until the camera has satisfied it.||Read from the game's code: one list entry per frame
+7973	Now the barrier, the ice ball and the spiky ball exist. Punch the rolling ball (that lifts it), carry it to the pillar top, face right, throw.||It grinds the 255-point barrier down in 3 seconds
+8448	Left over the spiked dip, down the shaft, along the ledges to barrier 7 - which only the snowmen's own snowballs can break. Crouch under the fast ones, hop the slow ones.||About 10 shots; dash off behind the last one
+9463	The lift sinks under the toad; the portal only appears once the camera is low enough. Then back up: lift, the ledge's lower lip, the portal.||Designed warp to level 6
+9903	LEVEL 6: KARNATH'S LAIR. Snakes are the platforms - their heads pause at corners and lift you.||The exit is three screens up: a double jump off the third snake's head
+12518	LEVEL 8: INTRUDER EXCLUDER. A 4,000-px tower: every jump peaks exactly at the next floor's edge; moving electric holes and elevators timed by beam search.||Then Robo-Manus: 21 smashes
+15778	ROBO-MANUS. Which attack B gives is random - and the game stirs its random numbers with spare CPU time. SELECT does nothing in play, but costs CPU time: press it on the right frame and the dice land differently.||The AI re-rolls each of ~25 random decisions until the fight replays an earlier winning one
+17240	THE BRIEFING PAGES. Our first run sat on every 'LEVEL n' page for four seconds. The record's video shows one. A fresh A press every other frame skips it.||~230 frames at each of levels 9-12: 15 s found by watching the record
+17380	LEVEL 9: TERRA TUBES. The start wall has no collision on top: over it and down the outside of the level.||Out of bounds is allowed in this category
+18740	Through a spark-guarded pipe, then four giant gears (Krazy Kogs) that only start moving when they see you.||The beam follows a 1-player TAS's path, with scripted waits for each gear
+26926	The level ends while dying on the last spikes - the exit trigger counts.||Allowed: an end-of-stage trigger
+27366	LEVEL 10: RAT RACE. Out-race the rat down the shaft, kick its bomb, then the RAT BOOT: a hard hit, then a second running kick.||The 1-player TAS's own inputs: no banned press in this level, so they replay frame for frame (2 s found)
+29313	LEVEL 11: CLINGER-WINGER. The unicycle maze with the Buzzball behind. Turn at every arrow before you reach it.||The TAS pressed Up+Down here (banned) - this is our own legal controller
+34473	THE BUZZBALL, THE RECORD'S WAY: stand ~30 px from the wall and kick every 40 frames - the ball bounces off the wall straight back into every kick.||13 kicks in ~780 frames; the old chase around the room needed 985
+36192	LEVEL 12: THE REVOLUTION. A rotating tower. Sprints by double tap, platforms that sink and launch, enemies that lock the camera.||The hardest level to make legal: the reference run leans on Left+Right
+37412	KILL the Hornhead - 3 hits.||While a Hornhead lives the camera will not scroll, and the ledge above never appears
+38298	THE FIGHTS, THE TAS'S WAY: the 1-player TAS's own kicks replay from a sync point, one idle frame placed to match the Hornhead's wake-up grid; SELECT re-rolls where the dice differ.||Nine fights: 15 s found; two more killed by our own beam
+39499	A boss cloud that only comes down when the random number generator says so.||Every button press changes the generator
+41382	THE TAS'S KILL: kick, walk AWAY, then turn back with Right+B - the big boot finishes the Hornhead in two hits.||Frame for frame from the 1-player TAS (its Left+Right presses swapped for legal ones)
+41522	PUMP THE SPRING: hold A as it sinks - it throws the toad up, the camera follows, and wind face 2 appears while the toad is still in the air.||Face 2 now 80 frames sooner
+42152	WIND FACE 2 ends sooner, so the lift comes sooner: the old drop and jump land exactly where they used to, 84 frames earlier.||
+42632	The walker's dice changed with the new timing: its fight is re-solved (242 frames, old 243).||
+42942	RIDE THE LOWER SPRING instead of jumping off it: face 3 is timed so this spring passes under the pole just as the wind stops.||118 frames of riding buy 240 later
+43510	Drop while the wind is still blowing, land on the spring, pump - and up to the next spring.||The record does this drop too
+43632	Pump again: straight onto the face-4 pole. Face 4 appears 88 frames sooner.||
+44091	Face 4: drop onto the circling spring, run with it, jump: the ledge 154 frames sooner than before.||
+44648	THE TOP: walk along the slow moving platform instead of standing on it.||53 frames
+45077	LEVEL 13: ARMAGEDDON - THE DARK QUEEN. Beam search on the hit counter.||RAM $586: +12 per hit, 240 after 20 hits; the 21st finishes her
+46085	THE DARK QUEEN IS DOWN - 21st hit.||The clock stops at the cut to Professor T. Bird
+46751	TIME: 12:23.393||World record: 12:29.250 (-5.9 s)

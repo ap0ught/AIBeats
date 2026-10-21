@@ -1,0 +1,37 @@
+{
+ "START_picture_frame": 594,
+ "START_first_blue_pixel_frame": 594,
+ "START_buttons_held": [
+  "Right"
+ ],
+ "END_picture_frame": 34509,
+ "END_buttons_prev_frame": [
+  "Down"
+ ],
+ "END_buttons": [
+  "Down"
+ ],
+ "END_box_prev": [
+  92,
+  174,
+  123,
+  188,
+  107,
+  47,
+  60
+ ],
+ "END_box": [
+  91,
+  159,
+  112,
+  188,
+  125,
+  59,
+  66
+ ],
+ "down_held_from_frame": 34393,
+ "down_held_to_frame": 34510,
+ "span_frames": 33915,
+ "span_seconds_at_60.0988": 564.3207518286555,
+ "span_text": "9:24.321"
+}

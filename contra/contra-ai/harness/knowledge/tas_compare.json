@@ -1,0 +1,80 @@
+{
+  "_about": "Contra (NES) best 1-player TAS (tasvideos 4623M, Mars608 & aiqiyou, 8:48.213, 31,745 frames, FCEUX 2.2.2, Contra (Japan)) measured section by section from its YouTube encode and compared with our AI's best verified US-ROM stage segments. Written 2026-10-16. See tas_compare.md for method and caveats. Every number carries a 'kind': measured (video or movie file), code (from the disassembly/ram_map or our RAM logs), or estimate.",
+  "sources": {
+    "game_page": "https://tasvideos.org/18G (featured 1-player = 4623M, 08:48.21; checked 2026-10-16, nothing newer)",
+    "publication": "https://tasvideos.org/4623M (links the YouTube encode 6kej45k7StE; obsoletes 4504M alex_ik 08:48.65)",
+    "notes": "https://tasvideos.org/7317S",
+    "encode": "https://www.youtube.com/watch?v=6kej45k7StE (960x720@60, AV1; 701.42 s incl. TASVideos card and the ending)",
+    "movie_file": "dl/tas/4623M_mars608,aiqiyou-contraj-1p.fm2 (parsed with python -I, read only)",
+    "ours": "best verified US segments: S1 3898 (w37v3), S2 3604 (logs/s2/L2), S3 3494 (logs/s3/p2_var37), S4 5154 (logs/s4/T4r), S5 6039, S6 4028, S7 4407, S8 3237 (logs/s8/p2_var1); exits from chain1/run reports"
+  },
+  "encode_timing": {
+    "kind": "measured",
+    "container_fps": 60.0,
+    "nes_frames_per_video_frame": 1.0016467,
+    "evidence": "Background scroll in stage 1 advances 1 px per video frame with a 2 px step every ~601 video frames (same in the archive.org MP4): the 60.0988 Hz picture was resampled to 60.000 fps by dropping one NES frame per ~601-608 video frames. The 7 intermission-skip Start presses of the movie (4084, 7291, 10407, 14995, 20801, 24584, 28745) each give a black frame at video v = 0.998356*n + 120.5 (residuals within +/-0.8; slope fitted 0.998337), so 1 video frame = 1.00165 NES frames and movie frame 0 = video ~120.5.",
+    "power_on_video_f": 120.5,
+    "last_input_movie_frame": 31744,
+    "last_input_video_f_est": 31812,
+    "total_check": "31,745 movie frames map to video 120.5..31812; heart first explosion at video 31819 is 7 frames after the last input, as expected for a final bullet in flight",
+    "event_tolerance": "+/-1 video frame for frame-exact visual events, +/-2 where the resampling drop falls nearby; approximate events carry tol"
+  },
+  "tas_inputs": {
+    "kind": "measured (movie file)",
+    "B_presses_total": 2773, "B_presses_by_stage": [105, 700, 72, 1189, 203, 112, 181, 211],
+    "B_closest_gap_frames": 2, "B_gap2_count": 1889, "B_max_per_60f": 28, "B_max_per_600f": 235, "B_max_per_1800f": 618,
+    "A_presses_by_stage": [17, 3, 46, 7, 31, 19, 28, 21],
+    "start_presses": "150 (title), 395/398 (intro skip), 7 intermission skips (4084, 7291, 10407, 14995, 20801, 24584, 28745, each pressed twice 2-3 frames apart), 4 in-level 2-frame pauses: 22475-22477 and 22506-22508 (stage 6), 25964-25966 and 27563-27565 (stage 7)",
+    "select_presses": [6, 8, 42, 78, 114],
+    "left_plus_right_frames": [24214, 24218],
+    "up_plus_down_frames": [1571, 3618, 9687, 23578, 25046, 25944, 26138, 27022, 27173, 28180],
+    "stage_movie_frame_spans_by_skip_press": "S1 <4084, S2 4084-7291, S3 7291-10407, S4 10407-14995, S5 14995-20801, S6 20801-24584, S7 24584-28745, S8 28745-31745"
+  },
+  "tas_events_video_f": {
+    "kind": "measured",
+    "stage_medals_first": {"1": 569, "2": 4235, "3": 7435, "4": 10548, "5": 15144, "6": 20941, "7": 24717, "8": 28871},
+    "first_black_after_stage": {"1": 4198, "2": 7400, "3": 10510, "4": 15090, "5": 20888, "6": 24664, "7": 28818},
+    "S1": {"boss_first_explosion": 3740, "note": "core red-flashing 3738-3739, explosion on the core 3740, wall-wide 3741"},
+    "S2": {"room_barrier_gone_onset": [4568, 5031, 5494, 5958, 6428], "room_lit_brightness": [4334, 4798, 5261, 5724, 6187], "boss_room_first": 6642, "eye_gone": 6852, "boss_first_explosion": 6854},
+    "S3": {"boss_autoscroll_start": 9270, "mouth_open_approx": {"f": 9968, "tol": 4}, "mouth_hits_from": 10052, "boss_first_explosion": 10094, "gate_breaks": 10096},
+    "S4": {"room_barrier_gone_onset": [10745, 11317, 11678, 12165, 12729, 13193, 13656, 14125], "room_lit_brightness": [10646, 10974, 11548, 11908, 12396, 12962, 13426, 13888], "boss_room_first": 14336, "last_helmet_gone": 14544, "boss_first_explosion": 14546},
+    "S5": {"ufo_appears_approx": {"f": 20380, "tol": 15}, "scripted_walk_pose": 20638, "walking_from": 20643},
+    "S6": {"boss_appears_approx": {"f": 24220, "tol": 10}, "giant_gone": 24321, "boss_first_explosion": 24323},
+    "S7": {"door_shutter_breaks": 28421, "door_gone": 28422, "boss_first_explosion": 28423},
+    "S8": {"guardian_appears_approx": {"f": 29384, "tol": 40}, "guardian_first_explosion": {"f": 29580, "tol": 2}, "heart_first_explosion": 31819, "END_est": {"f": 32042, "kind": "estimate: heart explosion + 223 video frames (code-fixed chain, measured 223 on the record's video; assumed the same on JP)"}}
+  },
+  "per_stage": [
+    {"stage": 1, "event": "boss first explosion", "tas_gameplay": 3176.2, "ours_gameplay": 3197, "diff": -20.8, "tas_transition_jp": 495.8, "ours_transition_us": 701, "jp_saves": 205.2},
+    {"stage": 2, "event": "boss first explosion", "tas_gameplay": 2623.3, "ours_gameplay": 2820, "diff": -196.7, "tas_transition_jp": 582.0, "ours_transition_us": 784, "jp_saves": 202.0},
+    {"stage": 3, "event": "boss first explosion", "tas_gameplay": 2663.4, "ours_gameplay": 2784, "diff": -120.6, "tas_transition_jp": 454.7, "ours_transition_us": 710, "jp_saves": 255.3, "note": "JP reaches the black 48 frames sooner after the explosion than US (416.7 vs 465): version or exit difference, not identified"},
+    {"stage": 4, "event": "boss first explosion", "tas_gameplay": 4004.6, "ours_gameplay": 4352, "diff": -347.4, "tas_transition_jp": 599.0, "ours_transition_us": 802, "jp_saves": 203.0},
+    {"stage": 5, "event": "scripted walk after control loss (ours = $3B+50+33)", "tas_gameplay": 5503.0, "ours_gameplay": 5532, "diff": -29.0, "tas_transition_jp": 303.5, "ours_transition_us": 507, "jp_saves": 203.5},
+    {"stage": 6, "event": "boss first explosion", "tas_gameplay": 3387.6, "ours_gameplay": 3431, "diff": -43.4, "tas_transition_jp": 394.6, "ours_transition_us": 597, "jp_saves": 202.4},
+    {"stage": 7, "event": "boss first explosion", "tas_gameplay": 3712.1, "ours_gameplay": 3713, "diff": -0.9, "tas_transition_jp": 448.7, "ours_transition_us": 694, "jp_saves": 245.3, "note": "JP reaches the black 41 frames sooner after the explosion than US (395.7 vs 437); our exit equals the record's, so most likely a version difference"},
+    {"stage": 8, "event": "heart first explosion / END", "tas_gameplay": 2952.9, "ours_gameplay": 3013, "diff": -60.1, "tas_end": 3176.2, "ours_end": 3237, "diff_end": -60.8}
+  ],
+  "per_stage_kinds": "tas_* = measured video span x 1.00165 (NES frames, from the stage's first medal frame); ours_* = code/RAM rows from our logs (event seen = $3B + 3, medals seen on row 1); transitions = event to next stage's first medal frame",
+  "rooms": {
+    "kind": "TAS measured (barrier-gone onset, NES frames after the stage's medals); ours = room load + last-hit T + 34 - 1 (from the run reports)",
+    "S2": {"tas": [333.5, 797.3, 1261.1, 1725.8, 2196.6], "ours": [334, 822, 1310, 1797, 2313], "per_room_gain_tas": [-0.5, -24.2, -24.2, -22.3, -45.2], "boss_onset_to_explosion": {"tas": 426.7, "ours": 507, "diff": -80.3}},
+    "S4": {"tas": [197.3, 770.3, 1131.9, 1619.7, 2184.6, 2649.4, 3113.1, 3582.9], "ours": [213, 825, 1226, 1745, 2343, 2843, 3355, 3866], "per_room_gain_tas": [-15.7, -39.0, -39.4, -31.2, -33.1, -35.2, -48.3, -41.2], "boss_onset_to_explosion": {"tas": 421.7, "ours": 486, "diff": -64.3}}
+  },
+  "stage3_climb": {"kind": "measured (TAS video + movie), ours from logs/s3/p2_var37", "tas_autoscroll_start": 1838.0, "ours_autoscroll_start": 1958, "diff": -120, "tas_jumps_before_scroll": 42, "ours_jumps_before_scroll": 41, "tas_longest_gap_between_jumps": 58, "ours_waits": "three long gaps of 96, 74 and 106 frames between jumps (rock platforms)", "mouth_open": {"tas": 2537.2, "ours": 2660}, "mouth_kill": {"tas": 126.2, "ours": 124}},
+  "stage8": {"guardian_first_explosion": {"tas": 710.2, "ours_est": 745, "diff_est": -35}, "heart": {"tas": 2952.9, "ours": 3013}},
+  "totals": {
+    "gameplay_tas": {"value": 28246.4, "kind": "measured"},
+    "gameplay_ours": {"value": 29066, "kind": "code (sum of best verified stage results; not one chained run)"},
+    "gameplay_gap": {"value": 819.6, "seconds": 13.64},
+    "transitions_jp_tas": {"value": 3278.3, "kind": "measured"},
+    "transitions_us_ours": {"value": 4795, "kind": "code/RAM"},
+    "jp_minus_us_transitions": {"value": -1516.7, "seconds": -25.24, "breakdown": "about 202-205 per stage = the US 192-frame score screen + ~10 frames of US load/draw; stages 3 and 7 a further ~48 and ~41 frames shorter on JP before the black"}
+  },
+  "bottom_line": {
+    "tas_on_our_clock_jp": {"frames": 31524.8, "time": "8:44.550", "kind": "measured start (first medal frame) + END estimated as heart explosion + 223"},
+    "tas_check": "TAS timing 31,745 = power-on->medals 449.2 (measured) + 31,524.8 - (END - last input = 229, computed) : consistent",
+    "ours_on_jp_est": {"frames": 32344.3, "time": "8:58.185", "kind": "estimate = our gameplay + the TAS's JP transitions"},
+    "tas_on_us_est": {"frames": 33041.4, "time": "9:09.785", "kind": "estimate = TAS gameplay + our US transitions"},
+    "ours_on_us": {"frames": 33861, "time": "9:23.422", "kind": "code: sum of best verified segments (best complete verified run is chain1 = 34,474 = 9:33.622)"},
+    "ours_tas_timed_on_jp_est": {"frames": 32563, "time": "9:01.83", "vs": "8:48.21 (31,745)", "gap_frames": 818}
+  }
+}

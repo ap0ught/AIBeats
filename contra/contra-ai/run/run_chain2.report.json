@@ -1,0 +1,2449 @@
+{
+ "when": "2026-10-16 23:13:58",
+ "inputs": "run_chain2.inputs.txt",
+ "chain": "C",
+ "title_wait": 3,
+ "source": "runs\\C\\run.inputs.txt",
+ "assemble_exit_code": 0,
+ "assemble_stdout": [
+  "run_chain2: 34567 input frames on NesHawk; two power-on replays MATCH (RAM sha1 2242cdd88af3 / 2242cdd88af3, trace sha1 23c8ac98fd9f / 23c8ac98fd9f)",
+  "  stage 1: first frame    593  frames  3905  lag  16  weapon $00  (to the next stage's first frame)",
+  "  stage 2: first frame   4498  frames  3600  lag  25  weapon $13  (to the next stage's first frame)  rooms at [4994, 5482, 5970, 6462, 6974]",
+  "  stage 3: first frame   8098  frames  3516  lag  36  weapon $13  (to the next stage's first frame)",
+  "  stage 4: first frame  11614  frames  5155  lag  22  weapon $13  (to the next stage's first frame)  rooms at [11988, 12599, 13000, 13520, 14119, 14620, 15132, 15644]",
+  "  stage 5: first frame  16769  frames  6040  lag  13  weapon $13  (to the next stage's first frame)",
+  "  stage 6: first frame  22809  frames  4059  lag  13  weapon $13  (to the next stage's first frame)",
+  "  stage 7: first frame  26868  frames  4413  lag  17  weapon $13  (to the next stage's first frame)",
+  "  stage 8: first frame  31281  frames  3227  lag   0  weapon $13  (to the END event (RAM frame))",
+  "  deaths 0; lag frames in total 159; frames on which the game ignored the controller during play 35",
+  "run_chain2: START medals: RAM frame 593, seen on frame 594; END Bill stands: control lost 34507, RAM frame 34508, seen on frame 34509 (Up/Down held: True)",
+  "run_chain2: RUN TIME 9:24.321 = 33915 frames / 60.0988  (as seen: 594 -> 34509)"
+ ],
+ "assemble_seconds": 189,
+ "replays_match": true,
+ "ram_sha1_a": "2242cdd88af3f06e8ed6a43de637fc42cb50d619",
+ "ram_sha1_b": "2242cdd88af3f06e8ed6a43de637fc42cb50d619",
+ "trace_sha1_a": "23c8ac98fd9f2a8c35b0cc47da83004b859c05ae",
+ "trace_sha1_b": "23c8ac98fd9f2a8c35b0cc47da83004b859c05ae",
+ "input_frames": 34567,
+ "core": "NesHawk",
+ "deaths": 0,
+ "controller_ignored_frames": 35,
+ "lag_total": 159,
+ "start": {
+  "ram": 593,
+  "seen": 594,
+  "hud_flag": 255
+ },
+ "end": {
+  "control_lost": 34507,
+  "ram": 34508,
+  "seen": 34509,
+  "held_at_control_loss": 4,
+  "up_or_down_held": true
+ },
+ "finished": true,
+ "time": "9:24.321",
+ "seconds": 564.3207518286555,
+ "frames_timed": 33915,
+ "check_inputs_exit_code": 0,
+ "check_inputs_last_line": "RESULT: PASS",
+ "check_inputs_stdout": [
+  "run_chain2.inputs.txt: 34567 frames; cap: one press per 5 frames, hold >= 2, release >= 2; buttons Up,Down,Left,Right,Select,Start,B,A",
+  "  ok   controller_1_only  violations      0",
+  "  ok   no_left_right      violations      0",
+  "  ok   no_up_down         violations      0",
+  "  ok   press_period       violations      0",
+  "  ok   min_hold           violations      0",
+  "  ok   min_release        violations      0",
+  "  ok   max_109_in_600_frames violations      0",
+  "  ok   max_246_in_1800_frames violations      0",
+  "  Up     presses    79  held   2677 f  fastest second 10 presses  min start-to-start 5  holds {'2': 56, '5': 1, '7': 1, '8+': 21}",
+  "  Down   presses   385  held   2879 f  fastest second 12 presses  min start-to-start 5  holds {'2': 205, '3': 79, '4': 15, '5': 10, '6': 4, '7': 4, '8+': 68}",
+  "  Left   presses   214  held   1611 f  fastest second  8 presses  min start-to-start 5  holds {'2': 174, '3': 8, '4': 3, '6': 2, '7': 1, '8+': 26}",
+  "  Right  presses   253  held  19854 f  fastest second  8 presses  min start-to-start 5  holds {'2': 180, '3': 15, '4': 8, '5': 5, '7': 2, '8+': 43}",
+  "  Select presses     1  held      2 f  fastest second  1 presses  min start-to-start None  holds {'2': 1}",
+  "  Start  presses    13  held     26 f  fastest second  4 presses  min start-to-start 5  holds {'2': 13}",
+  "  B      presses  1078  held   2159 f  fastest second 12 presses  min start-to-start 5  holds {'2': 1075, '3': 3}",
+  "  A      presses   179  held    358 f  fastest second  2 presses  min start-to-start 18  holds {'2': 179}",
+  "RESULT: PASS"
+ ],
+ "clock_shots_exit_code": 0,
+ "clock_evidence_summary": {
+  "N": 593,
+  "medals_first_in_ppu_oam": 594,
+  "medals_first_in_picture_by_blue_pixels": 594,
+  "start_ok": true,
+  "A": 34507,
+  "P": 34508,
+  "pose_first_changes_in_ram_buffer_after_A": 34508,
+  "pose_first_changes_in_ppu_oam_after_A": 34509,
+  "end_ok": true,
+  "held_at_A": "Down",
+  "pad_at_A": 4,
+  "frames_P_minus_N": 33915,
+  "seconds": 564.3207518286555,
+  "time": "9:24.321"
+ },
+ "presses": {
+  "Up": {
+   "presses": 79,
+   "max_in_60": 10,
+   "max_in_600": 15,
+   "max_in_1800": 18
+  },
+  "Down": {
+   "presses": 385,
+   "max_in_60": 12,
+   "max_in_600": 44,
+   "max_in_1800": 76
+  },
+  "Left": {
+   "presses": 214,
+   "max_in_60": 8,
+   "max_in_600": 52,
+   "max_in_1800": 136
+  },
+  "Right": {
+   "presses": 253,
+   "max_in_60": 8,
+   "max_in_600": 50,
+   "max_in_1800": 129
+  },
+  "Select": {
+   "presses": 1,
+   "max_in_60": 1,
+   "max_in_600": 1,
+   "max_in_1800": 1
+  },
+  "Start": {
+   "presses": 13,
+   "max_in_60": 4,
+   "max_in_600": 6,
+   "max_in_1800": 6
+  },
+  "B": {
+   "presses": 1078,
+   "max_in_60": 12,
+   "max_in_600": 70,
+   "max_in_1800": 144
+  },
+  "A": {
+   "presses": 179,
+   "max_in_60": 2,
+   "max_in_600": 14,
+   "max_in_1800": 38
+  }
+ },
+ "start_presses_in_play_frames": [
+  24223,
+  24228,
+  24255,
+  24260,
+  24767,
+  24772,
+  28078,
+  28083,
+  29808,
+  29813,
+  29872,
+  29877
+ ],
+ "run_frames": 33915,
+ "run_time": "9:24.321",
+ "record_board_9_48_183_frames": 35349,
+ "time_to_clear_9_46_717_frames": 35261,
+ "chain1_frames": 34474,
+ "table": [
+  {
+   "stage": 1,
+   "first_frame": 593,
+   "cum_start": 0,
+   "record_cum_start": 0,
+   "ahead_at_start": 0,
+   "segment": 3905,
+   "record": 3907,
+   "diff": -2,
+   "chain1": 3900,
+   "diff_chain1": 5,
+   "lag": 16,
+   "measured": "to the next stage's first frame",
+   "start_presses": 0,
+   "b_presses": 97,
+   "solver_wall_secs": 882,
+   "chain_segment": 3905,
+   "weapon_at_start": 0,
+   "fc": 64,
+   "rng": 251,
+   "lives": 2
+  },
+  {
+   "stage": 2,
+   "first_frame": 4498,
+   "cum_start": 3905,
+   "record_cum_start": 3907,
+   "ahead_at_start": 2,
+   "segment": 3600,
+   "record": 3716,
+   "diff": -116,
+   "chain1": 3604,
+   "diff_chain1": -4,
+   "lag": 25,
+   "measured": "to the next stage's first frame",
+   "start_presses": 0,
+   "b_presses": 160,
+   "solver_wall_secs": 1143,
+   "chain_segment": 3600,
+   "weapon_at_start": 19,
+   "fc": 113,
+   "rng": 68,
+   "lives": 2
+  },
+  {
+   "stage": 3,
+   "first_frame": 8098,
+   "cum_start": 7505,
+   "record_cum_start": 7623,
+   "ahead_at_start": 118,
+   "segment": 3516,
+   "record": 3934,
+   "diff": -418,
+   "chain1": 3542,
+   "diff_chain1": -26,
+   "lag": 36,
+   "measured": "to the next stage's first frame",
+   "start_presses": 0,
+   "b_presses": 32,
+   "solver_wall_secs": 742,
+   "chain_segment": 3516,
+   "weapon_at_start": 19,
+   "fc": 104,
+   "rng": 22,
+   "lives": 3
+  },
+  {
+   "stage": 4,
+   "first_frame": 11614,
+   "cum_start": 11021,
+   "record_cum_start": 11558,
+   "ahead_at_start": 537,
+   "segment": 5155,
+   "record": 5761,
+   "diff": -606,
+   "chain1": 5269,
+   "diff_chain1": -114,
+   "lag": 22,
+   "measured": "to the next stage's first frame",
+   "start_presses": 0,
+   "b_presses": 277,
+   "solver_wall_secs": 1580,
+   "chain_segment": 5155,
+   "weapon_at_start": 19,
+   "fc": 0,
+   "rng": 56,
+   "lives": 3
+  },
+  {
+   "stage": 5,
+   "first_frame": 16769,
+   "cum_start": 16176,
+   "record_cum_start": 17319,
+   "ahead_at_start": 1143,
+   "segment": 6040,
+   "record": 6125,
+   "diff": -85,
+   "chain1": 6041,
+   "diff_chain1": -1,
+   "lag": 13,
+   "measured": "to the next stage's first frame",
+   "start_presses": 0,
+   "b_presses": 158,
+   "solver_wall_secs": 847,
+   "chain_segment": 6040,
+   "weapon_at_start": 19,
+   "fc": 13,
+   "rng": 55,
+   "lives": 4
+  },
+  {
+   "stage": 6,
+   "first_frame": 22809,
+   "cum_start": 22216,
+   "record_cum_start": 23444,
+   "ahead_at_start": 1228,
+   "segment": 4059,
+   "record": 4143,
+   "diff": -84,
+   "chain1": 4050,
+   "diff_chain1": 9,
+   "lag": 13,
+   "measured": "to the next stage's first frame",
+   "start_presses": 6,
+   "b_presses": 115,
+   "solver_wall_secs": 1201,
+   "chain_segment": 4059,
+   "weapon_at_start": 19,
+   "fc": 152,
+   "rng": 220,
+   "lives": 5
+  },
+  {
+   "stage": 7,
+   "first_frame": 26868,
+   "cum_start": 26275,
+   "record_cum_start": 27587,
+   "ahead_at_start": 1312,
+   "segment": 4413,
+   "record": 4488,
+   "diff": -75,
+   "chain1": 4831,
+   "diff_chain1": -418,
+   "lag": 17,
+   "measured": "to the next stage's first frame",
+   "start_presses": 6,
+   "b_presses": 157,
+   "solver_wall_secs": 359,
+   "chain_segment": 4413,
+   "weapon_at_start": 19,
+   "fc": 102,
+   "rng": 134,
+   "lives": 6
+  },
+  {
+   "stage": 8,
+   "first_frame": 31281,
+   "cum_start": 30688,
+   "record_cum_start": 32075,
+   "ahead_at_start": 1387,
+   "segment": 3227,
+   "record": 3273,
+   "diff": -46,
+   "chain1": 3237,
+   "diff_chain1": -10,
+   "lag": 0,
+   "measured": "to the END event (RAM frame)",
+   "start_presses": 0,
+   "b_presses": 82,
+   "solver_wall_secs": 1543,
+   "chain_segment": 3227,
+   "weapon_at_start": 19,
+   "fc": 146,
+   "rng": 52,
+   "lives": 6
+  }
+ ],
+ "chain_state": {
+  "stages": {
+   "1": {
+    "tag": "c2C",
+    "info": {
+     "solver": "contra.stages.s1 s1/pre_w3 w3_c2C",
+     "solver_frames": 3905,
+     "solver_secs": 882,
+     "opening_rows": 591,
+     "solve_wall_secs": 882
+    },
+    "verify": {
+     "rows": 4497,
+     "last_frame": 4498,
+     "ram_sha1": "9be24d1fc6d1ba001ab959f28a5516616681acf0",
+     "deaths": [],
+     "firsts": {
+      "1": 593,
+      "2": 4498
+     },
+     "lag_at_first": {
+      "1": 17,
+      "2": 33
+     },
+     "weapon_at_first": {
+      "1": 0,
+      "2": 19
+     },
+     "lives_at_first": {
+      "1": 2,
+      "2": 2
+     },
+     "fc_at_first": {
+      "1": 64,
+      "2": 113
+     },
+     "rng_at_first": {
+      "1": 251,
+      "2": 68
+     },
+     "last": {
+      "level": 1,
+      "lroutine": 4,
+      "weapon": 19,
+      "lives": 2,
+      "fc": 113,
+      "rng": 68,
+      "lag": 33,
+      "groutine": 5
+     },
+     "seconds": 28,
+     "ok": true,
+     "why": []
+    },
+    "secs": 910,
+    "status": "verified",
+    "L": 593,
+    "L_next": 4498,
+    "segment": 3905,
+    "record": 3907,
+    "diff": -2,
+    "lag": 16,
+    "fc": 64,
+    "rng": 251,
+    "lives": 2,
+    "weapon_in": 0,
+    "through": "runs\\C\\through_s1.inputs.txt",
+    "through_sha1": "fba323036f4e63ffe09c9ae6319bec5f12258c5a",
+    "check_inputs": "RESULT: PASS",
+    "check_inputs_pass": true,
+    "next_fc": 113,
+    "next_rng": 68
+   },
+   "2": {
+    "tag": "c2C",
+    "info": {
+     "solver_frames": 3600,
+     "solver_secs": 1143,
+     "solver_report": {
+      "frames": 3600,
+      "boss": {
+       "events": [
+        [
+         141,
+         [
+          39,
+          16,
+          16
+         ]
+        ],
+        [
+         142,
+         [
+          38,
+          16,
+          16
+         ]
+        ],
+        [
+         143,
+         [
+          37,
+          16,
+          16
+         ]
+        ],
+        [
+         144,
+         [
+          36,
+          16,
+          16
+         ]
+        ],
+        [
+         145,
+         [
+          35,
+          16,
+          16
+         ]
+        ],
+        [
+         146,
+         [
+          34,
+          16,
+          16
+         ]
+        ],
+        [
+         147,
+         [
+          33,
+          16,
+          16
+         ]
+        ],
+        [
+         148,
+         [
+          31,
+          16,
+          16
+         ]
+        ],
+        [
+         149,
+         [
+          30,
+          16,
+          16
+         ]
+        ],
+        [
+         154,
+         [
+          29,
+          16,
+          16
+         ]
+        ],
+        [
+         155,
+         [
+          28,
+          16,
+          16
+         ]
+        ],
+        [
+         156,
+         [
+          27,
+          16,
+          16
+         ]
+        ],
+        [
+         157,
+         [
+          26,
+          16,
+          16
+         ]
+        ],
+        [
+         159,
+         [
+          26,
+          16,
+          15
+         ]
+        ],
+        [
+         160,
+         [
+          25,
+          16,
+          15
+         ]
+        ],
+        [
+         161,
+         [
+          24,
+          16,
+          15
+         ]
+        ],
+        [
+         162,
+         [
+          23,
+          16,
+          15
+         ]
+        ],
+        [
+         163,
+         [
+          22,
+          16,
+          15
+         ]
+        ],
+        [
+         165,
+         [
+          21,
+          16,
+          15
+         ]
+        ],
+        [
+         173,
+         [
+          20,
+          16,
+          15
+         ]
+        ],
+        [
+         174,
+         [
+          19,
+          16,
+          15
+         ]
+        ],
+        [
+         177,
+         [
+          18,
+          16,
+          15
+         ]
+        ],
+        [
+         178,
+         [
+          17,
+          16,
+          15
+         ]
+        ],
+        [
+         182,
+         [
+          16,
+          16,
+          15
+         ]
+        ],
+        [
+         183,
+         [
+          15,
+          16,
+          15
+         ]
+        ],
+        [
+         185,
+         [
+          13,
+          16,
+          15
+         ]
+        ],
+        [
+         186,
+         [
+          12,
+          16,
+          15
+         ]
+        ],
+        [
+         192,
+         [
+          11,
+          16,
+          15
+         ]
+        ],
+        [
+         194,
+         [
+          10,
+          16,
+          15
+         ]
+        ],
+        [
+         200,
+         [
+          9,
+          16,
+          15
+         ]
+        ],
+        [
+         201,
+         [
+          8,
+          16,
+          15
+         ]
+        ],
+        [
+         202,
+         [
+          6,
+          16,
+          15
+         ]
+        ],
+        [
+         203,
+         [
+          5,
+          16,
+          15
+         ]
+        ],
+        [
+         204,
+         [
+          4,
+          16,
+          15
+         ]
+        ],
+        [
+         205,
+         [
+          2,
+          16,
+          15
+         ]
+        ],
+        [
+         206,
+         [
+          0,
+          16,
+          15
+         ]
+        ],
+        [
+         271,
+         [
+          0,
+          15,
+          15
+         ]
+        ],
+        [
+         275,
+         [
+          0,
+          14,
+          15
+         ]
+        ],
+        [
+         280,
+         [
+          0,
+          13,
+          15
+         ]
+        ],
+        [
+         282,
+         [
+          0,
+          12,
+          15
+         ]
+        ],
+        [
+         298,
+         [
+          0,
+          11,
+          15
+         ]
+        ],
+        [
+         302,
+         [
+          0,
+          10,
+          15
+         ]
+        ],
+        [
+         303,
+         [
+          0,
+          9,
+          15
+         ]
+        ],
+        [
+         304,
+         [
+          0,
+          8,
+          15
+         ]
+        ],
+        [
+         306,
+         [
+          0,
+          7,
+          15
+         ]
+        ],
+        [
+         307,
+         [
+          0,
+          6,
+          15
+         ]
+        ],
+        [
+         310,
+         [
+          0,
+          5,
+          15
+         ]
+        ],
+        [
+         311,
+         [
+          0,
+          4,
+          15
+         ]
+        ],
+        [
+         321,
+         [
+          0,
+          3,
+          15
+         ]
+        ],
+        [
+         328,
+         [
+          0,
+          2,
+          15
+         ]
+        ],
+        [
+         335,
+         [
+          0,
+          1,
+          15
+         ]
+        ],
+        [
+         336,
+         [
+          0,
+          0,
+          15
+         ]
+        ],
+        [
+         338,
+         [
+          0,
+          0,
+          0
+         ]
+        ]
+       ],
+       "plans": [
+        {
+         "at": 9,
+         "phase": "A",
+         "repeat": [],
+         "best": 198,
+         "all": [
+          [
+           [
+            0.015,
+            2,
+            6000,
+            0.5,
+            4,
+            3
+           ],
+           198,
+           328.4
+          ],
+          [
+           [
+            0.03,
+            2,
+            6000,
+            0.25,
+            4,
+            3
+           ],
+           206,
+           387.3
+          ],
+          [
+           [
+            0.03,
+            2,
+            6000,
+            0.75,
+            4,
+            3
+           ],
+           201,
+           365.8
+          ],
+          [
+           [
+            0.02,
+            3,
+            8000,
+            0.25,
+            4,
+            3
+           ],
+           202,
+           475.4
+          ],
+          [
+           [
+            0.01,
+            2,
+            6000,
+            0.25,
+            4,
+            3
+           ],
+           198,
+           319.5
+          ],
+          [
+           [
+            0.02,
+            2,
+            6000,
+            1.0,
+            4,
+            3
+           ],
+           198,
+           338.0
+          ]
+         ],
+         "secs": 480,
+         "guided": false,
+         "burst": null,
+         "probes": [
+          [
+           "(0.015, 2, 6000, 0.5, 4, 3)",
+           198,
+           null,
+           [
+            180
+           ]
+          ],
+          [
+           "(0.02, 2, 6000, 1.0, 4, 3)",
+           198,
+           null,
+           [
+            180
+           ]
+          ],
+          [
+           "(0.01, 2, 6000, 0.25, 4, 3)",
+           198,
+           198,
+           []
+          ]
+         ],
+         "emu": 198
+        },
+        {
+         "at": 207,
+         "phase": "B",
+         "repeat": [],
+         "best": 131,
+         "all": [
+          [
+           [
+            0.02,
+            2,
+            4000,
+            1.5,
+            4,
+            3
+           ],
+           155,
+           146.8
+          ],
+          [
+           [
+            0.02,
+            2,
+            4000,
+            0.75,
+            4,
+            3
+           ],
+           178,
+           186.9
+          ],
+          [
+           [
+            0.01,
+            2,
+            4000,
+            1.0,
+            4,
+            3
+           ],
+           131,
+           138.1
+          ],
+          [
+           [
+            0.03,
+            2,
+            4000,
+            2.5,
+            4,
+            3
+           ],
+           173,
+           178.5
+          ],
+          [
+           [
+            0.02,
+            3,
+            4000,
+            1.0,
+            4,
+            2
+           ],
+           154,
+           206.4
+          ],
+          [
+           [
+            0.02,
+            2,
+            6000,
+            0.0,
+            4,
+            3
+           ],
+           182,
+           196.1
+          ]
+         ],
+         "secs": 238,
+         "guided": false,
+         "burst": 148,
+         "probes": [
+          [
+           "(0.01, 2, 4000, 1.0, 4, 3)",
+           131,
+           131,
+           []
+          ]
+         ],
+         "emu": 131
+        }
+       ],
+       "drops": [],
+       "resyncs": 1,
+       "lag": 8,
+       "backups": 0,
+       "repairs": [],
+       "start": {
+        "row": 9,
+        "fc": 26,
+        "rng": 85,
+        "x": 112,
+        "parts": [
+         [
+          16,
+          15,
+          128,
+          64
+         ],
+         [
+          8,
+          14,
+          80,
+          96
+         ],
+         [
+          10,
+          13,
+          128,
+          96
+         ],
+         [
+          8,
+          12,
+          176,
+          96
+         ],
+         [
+          10,
+          11,
+          80,
+          144
+         ],
+         [
+          10,
+          10,
+          128,
+          144
+         ],
+         [
+          10,
+          9,
+          176,
+          144
+         ]
+        ]
+       },
+       "plates_done": 207,
+       "ok": true,
+       "frames": 338,
+       "secs": 721,
+       "end_x": 157,
+       "end_jump": 0,
+       "method": "offline model plan"
+      },
+      "lag": null
+     },
+     "solve_wall_secs": 1143
+    },
+    "verify": {
+     "rows": 8097,
+     "last_frame": 8098,
+     "ram_sha1": "5dc8575ef10c60afccae49f1512321b97db1ea62",
+     "deaths": [],
+     "firsts": {
+      "1": 593,
+      "2": 4498,
+      "3": 8098
+     },
+     "lag_at_first": {
+      "1": 17,
+      "2": 33,
+      "3": 58
+     },
+     "weapon_at_first": {
+      "1": 0,
+      "2": 19,
+      "3": 19
+     },
+     "lives_at_first": {
+      "1": 2,
+      "2": 2,
+      "3": 3
+     },
+     "fc_at_first": {
+      "1": 64,
+      "2": 113,
+      "3": 104
+     },
+     "rng_at_first": {
+      "1": 251,
+      "2": 68,
+      "3": 22
+     },
+     "last": {
+      "level": 2,
+      "lroutine": 4,
+      "weapon": 19,
+      "lives": 3,
+      "fc": 104,
+      "rng": 22,
+      "lag": 58,
+      "groutine": 5
+     },
+     "seconds": 45,
+     "ok": true,
+     "why": []
+    },
+    "secs": 1188,
+    "status": "verified",
+    "L": 4498,
+    "L_next": 8098,
+    "segment": 3600,
+    "record": 3716,
+    "diff": -116,
+    "lag": 25,
+    "fc": 113,
+    "rng": 68,
+    "lives": 2,
+    "weapon_in": 19,
+    "through": "runs\\C\\through_s2.inputs.txt",
+    "through_sha1": "7c1c26bb524a4d4660c2e34dfe7e2cb7f8b99b53",
+    "check_inputs": "RESULT: PASS",
+    "check_inputs_pass": true,
+    "next_fc": 104,
+    "next_rng": 22
+   },
+   "3": {
+    "tag": "c2C",
+    "info": {
+     "solver_frames": 3516,
+     "solver_secs": 741,
+     "solver_report": {
+      "events": {
+       "top_floor": 1978,
+       "boss_scroll": 1997,
+       "mouth_open": 2701,
+       "boss_flag": 2803,
+       "control_lost": 2959,
+       "next_stage_first_frame_row": 3516
+      },
+      "deaths": 0,
+      "weapon_out": 19,
+      "next_first_frame_ok": true,
+      "input_rule_violations": 0
+     },
+     "solve_wall_secs": 742
+    },
+    "verify": {
+     "rows": 11613,
+     "last_frame": 11614,
+     "ram_sha1": "cfe3a46a0bd45951ede07bcc747d6669053b6e52",
+     "deaths": [],
+     "firsts": {
+      "1": 593,
+      "2": 4498,
+      "3": 8098,
+      "4": 11614
+     },
+     "lag_at_first": {
+      "1": 17,
+      "2": 33,
+      "3": 58,
+      "4": 94
+     },
+     "weapon_at_first": {
+      "1": 0,
+      "2": 19,
+      "3": 19,
+      "4": 19
+     },
+     "lives_at_first": {
+      "1": 2,
+      "2": 2,
+      "3": 3,
+      "4": 3
+     },
+     "fc_at_first": {
+      "1": 64,
+      "2": 113,
+      "3": 104,
+      "4": 0
+     },
+     "rng_at_first": {
+      "1": 251,
+      "2": 68,
+      "3": 22,
+      "4": 56
+     },
+     "last": {
+      "level": 3,
+      "lroutine": 4,
+      "weapon": 19,
+      "lives": 3,
+      "fc": 0,
+      "rng": 56,
+      "lag": 94,
+      "groutine": 5
+     },
+     "seconds": 64,
+     "ok": true,
+     "why": []
+    },
+    "secs": 806,
+    "status": "verified",
+    "L": 8098,
+    "L_next": 11614,
+    "segment": 3516,
+    "record": 3934,
+    "diff": -418,
+    "lag": 36,
+    "fc": 104,
+    "rng": 22,
+    "lives": 3,
+    "weapon_in": 19,
+    "through": "runs\\C\\through_s3.inputs.txt",
+    "through_sha1": "6c8ede6922eb687d3af6924001225439da610ea5",
+    "check_inputs": "RESULT: PASS",
+    "check_inputs_pass": true,
+    "next_fc": 0,
+    "next_rng": 56
+   },
+   "4": {
+    "tag": "c2C",
+    "info": {
+     "solver_frames": 5155,
+     "solver_secs": 1580,
+     "solver_report": {
+      "frames": 5155,
+      "boss": {
+       "events": [
+        [
+         107,
+         [
+          30,
+          20,
+          7
+         ]
+        ],
+        [
+         108,
+         [
+          30,
+          20,
+          6
+         ]
+        ],
+        [
+         109,
+         [
+          30,
+          20,
+          5
+         ]
+        ],
+        [
+         110,
+         [
+          30,
+          20,
+          4
+         ]
+        ],
+        [
+         117,
+         [
+          30,
+          20,
+          3
+         ]
+        ],
+        [
+         119,
+         [
+          30,
+          20,
+          2
+         ]
+        ],
+        [
+         127,
+         [
+          30,
+          20,
+          1
+         ]
+        ],
+        [
+         128,
+         [
+          30,
+          20,
+          0
+         ]
+        ],
+        [
+         141,
+         [
+          28,
+          20,
+          0
+         ]
+        ],
+        [
+         142,
+         [
+          27,
+          20,
+          0
+         ]
+        ],
+        [
+         148,
+         [
+          26,
+          20,
+          0
+         ]
+        ],
+        [
+         150,
+         [
+          25,
+          20,
+          0
+         ]
+        ],
+        [
+         155,
+         [
+          24,
+          20,
+          0
+         ]
+        ],
+        [
+         158,
+         [
+          22,
+          20,
+          0
+         ]
+        ],
+        [
+         160,
+         [
+          21,
+          20,
+          0
+         ]
+        ],
+        [
+         161,
+         [
+          19,
+          20,
+          0
+         ]
+        ],
+        [
+         162,
+         [
+          17,
+          20,
+          0
+         ]
+        ],
+        [
+         165,
+         [
+          16,
+          20,
+          0
+         ]
+        ],
+        [
+         166,
+         [
+          14,
+          20,
+          0
+         ]
+        ],
+        [
+         167,
+         [
+          13,
+          20,
+          0
+         ]
+        ],
+        [
+         170,
+         [
+          12,
+          20,
+          0
+         ]
+        ],
+        [
+         171,
+         [
+          11,
+          20,
+          0
+         ]
+        ],
+        [
+         172,
+         [
+          10,
+          20,
+          0
+         ]
+        ],
+        [
+         173,
+         [
+          9,
+          20,
+          0
+         ]
+        ],
+        [
+         174,
+         [
+          8,
+          20,
+          0
+         ]
+        ],
+        [
+         176,
+         [
+          7,
+          20,
+          0
+         ]
+        ],
+        [
+         177,
+         [
+          6,
+          20,
+          0
+         ]
+        ],
+        [
+         178,
+         [
+          5,
+          20,
+          0
+         ]
+        ],
+        [
+         179,
+         [
+          4,
+          20,
+          0
+         ]
+        ],
+        [
+         180,
+         [
+          3,
+          20,
+          0
+         ]
+        ],
+        [
+         181,
+         [
+          2,
+          20,
+          0
+         ]
+        ],
+        [
+         182,
+         [
+          1,
+          20,
+          0
+         ]
+        ],
+        [
+         183,
+         [
+          0,
+          20,
+          0
+         ]
+        ],
+        [
+         250,
+         [
+          0,
+          18,
+          0
+         ]
+        ],
+        [
+         251,
+         [
+          0,
+          16,
+          0
+         ]
+        ],
+        [
+         278,
+         [
+          0,
+          14,
+          0
+         ]
+        ],
+        [
+         279,
+         [
+          0,
+          12,
+          0
+         ]
+        ],
+        [
+         286,
+         [
+          0,
+          10,
+          0
+         ]
+        ],
+        [
+         289,
+         [
+          0,
+          9,
+          0
+         ]
+        ],
+        [
+         305,
+         [
+          0,
+          8,
+          0
+         ]
+        ],
+        [
+         310,
+         [
+          0,
+          7,
+          0
+         ]
+        ],
+        [
+         311,
+         [
+          0,
+          5,
+          0
+         ]
+        ],
+        [
+         313,
+         [
+          0,
+          4,
+          0
+         ]
+        ],
+        [
+         315,
+         [
+          0,
+          3,
+          0
+         ]
+        ],
+        [
+         316,
+         [
+          0,
+          1,
+          0
+         ]
+        ],
+        [
+         319,
+         [
+          0,
+          0,
+          0
+         ]
+        ]
+       ],
+       "plans": [
+        {
+         "at": 9,
+         "phase": "A",
+         "repeat": [],
+         "best": 175,
+         "all": [
+          [
+           [
+            0.015,
+            2,
+            6000,
+            0.5,
+            4,
+            3
+           ],
+           177,
+           318.3
+          ],
+          [
+           [
+            0.01,
+            2,
+            6000,
+            0.25,
+            4,
+            3
+           ],
+           180,
+           334.1
+          ],
+          [
+           [
+            0.015,
+            3,
+            8000,
+            0.25,
+            4,
+            3
+           ],
+           175,
+           479.3
+          ],
+          [
+           [
+            0.012,
+            2,
+            6000,
+            1.0,
+            4,
+            3
+           ],
+           176,
+           316.6
+          ],
+          [
+           [
+            0.015,
+            4,
+            6000,
+            0.5,
+            2,
+            2
+           ],
+           181,
+           497.7
+          ],
+          [
+           [
+            0.008,
+            2,
+            6000,
+            0.5,
+            4,
+            3
+           ],
+           181,
+           330.9
+          ]
+         ],
+         "secs": 499,
+         "guided": false,
+         "burst": null,
+         "probes": [
+          [
+           "(0.015, 3, 8000, 0.25, 4, 3)",
+           175,
+           175,
+           []
+          ]
+         ],
+         "emu": 175
+        },
+        {
+         "at": 184,
+         "phase": "B",
+         "repeat": [],
+         "best": 137,
+         "all": [
+          [
+           [
+            0.01,
+            40,
+            5000,
+            128,
+            0,
+            1
+           ],
+           138,
+           104.5
+          ],
+          [
+           [
+            0.02,
+            20,
+            5000,
+            128,
+            0,
+            1
+           ],
+           137,
+           106.5
+          ],
+          [
+           [
+            0.02,
+            40,
+            5000,
+            130,
+            0,
+            1
+           ],
+           139,
+           115.7
+          ],
+          [
+           [
+            0.02,
+            40,
+            5000,
+            126,
+            0,
+            1
+           ],
+           144,
+           124.6
+          ],
+          [
+           [
+            0.02,
+            12,
+            5000,
+            128,
+            2,
+            1
+           ],
+           138,
+           130.2
+          ],
+          [
+           [
+            0.01,
+            20,
+            5000,
+            129,
+            0,
+            1
+           ],
+           136,
+           101.9
+          ]
+         ],
+         "secs": 132,
+         "guided": false,
+         "burst": null,
+         "probes": [
+          [
+           "(0.01, 20, 5000, 129, 0, 1)",
+           136,
+           null,
+           [
+            20
+           ]
+          ],
+          [
+           "(0.02, 20, 5000, 128, 0, 1)",
+           137,
+           137,
+           []
+          ]
+         ],
+         "emu": 137
+        }
+       ],
+       "drops": [],
+       "resyncs": 0,
+       "lag": 8,
+       "backups": 0,
+       "repairs": [],
+       "start": {
+        "row": 9,
+        "fc": 190,
+        "rng": 18,
+        "x": 113,
+        "parts": [
+         [
+          28,
+          14,
+          104,
+          48
+         ],
+         [
+          28,
+          13,
+          152,
+          48
+         ],
+         [
+          8,
+          12,
+          128,
+          80
+         ],
+         [
+          10,
+          11,
+          80,
+          128
+         ],
+         [
+          10,
+          10,
+          128,
+          128
+         ],
+         [
+          10,
+          9,
+          176,
+          128
+         ]
+        ]
+       },
+       "plates_done": 184,
+       "ok": true,
+       "frames": 321,
+       "secs": 634,
+       "end_x": 98,
+       "end_jump": 1,
+       "method": "offline model plan"
+      },
+      "lag": null
+     },
+     "solve_wall_secs": 1580
+    },
+    "verify": {
+     "rows": 16768,
+     "last_frame": 16769,
+     "ram_sha1": "3c6aced19b1cb1c5d0c0da1096b71417f72fdbda",
+     "deaths": [],
+     "firsts": {
+      "1": 593,
+      "2": 4498,
+      "3": 8098,
+      "4": 11614,
+      "5": 16769
+     },
+     "lag_at_first": {
+      "1": 17,
+      "2": 33,
+      "3": 58,
+      "4": 94,
+      "5": 116
+     },
+     "weapon_at_first": {
+      "1": 0,
+      "2": 19,
+      "3": 19,
+      "4": 19,
+      "5": 19
+     },
+     "lives_at_first": {
+      "1": 2,
+      "2": 2,
+      "3": 3,
+      "4": 3,
+      "5": 4
+     },
+     "fc_at_first": {
+      "1": 64,
+      "2": 113,
+      "3": 104,
+      "4": 0,
+      "5": 13
+     },
+     "rng_at_first": {
+      "1": 251,
+      "2": 68,
+      "3": 22,
+      "4": 56,
+      "5": 55
+     },
+     "last": {
+      "level": 4,
+      "lroutine": 4,
+      "weapon": 19,
+      "lives": 4,
+      "fc": 13,
+      "rng": 55,
+      "lag": 116,
+      "groutine": 5
+     },
+     "seconds": 93,
+     "ok": true,
+     "why": []
+    },
+    "secs": 1673,
+    "status": "verified",
+    "L": 11614,
+    "L_next": 16769,
+    "segment": 5155,
+    "record": 5761,
+    "diff": -606,
+    "lag": 22,
+    "fc": 0,
+    "rng": 56,
+    "lives": 3,
+    "weapon_in": 19,
+    "through": "runs\\C\\through_s4.inputs.txt",
+    "through_sha1": "86bdef0759feb4cfb0c439509e18e0a52e221f7c",
+    "check_inputs": "RESULT: PASS",
+    "check_inputs_pass": true,
+    "next_fc": 13,
+    "next_rng": 55
+   },
+   "5": {
+    "tag": "c2C",
+    "info": {
+     "solver_frames": 6040,
+     "solver_secs": 847,
+     "solve_wall_secs": 847
+    },
+    "verify": {
+     "rows": 22808,
+     "last_frame": 22809,
+     "ram_sha1": "8ffbfe29e4e085268f71afacc7ed61343b74da57",
+     "deaths": [],
+     "firsts": {
+      "1": 593,
+      "2": 4498,
+      "3": 8098,
+      "4": 11614,
+      "5": 16769,
+      "6": 22809
+     },
+     "lag_at_first": {
+      "1": 17,
+      "2": 33,
+      "3": 58,
+      "4": 94,
+      "5": 116,
+      "6": 129
+     },
+     "weapon_at_first": {
+      "1": 0,
+      "2": 19,
+      "3": 19,
+      "4": 19,
+      "5": 19,
+      "6": 19
+     },
+     "lives_at_first": {
+      "1": 2,
+      "2": 2,
+      "3": 3,
+      "4": 3,
+      "5": 4,
+      "6": 5
+     },
+     "fc_at_first": {
+      "1": 64,
+      "2": 113,
+      "3": 104,
+      "4": 0,
+      "5": 13,
+      "6": 152
+     },
+     "rng_at_first": {
+      "1": 251,
+      "2": 68,
+      "3": 22,
+      "4": 56,
+      "5": 55,
+      "6": 220
+     },
+     "last": {
+      "level": 5,
+      "lroutine": 4,
+      "weapon": 19,
+      "lives": 5,
+      "fc": 152,
+      "rng": 220,
+      "lag": 129,
+      "groutine": 5
+     },
+     "seconds": 130,
+     "ok": true,
+     "why": []
+    },
+    "secs": 976,
+    "status": "verified",
+    "L": 16769,
+    "L_next": 22809,
+    "segment": 6040,
+    "record": 6125,
+    "diff": -85,
+    "lag": 13,
+    "fc": 13,
+    "rng": 55,
+    "lives": 4,
+    "weapon_in": 19,
+    "through": "runs\\C\\through_s5.inputs.txt",
+    "through_sha1": "8fba80f111d3cee79247b0998fe03f2ff18b7f59",
+    "check_inputs": "RESULT: PASS",
+    "check_inputs_pass": true,
+    "next_fc": 152,
+    "next_rng": 220
+   },
+   "6": {
+    "tag": "c2C",
+    "info": {
+     "solver_frames": 4059,
+     "solver_secs": 1151.2,
+     "solver_report": {
+      "verified": true,
+      "lag": 13,
+      "deaths": 8,
+      "trials": 337,
+      "check_inputs": "RESULT: PASS",
+      "weapon_out": 19,
+      "lives_out": 6,
+      "start_fc": 152
+     },
+     "solve_wall_secs": 1201
+    },
+    "verify": {
+     "rows": 26867,
+     "last_frame": 26868,
+     "ram_sha1": "6228ecc039cc365fd78fbceb47eba9338ffde0d9",
+     "deaths": [],
+     "firsts": {
+      "1": 593,
+      "2": 4498,
+      "3": 8098,
+      "4": 11614,
+      "5": 16769,
+      "6": 22809,
+      "7": 26868
+     },
+     "lag_at_first": {
+      "1": 17,
+      "2": 33,
+      "3": 58,
+      "4": 94,
+      "5": 116,
+      "6": 129,
+      "7": 142
+     },
+     "weapon_at_first": {
+      "1": 0,
+      "2": 19,
+      "3": 19,
+      "4": 19,
+      "5": 19,
+      "6": 19,
+      "7": 19
+     },
+     "lives_at_first": {
+      "1": 2,
+      "2": 2,
+      "3": 3,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6
+     },
+     "fc_at_first": {
+      "1": 64,
+      "2": 113,
+      "3": 104,
+      "4": 0,
+      "5": 13,
+      "6": 152,
+      "7": 102
+     },
+     "rng_at_first": {
+      "1": 251,
+      "2": 68,
+      "3": 22,
+      "4": 56,
+      "5": 55,
+      "6": 220,
+      "7": 134
+     },
+     "last": {
+      "level": 6,
+      "lroutine": 4,
+      "weapon": 19,
+      "lives": 6,
+      "fc": 102,
+      "rng": 134,
+      "lag": 142,
+      "groutine": 5
+     },
+     "seconds": 146,
+     "ok": true,
+     "why": []
+    },
+    "secs": 1347,
+    "status": "verified",
+    "L": 22809,
+    "L_next": 26868,
+    "segment": 4059,
+    "record": 4143,
+    "diff": -84,
+    "lag": 13,
+    "fc": 152,
+    "rng": 220,
+    "lives": 5,
+    "weapon_in": 19,
+    "through": "runs\\C\\through_s6.inputs.txt",
+    "through_sha1": "66e54518f0d482e3662b9e50e90d9417ab72bff8",
+    "check_inputs": "RESULT: PASS",
+    "check_inputs_pass": true,
+    "next_fc": 102,
+    "next_rng": 134
+   },
+   "7": {
+    "tag": "c2C",
+    "info": {
+     "solver_frames": 4413,
+     "solver_secs": 307.4,
+     "solver_report": {
+      "verified": true,
+      "lag": 17,
+      "deaths": 6,
+      "trials": 71,
+      "check_inputs": "RESULT: PASS",
+      "weapon_out": 19,
+      "lives_out": 6,
+      "start_fc": 102
+     },
+     "solve_wall_secs": 359
+    },
+    "verify": {
+     "rows": 31280,
+     "last_frame": 31281,
+     "ram_sha1": "3b0eb1e971b9ff5315111788445c95729b996090",
+     "deaths": [],
+     "firsts": {
+      "1": 593,
+      "2": 4498,
+      "3": 8098,
+      "4": 11614,
+      "5": 16769,
+      "6": 22809,
+      "7": 26868,
+      "8": 31281
+     },
+     "lag_at_first": {
+      "1": 17,
+      "2": 33,
+      "3": 58,
+      "4": 94,
+      "5": 116,
+      "6": 129,
+      "7": 142,
+      "8": 159
+     },
+     "weapon_at_first": {
+      "1": 0,
+      "2": 19,
+      "3": 19,
+      "4": 19,
+      "5": 19,
+      "6": 19,
+      "7": 19,
+      "8": 19
+     },
+     "lives_at_first": {
+      "1": 2,
+      "2": 2,
+      "3": 3,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 6
+     },
+     "fc_at_first": {
+      "1": 64,
+      "2": 113,
+      "3": 104,
+      "4": 0,
+      "5": 13,
+      "6": 152,
+      "7": 102,
+      "8": 146
+     },
+     "rng_at_first": {
+      "1": 251,
+      "2": 68,
+      "3": 22,
+      "4": 56,
+      "5": 55,
+      "6": 220,
+      "7": 134,
+      "8": 52
+     },
+     "last": {
+      "level": 7,
+      "lroutine": 4,
+      "weapon": 19,
+      "lives": 6,
+      "fc": 146,
+      "rng": 52,
+      "lag": 159,
+      "groutine": 5
+     },
+     "seconds": 165,
+     "ok": true,
+     "why": []
+    },
+    "secs": 524,
+    "status": "verified",
+    "L": 26868,
+    "L_next": 31281,
+    "segment": 4413,
+    "record": 4488,
+    "diff": -75,
+    "lag": 17,
+    "fc": 102,
+    "rng": 134,
+    "lives": 6,
+    "weapon_in": 19,
+    "through": "runs\\C\\through_s7.inputs.txt",
+    "through_sha1": "1ac813c23ac8d9722d327b565b31365fb5caf82e",
+    "check_inputs": "RESULT: PASS",
+    "check_inputs_pass": true,
+    "next_fc": 146,
+    "next_rng": 52
+   },
+   "8": {
+    "tag": "c2C",
+    "info": {
+     "solver_frames": 3227,
+     "solver_secs": 1517,
+     "tail_rows": 60,
+     "solver_report": {
+      "events": {
+       "guardian_spawn": 517,
+       "guardian_dead": 736,
+       "boss_scroll": 2796,
+       "heart_dead_flag": 3001,
+       "control_lost_A": 3226,
+       "END_P": 3227
+      },
+      "frames_L_to_END": 3227,
+      "verify": {
+       "L": 31281,
+       "A_frame": 34507,
+       "END_frame": 34508,
+       "frames_L_to_END": 3227,
+       "lag_frames": [],
+       "ignored_pad_frames": [
+        2517,
+        2938,
+        3001
+       ],
+       "deaths": 0,
+       "held_at_A": 4,
+       "bossdef_row": 3002,
+       "weapon_out": 19
+      },
+      "up_or_down_held_at_A": true,
+      "input_rule_violations": 0
+     },
+     "solve_wall_secs": 1543
+    },
+    "verify": {
+     "rows": 34567,
+     "ram_sha1": "2242cdd88af3f06e8ed6a43de637fc42cb50d619",
+     "deaths": [],
+     "clock": {
+      "start": {
+       "ram": 593,
+       "seen": 594,
+       "hud_flag": 255
+      },
+      "end": {
+       "control_lost": 34507,
+       "ram": 34508,
+       "seen": 34509,
+       "held_at_control_loss": 4,
+       "up_or_down_held": true
+      },
+      "finished": true,
+      "frames": 33915,
+      "seconds": 564.3207518286555,
+      "time": "9:24.321"
+     },
+     "firsts": {
+      "1": 593,
+      "2": 4498,
+      "3": 8098,
+      "4": 11614,
+      "5": 16769,
+      "6": 22809,
+      "7": 26868,
+      "8": 31281
+     },
+     "lag_at_first": {
+      "1": 17,
+      "2": 33,
+      "3": 58,
+      "4": 94,
+      "5": 116,
+      "6": 129,
+      "7": 142,
+      "8": 159
+     },
+     "weapon_at_first": {
+      "1": 0,
+      "2": 19,
+      "3": 19,
+      "4": 19,
+      "5": 19,
+      "6": 19,
+      "7": 19,
+      "8": 19
+     },
+     "lives_at_first": {
+      "1": 2,
+      "2": 2,
+      "3": 3,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 6
+     },
+     "fc_at_first": {
+      "1": 64,
+      "2": 113,
+      "3": 104,
+      "4": 0,
+      "5": 13,
+      "6": 152,
+      "7": 102,
+      "8": 146
+     },
+     "rng_at_first": {
+      "1": 251,
+      "2": 68,
+      "3": 22,
+      "4": 56,
+      "5": 55,
+      "6": 220,
+      "7": 134,
+      "8": 52
+     },
+     "seconds": 182,
+     "lag_at_end": 159,
+     "ok": true,
+     "why": []
+    },
+    "secs": 1726,
+    "status": "verified",
+    "L": 31281,
+    "L_next": 34508,
+    "segment": 3227,
+    "record": 3273,
+    "diff": -46,
+    "lag": 0,
+    "fc": 146,
+    "rng": 52,
+    "lives": 6,
+    "weapon_in": 19,
+    "through": "runs\\C\\run.inputs.txt",
+    "through_sha1": "fb7f5f3c54dd2999957f68c949f9eda198a4d83c",
+    "check_inputs": "RESULT: PASS",
+    "check_inputs_pass": true
+   }
+  },
+  "wait": 3
+ },
+ "ALL_OK": true
+}

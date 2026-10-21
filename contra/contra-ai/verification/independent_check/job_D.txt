@@ -1,0 +1,6 @@
+inputs=verify2/exp_release34480.inputs.txt
+out=verify2/runD
+shots=34470-34530
+extra=60
+maxrows=0
+every=0

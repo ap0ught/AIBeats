@@ -1,0 +1,16 @@
+{
+ "first boot": "Building the harness: a bridge into the emulator, savestates, and a first map of the game's memory.",
+ "Level 1 solved": "Finding where the toad's position, health and enemies live in memory; trying Start on every frame to find the title skip; working out that one headbutt kills a pig, and where the hidden portal is.",
+ "Turbo Tunnel: to the bike": "The rat recipe and the pit map: every pit on this stretch was found by dying into it in a practice run and adding a jump.",
+ "Turbo Tunnel done": "The bike course: a wall-reading policy, then a beam search for the last section where walls arrive every 21 frames.",
+ "Level 4 done": "Seven checkpoint walls, each its own puzzle - ice balls to stop, lift and throw, snowmen, moving platforms, spiked balls. Dozens of searches, most of them dead ends first.",
+ "Level 6 done": "Snake geometry: which head to ride, where it pauses, and the double jump off the last one. Plus the research on which tricks the speedrun rules allow.",
+ "Level 8 done": "A new 'climb' search mode for the tower, and a boss mode that ranks by smashes landed on Robo-Manus.",
+ "Terra Tubes done": "Decoding a tool-assisted run frame by frame to get the out-of-bounds route, then teaching the search to follow its path and wait for each gear.",
+ "Rat Race done": "Racing the rat down the shaft, and the rat boot: two exact kicks found by search.",
+ "Clinger-Winger done": "Writing a legal controller for the unicycle maze (the reference run's Up+Down is banned) and the Buzzball fight.",
+ "Revolution: the camera locks": "Discovering why platforms never appeared: live enemies lock the camera. Every kill and sprint had to be re-derived legally.",
+ "Revolution: three wind faces": "Two days on one tower: platforms that only launch from an exact pixel, a boss that waits on the random number generator, wind that blows you off unless you hang on a pole.",
+ "The Revolution done": "The top of the tower without the banned camera trick: tiny platforms, a spring, and holding A until the level ends.",
+ "The Dark Queen": "Finding her hit counter in memory, then searching for 21 hits without taking one."
+}

@@ -1,0 +1,8 @@
+[
+ {"from": 1, "df": 5, "note": "cap14 row for input frame k (1-based, picture = capture frame 6 + k - 1) is k - 1 + df"},
+ {"from": 7300, "df": 4, "note": "the capture repeats a frame about every 7,996 frames (15294, 23290, 31286, 39277 are exact repeats; this first one falls in a still stretch)"},
+ {"from": 15294, "df": 3},
+ {"from": 23290, "df": 2},
+ {"from": 31286, "df": 1},
+ {"from": 39277, "df": 0}
+]

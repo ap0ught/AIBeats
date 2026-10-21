@@ -1,0 +1,29 @@
+THE RUN: route up17, 44,986 input frames from power-on (inputs.txt; battletoads_ai_11m54s.bk2 is the same with one
+empty frame in front, because the harness's first input lands on frame 1).
+
+CLOCK (speedrun.com, Battletoads NES, Any% No Credits Warp: from control in Level 1 to the cut to Professor T. Bird's
+final dialogue):
+  start         frame  2,074   the toad lands in Level 1 (RAM $3B5 goes 5 -> 4)
+  (not the end) frame 44,566   the level byte $10 goes 13 -> 254 the FIRST time: the cut to the Dark Queen's speech
+  end           frame 44,986   the level byte goes 13 -> 254 the SECOND time: the cut to Professor T. Bird
+  44,986 - 2,074 = 42,912 frames / 60.0988 = 714.02 s = 11:54.02
+World record at the time: 12:29.250 (jay_cee), measured between the same two events on his video.
+
+CHECKS
+- assemble.py: two replays from power-on, RAM sha1 after the last input cfa6cb835332349340cadef04fbf72639e61b85a
+  both times.
+- Independent check (verification/independent_check.md): its own replay code, the per-frame RAM of two power-on
+  replays byte-identical, no Left+Right / Up+Down, controller 1 only, Start only on the title screen, pictures of both
+  cuts, the record's video re-read for the two clock events.
+- inputs.txt is the de-mashed list: 640 cosmetic presses on the between-level pages removed from the assembled route
+  (sha1 of the assembled list 2344f9b48fdfbb2e13209f9aef4fb6bf53c6a1b2). It replays to the identical RAM on every frame.
+- battletoads_ai_11m54s.bk2 played hands-off in BizHawk 2.11.1 (QuickNes core) with verify_movie.lua
+  (frames:44987): RAM sha1 cfa6cb835332349340cadef04fbf72639e61b85a.
+- NesHawk (BizHawk's accuracy core): the route ported with its own Select re-rolls, inputs_NesHawk.txt and
+  battletoads_ai_11m54s_NesHawk.bk2: landing 2,074, T. Bird cut 44,994 = 42,920 frames = 11:54.16; two power-on
+  replays (RAM sha1 789ff9f389125785a8c188505c6f92ef6484410d) and a hands-off movie playback agree.
+  An input file is proof only on the core it was made for: the game's dice follow CPU timing.
+
+THE PUBLISHED RUN (published_run/): 46,751 frames, RAM sha1 e2a1d2dc9d5933e2b18bba0b0d5021ad617dac52. It was reported as
+12:23.39 because the clock was stopped at its first 13 -> 254 (frame 46,751, the Dark Queen's speech). Played on to the
+cut to Professor T. Bird (frame 47,253, with one A press to skip the speech) it is 12:31.75.

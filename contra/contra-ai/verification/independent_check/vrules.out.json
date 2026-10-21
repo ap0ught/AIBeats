@@ -1,0 +1,674 @@
+{
+ "stages": [
+  {
+   "level_30": 0,
+   "play_from_ram_frame": 593,
+   "lives_at_start": 2,
+   "weapon_at_start": 0,
+   "boss_defeated_ram_frame": 3795,
+   "control_lost_ram_frame": 3958,
+   "frames_play_to_control_lost": 3365,
+   "lag_frames_in_play": 0,
+   "screen_number_64_sequence": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "screen_steps_all_plus1": true,
+   "p1_y_range": [
+    0,
+    196
+   ],
+   "p1_x_range": [
+    0,
+    136
+   ],
+   "player_state_values": [
+    0,
+    1
+   ],
+   "frames_player_hidden_ba": 0,
+   "jump_coefficient_94_max": 255,
+   "seconds_from_START_to_boss_defeated": 53.279
+  },
+  {
+   "level_30": 1,
+   "play_from_ram_frame": 4498,
+   "lives_at_start": 2,
+   "weapon_at_start": 19,
+   "boss_defeated_ram_frame": 7312,
+   "control_lost_ram_frame": 7451,
+   "frames_play_to_control_lost": 2953,
+   "lag_frames_in_play": 12,
+   "screen_number_64_sequence": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "screen_steps_all_plus1": true,
+   "p1_y_range": [
+    0,
+    204
+   ],
+   "p1_x_range": [
+    0,
+    176
+   ],
+   "player_state_values": [
+    0,
+    1
+   ],
+   "frames_player_hidden_ba": 0,
+   "jump_coefficient_94_max": 255,
+   "seconds_from_START_to_boss_defeated": 111.799
+  },
+  {
+   "level_30": 2,
+   "play_from_ram_frame": 8098,
+   "lives_at_start": 3,
+   "weapon_at_start": 19,
+   "boss_defeated_ram_frame": 10903,
+   "control_lost_ram_frame": 11057,
+   "frames_play_to_control_lost": 2959,
+   "lag_frames_in_play": 20,
+   "screen_number_64_sequence": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "screen_steps_all_plus1": true,
+   "p1_y_range": [
+    0,
+    196
+   ],
+   "p1_x_range": [
+    0,
+    214
+   ],
+   "player_state_values": [
+    0,
+    1
+   ],
+   "frames_player_hidden_ba": 0,
+   "jump_coefficient_94_max": 255,
+   "seconds_from_START_to_boss_defeated": 171.551
+  },
+  {
+   "level_30": 3,
+   "play_from_ram_frame": 11614,
+   "lives_at_start": 3,
+   "weapon_at_start": 19,
+   "boss_defeated_ram_frame": 15965,
+   "control_lost_ram_frame": 16104,
+   "frames_play_to_control_lost": 4490,
+   "lag_frames_in_play": 9,
+   "screen_number_64_sequence": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "screen_steps_all_plus1": true,
+   "p1_y_range": [
+    0,
+    204
+   ],
+   "p1_x_range": [
+    0,
+    190
+   ],
+   "player_state_values": [
+    0,
+    1
+   ],
+   "frames_player_hidden_ba": 0,
+   "jump_coefficient_94_max": 255,
+   "seconds_from_START_to_boss_defeated": 255.779
+  },
+  {
+   "level_30": 4,
+   "play_from_ram_frame": 16769,
+   "lives_at_start": 4,
+   "weapon_at_start": 19,
+   "boss_defeated_ram_frame": 22220,
+   "control_lost_ram_frame": 22270,
+   "frames_play_to_control_lost": 5501,
+   "lag_frames_in_play": 0,
+   "screen_number_64_sequence": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "screen_steps_all_plus1": true,
+   "p1_y_range": [
+    0,
+    180
+   ],
+   "p1_x_range": [
+    0,
+    160
+   ],
+   "player_state_values": [
+    0,
+    1
+   ],
+   "frames_player_hidden_ba": 0,
+   "jump_coefficient_94_max": 255,
+   "seconds_from_START_to_boss_defeated": 359.857
+  },
+  {
+   "level_30": 5,
+   "play_from_ram_frame": 22809,
+   "lives_at_start": 5,
+   "weapon_at_start": 19,
+   "boss_defeated_ram_frame": 26269,
+   "control_lost_ram_frame": 26377,
+   "frames_play_to_control_lost": 3568,
+   "lag_frames_in_play": 0,
+   "screen_number_64_sequence": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "screen_steps_all_plus1": true,
+   "p1_y_range": [
+    0,
+    196
+   ],
+   "p1_x_range": [
+    0,
+    208
+   ],
+   "player_state_values": [
+    0,
+    1
+   ],
+   "frames_player_hidden_ba": 0,
+   "jump_coefficient_94_max": 255,
+   "seconds_from_START_to_boss_defeated": 427.23
+  },
+  {
+   "level_30": 6,
+   "play_from_ram_frame": 26868,
+   "lives_at_start": 6,
+   "weapon_at_start": 19,
+   "boss_defeated_ram_frame": 30585,
+   "control_lost_ram_frame": 30758,
+   "frames_play_to_control_lost": 3890,
+   "lag_frames_in_play": 4,
+   "screen_number_64_sequence": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "screen_steps_all_plus1": true,
+   "p1_y_range": [
+    0,
+    197
+   ],
+   "p1_x_range": [
+    0,
+    176
+   ],
+   "player_state_values": [
+    0,
+    1
+   ],
+   "frames_player_hidden_ba": 0,
+   "jump_coefficient_94_max": 255,
+   "seconds_from_START_to_boss_defeated": 499.045
+  },
+  {
+   "level_30": 7,
+   "play_from_ram_frame": 31281,
+   "lives_at_start": 6,
+   "weapon_at_start": 19,
+   "boss_defeated_ram_frame": 34283,
+   "control_lost_ram_frame": 34507,
+   "frames_play_to_control_lost": 3226,
+   "lag_frames_in_play": 0,
+   "screen_number_64_sequence": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "screen_steps_all_plus1": true,
+   "p1_y_range": [
+    0,
+    196
+   ],
+   "p1_x_range": [
+    0,
+    152
+   ],
+   "player_state_values": [
+    0,
+    1
+   ],
+   "frames_player_hidden_ba": 0,
+   "jump_coefficient_94_max": 255,
+   "seconds_from_START_to_boss_defeated": 560.577
+  }
+ ],
+ "stages_played": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7
+ ],
+ "lag_frames_in_timed_span(START..END-1)": 142,
+ "lag_frames_total_trace": 166,
+ "play_frames_where_game_pad_byte_differs": {
+  "count": 35,
+  "first": [
+   [
+    2167,
+    69,
+    1
+   ],
+   [
+    3612,
+    69,
+    1
+   ],
+   [
+    6178,
+    1,
+    64
+   ],
+   [
+    6659,
+    2,
+    66
+   ],
+   [
+    8561,
+    1,
+    0
+   ],
+   [
+    8639,
+    0,
+    2
+   ],
+   [
+    8705,
+    0,
+    2
+   ],
+   [
+    9201,
+    0,
+    1
+   ],
+   [
+    9246,
+    0,
+    2
+   ],
+   [
+    9252,
+    1,
+    0
+   ],
+   [
+    9295,
+    1,
+    0
+   ],
+   [
+    9298,
+    2,
+    0
+   ],
+   [
+    9346,
+    2,
+    0
+   ],
+   [
+    9983,
+    2,
+    1
+   ],
+   [
+    9985,
+    0,
+    2
+   ],
+   [
+    10018,
+    0,
+    1
+   ],
+   [
+    10037,
+    130,
+    128
+   ],
+   [
+    12236,
+    4,
+    68
+   ],
+   [
+    12717,
+    0,
+    64
+   ],
+   [
+    15212,
+    4,
+    64
+   ],
+   [
+    15381,
+    4,
+    64
+   ],
+   [
+    20353,
+    5,
+    69
+   ],
+   [
+    20363,
+    5,
+    69
+   ],
+   [
+    20366,
+    69,
+    5
+   ],
+   [
+    23956,
+    65,
+    1
+   ]
+  ]
+ },
+ "...of_which_equal_previous_frame_pad_byte": 35,
+ "pauses": [
+  {
+   "paused_ram_frames": [
+    24223,
+    24227
+   ],
+   "length": 5,
+   "level_30": 5,
+   "rng_34_before_after": [
+    71,
+    57
+   ],
+   "frame_counter_1a_before_after": [
+    29,
+    35
+   ]
+  },
+  {
+   "paused_ram_frames": [
+    24255,
+    24259
+   ],
+   "length": 5,
+   "level_30": 5,
+   "rng_34_before_after": [
+    216,
+    94
+   ],
+   "frame_counter_1a_before_after": [
+    61,
+    67
+   ]
+  },
+  {
+   "paused_ram_frames": [
+    24767,
+    24771
+   ],
+   "length": 5,
+   "level_30": 5,
+   "rng_34_before_after": [
+    224,
+    172
+   ],
+   "frame_counter_1a_before_after": [
+    61,
+    67
+   ]
+  },
+  {
+   "paused_ram_frames": [
+    28078,
+    28082
+   ],
+   "length": 5,
+   "level_30": 6,
+   "rng_34_before_after": [
+    192,
+    245
+   ],
+   "frame_counter_1a_before_after": [
+    29,
+    35
+   ]
+  },
+  {
+   "paused_ram_frames": [
+    29808,
+    29812
+   ],
+   "length": 5,
+   "level_30": 6,
+   "rng_34_before_after": [
+    84,
+    17
+   ],
+   "frame_counter_1a_before_after": [
+    221,
+    227
+   ]
+  },
+  {
+   "paused_ram_frames": [
+    29872,
+    29876
+   ],
+   "length": 5,
+   "level_30": 6,
+   "rng_34_before_after": [
+    103,
+    237
+   ],
+   "frame_counter_1a_before_after": [
+    29,
+    35
+   ]
+  }
+ ],
+ "total_paused_frames": 30,
+ "p1_lives_32_sequence": [
+  [
+   2,
+   0
+  ],
+  [
+   342,
+   2
+  ],
+  [
+   5245,
+   3
+  ],
+  [
+   15772,
+   4
+  ],
+  [
+   22125,
+   5
+  ],
+  [
+   26268,
+   6
+  ],
+  [
+   32452,
+   7
+  ],
+  [
+   34282,
+   8
+  ]
+ ],
+ "lives_ever_decrease_in_span": false,
+ "death_flag_b4_ever_set_in_span": false,
+ "player_state_2_dead_ever_in_span": false,
+ "player_mode_22_values": [
+  0
+ ],
+ "konami_24_values_after_frame2": [
+  0
+ ],
+ "konami_progress_3f_max_before_start": 0,
+ "p2_state_91_values": [
+  0
+ ],
+ "p2_pad_f2_nonzero_frames": [],
+ "p2_pad_diff_f6_nonzero_frames": [
+  2
+ ],
+ "continues_3a_values_in_span": [
+  3
+ ],
+ "game_over_38_values": [
+  0
+ ],
+ "weapon_aa_sequence": [
+  [
+   2,
+   0
+  ],
+  [
+   2021,
+   3
+  ],
+  [
+   3460,
+   19
+  ]
+ ],
+ "barrier_timer_b0_nonzero_frames": 2170,
+ "new_life_invincibility_ae_nonzero_frames_after_first_300": 889,
+ "picture_frames_with_p2_hud_medals(sampled)": 0,
+ "picture_p1_medals_shown_per_stage(sampled, HUD shows at most 4)": {
+  "0": [
+   2
+  ],
+  "1": [
+   2,
+   3
+  ],
+  "2": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "3": [
+   3,
+   4
+  ],
+  "4": [
+   3,
+   4
+  ],
+  "5": [
+   3,
+   4
+  ],
+  "6": [
+   4
+  ],
+  "7": [
+   4
+  ]
+ }
+}

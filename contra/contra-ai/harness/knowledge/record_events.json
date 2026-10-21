@@ -1,0 +1,208 @@
+{
+  "_about": "Frame-by-frame timing of the Contra (NES, US) Any% No Turbo 1P record: Angrylanks 9:48.183, https://www.youtube.com/watch?v=YgtFCclM1jM (speedrun.com run z0nxpj9m). Measured 2026-10-11 from the 720p60 stream in the built-in browser (canvas reads at exact seeks). All 'f' values are VIDEO frame indices: frame n covers video time [n/60, (n+1)/60) s. 'cum_f' = f - 720 (START). 'cum_s' = cum_f / 60. See record_notes.md for method and caveats.",
+  "video": {
+    "url": "https://www.youtube.com/watch?v=YgtFCclM1jM",
+    "duration_s": 709.9,
+    "stream": "1280x720, itag 298 (avc1 720p60)",
+    "container_fps": 60.0,
+    "container_fps_evidence": "Frame boundaries found by 1 ms seeks sit at n/60 s with the same phase at t=30, 200, 400 and 690 s (30.017/30.034/30.050 ... 690.017/690.034/690.050). A 59.94 stream would drift by 0.69 s over that span. Constant frame rate, exactly 60.000.",
+    "content_rate": "About 30 distinct images per second. The capture treats the NES 240p signal as 480i: each captured image is two consecutive NES frames woven line by line, and each captured image is shown for 2 video frames. Pairing is not perfectly regular: occasional single video frames and occasional 4-frame holds (capture jitter).",
+    "game_area_px": {"x0": 288, "x1": 1280, "y0": 0, "y1": 720, "note": "left 288 px is handcam (top) and LiveSplit (bottom)"},
+    "tolerance": {
+      "half_field_events": "+/-1 video frame. When an event is first seen combed (in one field only) the new state is in the later of the two woven NES frames. START and END are both of this kind.",
+      "ordinary_events": "+/-2 video frames (pair granularity plus jitter)",
+      "approximate_events": "marked with tol_f in each entry"
+    }
+  },
+  "claim": {"time_s": 588.183, "frames_at_60fps": 35291},
+  "start": {
+    "rule": "Timer starts when the blue life medals appear.",
+    "f": 720, "t_s": 12.000,
+    "detail": "719 has no medals (medal box blue mean 0.9). 720-721 show the two medals in one field only (combed, blue mean 18.4). 722 onward both fields (37.1).",
+    "tol_f": 1,
+    "anchors": {
+      "title_screen_first_f": 144,
+      "title_screen_last_f": 469,
+      "title_note": "The '1 PLAYER' line is already flashing from the first title frame (144); flash period about 16 video frames.",
+      "black_after_title_f": [470, 473],
+      "stage1_intro_screen_first_f": 474,
+      "stage1_intro_screen_last_f": 663,
+      "stage1_intro_text": "1P 0 / REST 3 / HI 24500 / STAGE 1 JUNGLE",
+      "black_before_playfield_f": [664, 675],
+      "playfield_first_f": 676,
+      "playfield_reveal_complete_f": 702,
+      "medals_first_f": 720,
+      "bill_first_visible_f": 722,
+      "bill_first_visible_note": "Somersaulting near the top of the screen, same captured image in which the medals become full. Drifting right from about 724. First frame he CAN move is not observable from video.",
+      "title_last_to_medals_f": 251,
+      "livesplit_timer_zero_f_estimate": 713
+    }
+  },
+  "end": {
+    "rule": "Timer ends when Bill automatically reverts to the standing pose after the heart dies (hold Up or Down).",
+    "f": 36011, "t_s": 600.183,
+    "detail": "Bill is prone (Down held) through 36010. 36011-36012 are one woven image: prone in one field, standing in the other. 36013 onward fully standing.",
+    "tol_f": 1,
+    "heart_first_explosion_f": 35788,
+    "heart_first_explosion_note": "First explosion sprite on the heart at 35788 (pair 35788-35789). Bill was mid-jump beside the heart and lands on this frame. Treat as last hit +/-2.",
+    "explosion_to_stand_f": 223,
+    "runner_holds": "Down. In-game Bill is prone from shortly after the kill until the automatic stand. Handcam shows one hand still on the controller; the button itself cannot be read at that resolution."
+  },
+  "span": {
+    "video_frames": 35291,
+    "seconds": 588.1833,
+    "claimed_s": 588.183,
+    "difference_frames": 0,
+    "nes_frames_at_60_0988": 35349.1,
+    "nes_frames_tolerance": 2,
+    "note": "The moderators' number is exactly (first video frame with medals) to (first video frame with any standing pose) counted at 60 fps."
+  },
+  "stage_start_state": [
+    {"stage": 1, "rest": 3, "score": 0},
+    {"stage": 2, "rest": 4, "score": 24000},
+    {"stage": 3, "rest": 4, "score": 36800},
+    {"stage": 4, "rest": 5, "score": 56200},
+    {"stage": 5, "rest": 5, "score": 73500},
+    {"stage": 6, "rest": 7, "score": 110400},
+    {"stage": 7, "rest": 7, "score": 132400},
+    {"stage": 8, "rest": 8, "score": 156000}
+  ],
+  "stages": [
+    {
+      "stage": 1, "name": "Jungle",
+      "playfield_first": {"f": 676, "cum_f": -44},
+      "medals_first": {"f": 720, "cum_f": 0, "cum_s": 0.0, "medals_shown": 2},
+      "boss_destroyed_first_explosion": {"f": 3918, "cum_f": 3198, "cum_s": 53.30, "what": "defense wall core; first explosion faint at 3918, full at 3920"},
+      "control_lost": {"f": 4114, "cum_f": 3394, "cum_s": 56.57, "tol_f": 2, "what": "Bill standing still to 4112, in the automatic jump toward the door at 4116 (first explosion +196)"},
+      "transition_first_black": {"f": 4377, "cum_f": 3657, "cum_s": 60.95, "fully_black_f": 4379},
+      "next_intro_screen": {"first_f": 4389, "last_f": 4578}
+    },
+    {
+      "stage": 2, "name": "Base 1",
+      "playfield_first": {"f": 4592, "cum_f": 3872, "cum_s": 64.53},
+      "medals_first": {"f": 4621, "cum_f": 3901, "cum_s": 65.02, "medals_shown": 3, "note": "half at 4621, full at 4623"},
+      "room1_lit": {"f": 4721, "cum_f": 4001, "cum_s": 66.68},
+      "rooms": [
+        {"room": 1, "lit_f": 4721, "wall_explosion_onset_f": 4992, "cum_s": 71.20, "next_dark_f": 5136, "next_lit_f": 5216, "lit_to_onset_f": 271},
+        {"room": 2, "lit_f": 5216, "wall_explosion_onset_f": 5487, "cum_s": 79.45, "next_dark_f": 5631, "next_lit_f": 5712, "lit_to_onset_f": 271},
+        {"room": 3, "lit_f": 5712, "wall_explosion_onset_f": 5977, "cum_s": 87.62, "next_dark_f": 6121, "next_lit_f": 6198, "lit_to_onset_f": 265},
+        {"room": 4, "lit_f": 6198, "wall_explosion_onset_f": 6489, "cum_s": 96.15, "next_dark_f": 6631, "next_lit_f": 6708, "lit_to_onset_f": 291},
+        {"room": 5, "lit_f": 6708, "wall_explosion_onset_f": 7015, "cum_s": 104.92, "tol_f": 3, "next_dark_f": 7157, "boss_room_first_f": 7242, "boss_room_full_f": 7244, "lit_to_onset_f": 307, "note": "onset inferred from the fixed dimming steps (black at 7157 minus 142)"}
+      ],
+      "boss_destroyed_first_explosion": {"f": 7548, "cum_f": 6828, "cum_s": 113.80, "what": "boss eye gone at 7546-7548, wall-wide explosions from 7548/7550"},
+      "control_lost": {"f": 7566, "cum_f": 6846, "cum_s": 114.10, "tol_f": 4, "what": "Bill starts walking left toward the lift; lift starts rising about 7738 (explosion +190). Whether the walk is automatic cannot be told from video."},
+      "transition_first_black": {"f": 8093, "cum_f": 7373, "cum_s": 122.88, "fully_black_f": 8094},
+      "next_intro_screen": {"first_f": 8104, "last_f": 8291}
+    },
+    {
+      "stage": 3, "name": "Waterfall",
+      "playfield_first": {"f": 8306, "cum_f": 7586, "cum_s": 126.43},
+      "medals_first": {"f": 8331, "cum_f": 7611, "cum_s": 126.85, "note": "partial at 8331, full at 8333"},
+      "boss_screen_reached": {"f": 10916, "tol_f": 24},
+      "boss_destroyed_first_explosion": {"f": 11600, "cum_f": 10880, "cum_s": 181.33, "what": "alien gate; faint explosion at 11600, door breaking at 11602. Bill went prone at 11592."},
+      "control_lost": {"f": 11702, "cum_f": 10982, "cum_s": 183.03, "tol_f": 3, "what": "prone at 11700, standing at 11704, then walks and jumps into the gate (explosion +102)"},
+      "transition_first_black": {"f": 12015, "cum_f": 11295, "cum_s": 188.25, "fully_black_f": 12017},
+      "next_intro_screen": {"first_f": 12027, "last_f": 12216}
+    },
+    {
+      "stage": 4, "name": "Base 2",
+      "playfield_first": {"f": 12230, "cum_f": 11510, "cum_s": 191.83},
+      "medals_first": {"f": 12259, "cum_f": 11539, "cum_s": 192.32, "medals_shown": 4},
+      "room1_lit": {"f": 12361, "cum_f": 11641, "cum_s": 194.02},
+      "rooms": [
+        {"room": 1, "lit_f": 12361, "wall_explosion_onset_f": 12551, "cum_s": 197.18, "next_dark_f": 12693, "next_lit_f": 12768, "lit_to_onset_f": 190},
+        {"room": 2, "lit_f": 12768, "wall_explosion_onset_f": 13257, "cum_s": 208.95, "next_dark_f": 13399, "next_lit_f": 13470, "lit_to_onset_f": 489, "mistake": true, "targets_f": {"centre_panel": 12930, "left_core": 13020, "right_core": 13210}, "estimated_loss_s": 1.7},
+        {"room": 3, "lit_f": 13470, "wall_explosion_onset_f": 13739, "cum_s": 216.98, "next_dark_f": 13881, "next_lit_f": 13960, "lit_to_onset_f": 269},
+        {"room": 4, "lit_f": 13960, "wall_explosion_onset_f": 14286, "cum_s": 226.10, "next_dark_f": 14428, "next_lit_f": 14503, "lit_to_onset_f": 326},
+        {"room": 5, "lit_f": 14503, "wall_explosion_onset_f": 15039, "cum_s": 238.65, "next_dark_f": 15181, "next_lit_f": 15262, "lit_to_onset_f": 536, "mistake": true, "targets_f": {"centre": 14597, "left_core": 14831, "right_core": 14935, "extra_explosion": 15000}, "estimated_loss_s": 2.3},
+        {"room": 6, "lit_f": 15262, "wall_explosion_onset_f": 15533, "cum_s": 246.88, "next_dark_f": 15675, "next_lit_f": 15749, "lit_to_onset_f": 271},
+        {"room": 7, "lit_f": 15749, "wall_explosion_onset_f": 16105, "cum_s": 256.42, "next_dark_f": 16245, "next_lit_f": 16324, "lit_to_onset_f": 356},
+        {"room": 8, "lit_f": 16324, "wall_explosion_onset_f": 16658, "cum_s": 265.63, "next_dark_f": 16800, "boss_room_first_f": 16867, "boss_room_full_f": 16882, "lit_to_onset_f": 334}
+      ],
+      "boss_destroyed_first_explosion": {"f": 17214, "cum_f": 16494, "cum_s": 274.90, "what": "boss sprite present through 17210, gone at 17212, first explosion 17214"},
+      "control_lost": {"f": 17230, "cum_f": 16510, "cum_s": 275.17, "tol_f": 4, "what": "starts walking left toward the lift; lift rises about 17404 (explosion +190)"},
+      "transition_first_black": {"f": 17756, "cum_f": 17036, "cum_s": 283.93, "fully_black_f": 17758},
+      "next_intro_screen": {"first_f": 17765, "last_f": 17955}
+    },
+    {
+      "stage": 5, "name": "Snow Field",
+      "playfield_first": {"f": 17967, "cum_f": 17247, "cum_s": 287.45},
+      "medals_first": {"f": 18011, "cum_f": 17291, "cum_s": 288.18, "note": "half at 18011, full at 18013"},
+      "boss_appears": {"f": 23330, "tol_f": 15, "what": "saucer materialises above Bill, who has been firing straight up since about 23244"},
+      "boss_destroyed_first_explosion": {"f": 23493, "cum_f": 22773, "cum_s": 379.55, "tol_f": 3, "what": "saucer body breaks into scattered explosions. Hit-explosion sprites cover the body from about 23468, so the lethal hit may be up to about 27 frames earlier. Bill stopped firing and landed at 23478."},
+      "exit_door_explosion": {"f": 23522, "cum_f": 22802, "cum_s": 380.03},
+      "control_lost": {"f": 23624, "cum_f": 22904, "cum_s": 381.73, "tol_f": 4, "what": "standing by the door to about 23620, walking in from 23624-23628 (door explosion +102)"},
+      "transition_first_black": {"f": 23871, "cum_f": 23151, "cum_s": 385.85, "fully_black_f": 23873},
+      "next_intro_screen": {"first_f": 23881, "last_f": 24070}
+    },
+    {
+      "stage": 6, "name": "Energy Zone",
+      "playfield_first": {"f": 24082, "cum_f": 23362, "cum_s": 389.37},
+      "medals_first": {"f": 24126, "cum_f": 23406, "cum_s": 390.10, "medals_shown": 4, "note": "half at 24126, full at 24128"},
+      "boss_appears": {"f": 27490, "tol_f": 6},
+      "boss_destroyed_first_explosion": {"f": 27660, "cum_f": 26940, "cum_s": 449.00, "what": "giant visible through 27658, gone and first explosions at 27660"},
+      "control_lost": {"f": 27762, "cum_f": 27042, "cum_s": 450.70, "tol_f": 40, "inferred": true, "what": "Not observable: Bill walked to the gate himself during the explosions (there by about 27754), waits, and goes through about 27806-27826. 27762 is explosion +102 by analogy with stages 3 and 5."},
+      "transition_first_black": {"f": 28007, "cum_f": 27287, "cum_s": 454.78, "fully_black_f": 28009},
+      "next_intro_screen": {"first_f": 28016, "last_f": 28205}
+    },
+    {
+      "stage": 7, "name": "Hangar",
+      "playfield_first": {"f": 28218, "cum_f": 27498, "cum_s": 458.30},
+      "medals_first": {"f": 28262, "cum_f": 27542, "cum_s": 459.03, "note": "half at 28262, full at 28264"},
+      "boss_destroyed_first_explosion": {"f": 32050, "cum_f": 31330, "cum_s": 522.17, "what": "door target visible through 32046, gone at 32048, first explosion 32050"},
+      "control_lost": {"f": 32246, "cum_f": 31526, "cum_s": 525.43, "tol_f": 3, "what": "aiming up-diagonal through 32242, gun forward at 32246, walking right from about 32258 (explosion +196, same as stage 1)"},
+      "transition_first_black": {"f": 32488, "cum_f": 31768, "cum_s": 529.47, "fully_black_f": 32490},
+      "next_intro_screen": {"first_f": 32498, "last_f": 32687}
+    },
+    {
+      "stage": 8, "name": "Alien's Lair",
+      "playfield_first": {"f": 32701, "cum_f": 31981, "cum_s": 533.02},
+      "medals_first": {"f": 32743, "cum_f": 32023, "cum_s": 533.72, "note": "half at 32743, full at 32745"},
+      "midboss_appears": {"f": 33263, "tol_f": 9},
+      "midboss_destroyed_first_explosion": {"f": 33537, "cum_f": 32817, "cum_s": 546.95, "tol_f": 6, "what": "alien head"},
+      "boss_destroyed_first_explosion": {"f": 35788, "cum_f": 35068, "cum_s": 584.47, "what": "heart"},
+      "control_lost": {"f": 36011, "cum_f": 35291, "cum_s": 588.183, "tol_f": 1, "what": "END: automatic stand from prone"},
+      "transition_first_black": null
+    }
+  ],
+  "calibration_intervals_video_frames": {
+    "note": "Fixed in-game delays as seen in this video. A RAM harness can measure the same delays in NES frames; they should come out about 0.16% larger (60.0988/60).",
+    "title_last_frame_to_medals": 251,
+    "stage_intro_screen_length": "188-191 (seven measurements)",
+    "black_before_intro": "7-10",
+    "black_after_intro": "11-14",
+    "playfield_first_to_medals": {"1": 44, "2": 29, "3": 25, "4": 29, "5": 44, "6": 44, "7": 44, "8": 42},
+    "base_room_wall_explosion_to_dark_room": "142-144 (12 measurements, 10 of them 142)",
+    "base_room_dark_to_lit": "71-81",
+    "base_boss_explosion_to_lift_rise": 190,
+    "wall_boss_explosion_to_pose_revert_stage1_stage7": 196,
+    "stage3_and_stage5_explosion_to_auto_walk": 102,
+    "heart_explosion_to_auto_stand": 223
+  },
+  "weapons_stage1": [
+    {"letter": "M", "pickup_f": 1029, "cum_s": 5.15, "tol_f": 3, "source": "first pillbox sensor (opens about 944, destroyed about 976 from the top ledge); the falcon pops up to the ledge and he runs through it", "confidence": "letter read from the icon, fairly clear"},
+    {"letter": "R", "pickup_f": 1597, "cum_s": 14.62, "tol_f": 2, "source": "flying capsule shot about 1385-1400 just before the first bridge; falcon lands on the far bank and he runs through it after the bridge", "confidence": "letter clearly read"},
+    {"letter": "S", "pickup_f": 2315, "cum_s": 26.58, "tol_f": 2, "source": "flying capsule at ground level shot about 2226; falcon flies up off screen and drops onto him", "confidence": "letter not legible; spread fan visible from about 2515"},
+    {"letter": "unknown, probably R", "pickup_f": 3377, "cum_s": 44.28, "tol_f": 4, "source": "flying capsule destroyed point-blank during a jump just before the rotating wall cannon; the falcon is never visible on its own", "confidence": "pickup itself inferred; letter not seen"}
+  ],
+  "weapons_not_taken_stage1": [
+    {"f": 2500, "what": "pillbox sensor below the path destroyed about 2485-2520, item not collected"},
+    {"f": 3300, "what": "falcon from a capsule destroyed about 3290 left behind lower-left (visible 3294-3360)"}
+  ],
+  "fire_rate": {
+    "method": "Space-time diagram of bullet positions along the firing line; interval between successive centre-line spread bullets = spacing / bullet speed.",
+    "sample_1": {"where": "Snow Field, standing still firing straight up before the boss, frames 23248-23312", "bullet_speed_video_px_per_frame": 10.5, "spacing_px": "42-57 (typical 50)", "interval_frames": "4.0-5.4, mean 4.8", "shots_per_s": 12.5, "low_estimate_shots_per_s": 10.7},
+    "sample_2": {"where": "Energy Zone, firing right just before the boss lands, frames 27464-27486", "bullet_speed_video_px_per_frame_relative_to_screen": 9.3, "spacing_px": "37-57 (mean 43.6)", "interval_frames": "4.0-6.1, mean 4.7", "shots_per_s": 12.8},
+    "handcam": "Spectra of the hand region during the stage 1 boss and the heart show weak peaks at 11.5-13.5 Hz; supportive only.",
+    "estimate_shots_per_s": 12.5,
+    "uncertainty": "+/-1",
+    "recommended_ai_cap": "12 presses per second (at least 5 frames between press starts)",
+    "caveat": "Counts only presses that spawned a bullet. With spread the on-screen bullet limit can swallow presses, so his true press rate may be higher. Shortest single gaps were 4.0 frames."
+  },
+  "livesplit_overlay": {
+    "splits": {"JUNGLE": "0:55", "BASE 1": "1:56", "WATERFALL": "3:03", "BASE 2": "4:37", "SNOWFIELD": "6:21", "ENERGY ZONE": "7:30", "HANGAR": "8:45", "ALIEN'S LAIR": "9:48"},
+    "delta_vs_his_previous_best": {"JUNGLE": -0.0, "BASE 1": -0.9, "WATERFALL": -2.1, "BASE 2": 0.8, "SNOWFIELD": 0.2, "ENERGY ZONE": 0.3, "HANGAR": -0.2, "ALIEN'S LAIR": -0.1},
+    "final_manual_time": "9:48.49",
+    "footer_text": "World Record is 9:47.8 by k1ngk0opa"
+  }
+}

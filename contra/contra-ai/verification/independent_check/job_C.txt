@@ -1,0 +1,6 @@
+inputs=verify2/exp_downlong.inputs.txt
+out=verify2/runC
+shots=34480-34720
+extra=0
+maxrows=0
+every=0

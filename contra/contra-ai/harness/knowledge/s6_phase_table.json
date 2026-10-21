@@ -1,0 +1,2334 @@
+{
+ "_about": "Stage 6 (Energy Zone): segment length as a function of the global frame counter $1A & 127 on the stage's first playable frame. cluster_frames = MEASURED solver time from world x 1300 to 1900 (three flame towers) at that phase (scan made from a checkpoint of a full solve with a leading pause to set the phase; the pause is not counted). predicted_segment = prefix + cluster + suffix from the verified full solves listed in 'full_solves' (suffix_best = luckiest boss seen, suffix_median = typical). wait_only_estimate = what the towers would cost with no pause at all, computed from the no-remedy windows (not played). Made by tools/s6_phase_table.py.",
+ "record_segment_frames": 4143,
+ "prefix_frames_to_x1300": 1270.0,
+ "phase_offset_start_to_x1300": 116,
+ "suffix_frames_after_x1900": {
+  "best": 1963,
+  "median": 1972.5
+ },
+ "cluster_no_remedy_frames": 791,
+ "phases_scanned": 128,
+ "best": {
+  "start_phase": 5,
+  "phase_at_tower1": 121,
+  "cluster_frames": 795,
+  "cluster_cost_over_791": 4,
+  "predicted_segment_best_luck": 4028,
+  "predicted_segment_median_luck": 4037,
+  "remedies_in_cluster": [
+   "pause5@391"
+  ],
+  "wait_only_estimate_cluster_cost": 136,
+  "pause_saves_estimate": 132
+ },
+ "worst": {
+  "start_phase": 66,
+  "phase_at_tower1": 54,
+  "cluster_frames": 837,
+  "cluster_cost_over_791": 46,
+  "predicted_segment_best_luck": 4070,
+  "predicted_segment_median_luck": 4079,
+  "remedies_in_cluster": [
+   "pause5@71",
+   "pause5@103",
+   "pause5@391",
+   "pause5@423",
+   "wait16@639",
+   "pause5@647",
+   "pause5@743"
+  ],
+  "wait_only_estimate_cluster_cost": 75,
+  "pause_saves_estimate": 29
+ },
+ "typical_cluster_frames": 811.0,
+ "no_remedy_windows": {
+  "tower1_phase_at_x1300": [
+   92,
+   93,
+   94,
+   95,
+   96,
+   97,
+   98,
+   99,
+   100,
+   101,
+   102,
+   103,
+   104,
+   105,
+   106,
+   107,
+   108,
+   109,
+   110,
+   111,
+   112,
+   113,
+   114,
+   115,
+   116,
+   117,
+   118,
+   119
+  ],
+  "tower2_phase_at_tower1_exit": [
+   50,
+   51,
+   52,
+   53,
+   54,
+   55,
+   56,
+   57,
+   58,
+   59,
+   60,
+   61,
+   62,
+   63,
+   64,
+   65,
+   66,
+   67,
+   68,
+   69,
+   70,
+   71,
+   72,
+   73,
+   74,
+   75,
+   76
+  ],
+  "tower3_phase_on_ledge": [
+   56,
+   58
+  ]
+ },
+ "full_solves": [
+  {
+   "name": "final_ph66",
+   "state": "s6/ph66",
+   "start_fc": 128,
+   "frames": 4032,
+   "lag": 15,
+   "prefix": 1270,
+   "phase_at_tower1": 116,
+   "offset": 116,
+   "cluster": 799,
+   "suffix": 1963,
+   "boss_kill_row": 3434,
+   "remedies": [
+    "pause5@1599",
+    "aim2@2158[('Up',)]",
+    "jump@2586"
+   ]
+  },
+  {
+   "name": "first",
+   "state": "dbg/s6_pre",
+   "start_fc": 62,
+   "frames": 4118,
+   "lag": 13,
+   "prefix": 1273,
+   "phase_at_tower1": 54,
+   "offset": 120,
+   "cluster": 823,
+   "suffix": 2022,
+   "boss_kill_row": 3520,
+   "remedies": [
+    "pause5@1344",
+    "pause5@1376",
+    "pause5@1664",
+    "pause5@1696",
+    "pause5@1920",
+    "pause5@2016",
+    "wait50@2251",
+    "jump@2671"
+   ]
+  },
+  {
+   "name": "ph1",
+   "state": "s6/ph1",
+   "start_fc": 63,
+   "frames": 4065,
+   "lag": 15,
+   "prefix": 1270,
+   "phase_at_tower1": 51,
+   "offset": 116,
+   "cluster": 824,
+   "suffix": 1971,
+   "boss_kill_row": 3467,
+   "remedies": [
+    "pause5@1344",
+    "pause5@1376",
+    "wait2@1367",
+    "pause5@1664",
+    "pause5@1696",
+    "pause5@1921",
+    "pause5@2017",
+    "aim2@2174[('Up',)]",
+    "wait2@2427",
+    "jump@2621"
+   ]
+  },
+  {
+   "name": "ph100",
+   "state": "s6/ph100",
+   "start_fc": 162,
+   "frames": 4055,
+   "lag": 14,
+   "prefix": 1270,
+   "phase_at_tower1": 22,
+   "offset": 116,
+   "cluster": 811,
+   "suffix": 1974,
+   "boss_kill_row": 3457,
+   "remedies": [
+    "pause5@1405",
+    "pause5@1437",
+    "pause5@1725",
+    "pause5@1949",
+    "aim2@2170[('Up',)]",
+    "wait2@2391",
+    "duck8@2640"
+   ]
+  },
+  {
+   "name": "ph37",
+   "state": "s6/ph37",
+   "start_fc": 99,
+   "frames": 4112,
+   "lag": 22,
+   "prefix": 1272,
+   "phase_at_tower1": 87,
+   "offset": 116,
+   "cluster": 861,
+   "suffix": 1979,
+   "boss_kill_row": 3514,
+   "remedies": [
+    "jump@1326",
+    "pause5@1470",
+    "pause5@1502",
+    "pause5@2014",
+    "aim2@2221[('Down',)]",
+    "duck8@2695"
+   ]
+  },
+  {
+   "name": "ph66",
+   "state": "s6/ph66",
+   "start_fc": 128,
+   "frames": 4032,
+   "lag": 15,
+   "prefix": 1270,
+   "phase_at_tower1": 116,
+   "offset": 116,
+   "cluster": 799,
+   "suffix": 1963,
+   "boss_kill_row": 3434,
+   "remedies": [
+    "pause5@1599",
+    "aim2@2158[('Up',)]",
+    "jump@2586"
+   ]
+  },
+  {
+   "name": "ph70",
+   "state": "s6/ph70",
+   "start_fc": 132,
+   "frames": 4067,
+   "lag": 17,
+   "prefix": 1272,
+   "phase_at_tower1": 120,
+   "offset": 116,
+   "cluster": 797,
+   "suffix": 1998,
+   "boss_kill_row": 3469,
+   "remedies": [
+    "pause5@1597",
+    "jump@2606"
+   ]
+  },
+  {
+   "name": "v2",
+   "state": "dbg/s6_pre",
+   "start_fc": 62,
+   "frames": 4087,
+   "lag": 22,
+   "prefix": 1273,
+   "phase_at_tower1": 54,
+   "offset": 120,
+   "cluster": 837,
+   "suffix": 1977,
+   "boss_kill_row": 3489,
+   "remedies": [
+    "pause5@1344",
+    "pause5@1376",
+    "pause5@1664",
+    "pause5@1696",
+    "wait16@1912",
+    "pause5@1920",
+    "pause5@2016",
+    "aim2@2199[('Up',)]",
+    "jump@2635"
+   ]
+  }
+ ],
+ "table": [
+  {
+   "start_phase": 0,
+   "phase_at_tower1": 116,
+   "cluster_frames": 798,
+   "cluster_cost_over_791": 7,
+   "predicted_segment_best_luck": 4031,
+   "predicted_segment_median_luck": 4040,
+   "remedies_in_cluster": [
+    "pause5@391",
+    "wait2@735"
+   ],
+   "wait_only_estimate_cluster_cost": 13,
+   "pause_saves_estimate": 6
+  },
+  {
+   "start_phase": 1,
+   "phase_at_tower1": 117,
+   "cluster_frames": 797,
+   "cluster_cost_over_791": 6,
+   "predicted_segment_best_luck": 4030,
+   "predicted_segment_median_luck": 4039,
+   "remedies_in_cluster": [
+    "pause5@391"
+   ],
+   "wait_only_estimate_cluster_cost": 12,
+   "pause_saves_estimate": 6
+  },
+  {
+   "start_phase": 2,
+   "phase_at_tower1": 118,
+   "cluster_frames": 797,
+   "cluster_cost_over_791": 6,
+   "predicted_segment_best_luck": 4030,
+   "predicted_segment_median_luck": 4039,
+   "remedies_in_cluster": [
+    "pause5@391"
+   ],
+   "wait_only_estimate_cluster_cost": 11,
+   "pause_saves_estimate": 5
+  },
+  {
+   "start_phase": 3,
+   "phase_at_tower1": 119,
+   "cluster_frames": 796,
+   "cluster_cost_over_791": 5,
+   "predicted_segment_best_luck": 4029,
+   "predicted_segment_median_luck": 4038,
+   "remedies_in_cluster": [
+    "pause5@391"
+   ],
+   "wait_only_estimate_cluster_cost": 10,
+   "pause_saves_estimate": 5
+  },
+  {
+   "start_phase": 4,
+   "phase_at_tower1": 120,
+   "cluster_frames": 796,
+   "cluster_cost_over_791": 5,
+   "predicted_segment_best_luck": 4029,
+   "predicted_segment_median_luck": 4038,
+   "remedies_in_cluster": [
+    "pause5@391"
+   ],
+   "wait_only_estimate_cluster_cost": 137,
+   "pause_saves_estimate": 132
+  },
+  {
+   "start_phase": 5,
+   "phase_at_tower1": 121,
+   "cluster_frames": 795,
+   "cluster_cost_over_791": 4,
+   "predicted_segment_best_luck": 4028,
+   "predicted_segment_median_luck": 4037,
+   "remedies_in_cluster": [
+    "pause5@391"
+   ],
+   "wait_only_estimate_cluster_cost": 136,
+   "pause_saves_estimate": 132
+  },
+  {
+   "start_phase": 6,
+   "phase_at_tower1": 122,
+   "cluster_frames": 796,
+   "cluster_cost_over_791": 5,
+   "predicted_segment_best_luck": 4029,
+   "predicted_segment_median_luck": 4038,
+   "remedies_in_cluster": [
+    "pause5@391"
+   ],
+   "wait_only_estimate_cluster_cost": 135,
+   "pause_saves_estimate": 130
+  },
+  {
+   "start_phase": 7,
+   "phase_at_tower1": 123,
+   "cluster_frames": 797,
+   "cluster_cost_over_791": 6,
+   "predicted_segment_best_luck": 4030,
+   "predicted_segment_median_luck": 4039,
+   "remedies_in_cluster": [],
+   "wait_only_estimate_cluster_cost": 134,
+   "pause_saves_estimate": 128
+  },
+  {
+   "start_phase": 8,
+   "phase_at_tower1": 124,
+   "cluster_frames": 797,
+   "cluster_cost_over_791": 6,
+   "predicted_segment_best_luck": 4030,
+   "predicted_segment_median_luck": 4039,
+   "remedies_in_cluster": [],
+   "wait_only_estimate_cluster_cost": 133,
+   "pause_saves_estimate": 127
+  },
+  {
+   "start_phase": 9,
+   "phase_at_tower1": 125,
+   "cluster_frames": 797,
+   "cluster_cost_over_791": 6,
+   "predicted_segment_best_luck": 4030,
+   "predicted_segment_median_luck": 4039,
+   "remedies_in_cluster": [
+    "pause5@263"
+   ],
+   "wait_only_estimate_cluster_cost": 132,
+   "pause_saves_estimate": 126
+  },
+  {
+   "start_phase": 10,
+   "phase_at_tower1": 126,
+   "cluster_frames": 796,
+   "cluster_cost_over_791": 5,
+   "predicted_segment_best_luck": 4029,
+   "predicted_segment_median_luck": 4038,
+   "remedies_in_cluster": [
+    "pause5@263"
+   ],
+   "wait_only_estimate_cluster_cost": 131,
+   "pause_saves_estimate": 126
+  },
+  {
+   "start_phase": 11,
+   "phase_at_tower1": 127,
+   "cluster_frames": 802,
+   "cluster_cost_over_791": 11,
+   "predicted_segment_best_luck": 4035,
+   "predicted_segment_median_luck": 4044,
+   "remedies_in_cluster": [
+    "pause5@263",
+    "pause5@775"
+   ],
+   "wait_only_estimate_cluster_cost": 130,
+   "pause_saves_estimate": 119
+  },
+  {
+   "start_phase": 12,
+   "phase_at_tower1": 0,
+   "cluster_frames": 801,
+   "cluster_cost_over_791": 10,
+   "predicted_segment_best_luck": 4034,
+   "predicted_segment_median_luck": 4043,
+   "remedies_in_cluster": [
+    "pause5@263",
+    "pause5@775"
+   ],
+   "wait_only_estimate_cluster_cost": 129,
+   "pause_saves_estimate": 119
+  },
+  {
+   "start_phase": 13,
+   "phase_at_tower1": 1,
+   "cluster_frames": 801,
+   "cluster_cost_over_791": 10,
+   "predicted_segment_best_luck": 4034,
+   "predicted_segment_median_luck": 4043,
+   "remedies_in_cluster": [
+    "pause5@263",
+    "pause5@775"
+   ],
+   "wait_only_estimate_cluster_cost": 128,
+   "pause_saves_estimate": 118
+  },
+  {
+   "start_phase": 14,
+   "phase_at_tower1": 2,
+   "cluster_frames": 801,
+   "cluster_cost_over_791": 10,
+   "predicted_segment_best_luck": 4034,
+   "predicted_segment_median_luck": 4043,
+   "remedies_in_cluster": [
+    "pause5@263",
+    "pause5@775"
+   ],
+   "wait_only_estimate_cluster_cost": 127,
+   "pause_saves_estimate": 117
+  },
+  {
+   "start_phase": 15,
+   "phase_at_tower1": 3,
+   "cluster_frames": 802,
+   "cluster_cost_over_791": 11,
+   "predicted_segment_best_luck": 4035,
+   "predicted_segment_median_luck": 4044,
+   "remedies_in_cluster": [
+    "pause5@263",
+    "pause5@775"
+   ],
+   "wait_only_estimate_cluster_cost": 126,
+   "pause_saves_estimate": 115
+  },
+  {
+   "start_phase": 16,
+   "phase_at_tower1": 4,
+   "cluster_frames": 801,
+   "cluster_cost_over_791": 10,
+   "predicted_segment_best_luck": 4034,
+   "predicted_segment_median_luck": 4043,
+   "remedies_in_cluster": [
+    "pause5@263",
+    "pause5@775"
+   ],
+   "wait_only_estimate_cluster_cost": 125,
+   "pause_saves_estimate": 115
+  },
+  {
+   "start_phase": 17,
+   "phase_at_tower1": 5,
+   "cluster_frames": 801,
+   "cluster_cost_over_791": 10,
+   "predicted_segment_best_luck": 4034,
+   "predicted_segment_median_luck": 4043,
+   "remedies_in_cluster": [
+    "pause5@263",
+    "pause5@775"
+   ],
+   "wait_only_estimate_cluster_cost": 124,
+   "pause_saves_estimate": 114
+  },
+  {
+   "start_phase": 18,
+   "phase_at_tower1": 6,
+   "cluster_frames": 808,
+   "cluster_cost_over_791": 17,
+   "predicted_segment_best_luck": 4041,
+   "predicted_segment_median_luck": 4050,
+   "remedies_in_cluster": [
+    "pause5@231",
+    "pause5@263",
+    "pause5@775"
+   ],
+   "wait_only_estimate_cluster_cost": 123,
+   "pause_saves_estimate": 106
+  },
+  {
+   "start_phase": 19,
+   "phase_at_tower1": 7,
+   "cluster_frames": 806,
+   "cluster_cost_over_791": 15,
+   "predicted_segment_best_luck": 4039,
+   "predicted_segment_median_luck": 4048,
+   "remedies_in_cluster": [
+    "pause5@231",
+    "pause5@263",
+    "pause5@775"
+   ],
+   "wait_only_estimate_cluster_cost": 122,
+   "pause_saves_estimate": 107
+  },
+  {
+   "start_phase": 20,
+   "phase_at_tower1": 8,
+   "cluster_frames": 807,
+   "cluster_cost_over_791": 16,
+   "predicted_segment_best_luck": 4040,
+   "predicted_segment_median_luck": 4049,
+   "remedies_in_cluster": [
+    "pause5@231",
+    "pause5@263",
+    "pause5@775"
+   ],
+   "wait_only_estimate_cluster_cost": 121,
+   "pause_saves_estimate": 105
+  },
+  {
+   "start_phase": 21,
+   "phase_at_tower1": 9,
+   "cluster_frames": 806,
+   "cluster_cost_over_791": 15,
+   "predicted_segment_best_luck": 4039,
+   "predicted_segment_median_luck": 4048,
+   "remedies_in_cluster": [
+    "pause5@231",
+    "pause5@263",
+    "pause5@775"
+   ],
+   "wait_only_estimate_cluster_cost": 120,
+   "pause_saves_estimate": 105
+  },
+  {
+   "start_phase": 22,
+   "phase_at_tower1": 10,
+   "cluster_frames": 806,
+   "cluster_cost_over_791": 15,
+   "predicted_segment_best_luck": 4039,
+   "predicted_segment_median_luck": 4048,
+   "remedies_in_cluster": [
+    "pause5@231",
+    "pause5@263",
+    "pause5@775"
+   ],
+   "wait_only_estimate_cluster_cost": 119,
+   "pause_saves_estimate": 104
+  },
+  {
+   "start_phase": 23,
+   "phase_at_tower1": 11,
+   "cluster_frames": 806,
+   "cluster_cost_over_791": 15,
+   "predicted_segment_best_luck": 4039,
+   "predicted_segment_median_luck": 4048,
+   "remedies_in_cluster": [
+    "pause5@231",
+    "pause5@263",
+    "pause5@775"
+   ],
+   "wait_only_estimate_cluster_cost": 118,
+   "pause_saves_estimate": 103
+  },
+  {
+   "start_phase": 24,
+   "phase_at_tower1": 12,
+   "cluster_frames": 806,
+   "cluster_cost_over_791": 15,
+   "predicted_segment_best_luck": 4039,
+   "predicted_segment_median_luck": 4048,
+   "remedies_in_cluster": [
+    "pause5@231",
+    "pause5@263",
+    "pause5@775"
+   ],
+   "wait_only_estimate_cluster_cost": 117,
+   "pause_saves_estimate": 102
+  },
+  {
+   "start_phase": 25,
+   "phase_at_tower1": 13,
+   "cluster_frames": 806,
+   "cluster_cost_over_791": 15,
+   "predicted_segment_best_luck": 4039,
+   "predicted_segment_median_luck": 4048,
+   "remedies_in_cluster": [
+    "pause5@231",
+    "pause5@263",
+    "pause5@775"
+   ],
+   "wait_only_estimate_cluster_cost": 116,
+   "pause_saves_estimate": 101
+  },
+  {
+   "start_phase": 26,
+   "phase_at_tower1": 14,
+   "cluster_frames": 806,
+   "cluster_cost_over_791": 15,
+   "predicted_segment_best_luck": 4039,
+   "predicted_segment_median_luck": 4048,
+   "remedies_in_cluster": [
+    "pause5@231",
+    "pause5@263",
+    "pause5@775"
+   ],
+   "wait_only_estimate_cluster_cost": 115,
+   "pause_saves_estimate": 100
+  },
+  {
+   "start_phase": 27,
+   "phase_at_tower1": 15,
+   "cluster_frames": 806,
+   "cluster_cost_over_791": 15,
+   "predicted_segment_best_luck": 4039,
+   "predicted_segment_median_luck": 4048,
+   "remedies_in_cluster": [
+    "pause5@231",
+    "pause5@263",
+    "pause5@775"
+   ],
+   "wait_only_estimate_cluster_cost": 114,
+   "pause_saves_estimate": 99
+  },
+  {
+   "start_phase": 28,
+   "phase_at_tower1": 16,
+   "cluster_frames": 806,
+   "cluster_cost_over_791": 15,
+   "predicted_segment_best_luck": 4039,
+   "predicted_segment_median_luck": 4048,
+   "remedies_in_cluster": [
+    "pause5@231",
+    "pause5@263",
+    "pause5@775"
+   ],
+   "wait_only_estimate_cluster_cost": 113,
+   "pause_saves_estimate": 98
+  },
+  {
+   "start_phase": 29,
+   "phase_at_tower1": 17,
+   "cluster_frames": 806,
+   "cluster_cost_over_791": 15,
+   "predicted_segment_best_luck": 4039,
+   "predicted_segment_median_luck": 4048,
+   "remedies_in_cluster": [
+    "pause5@231",
+    "pause5@263",
+    "pause5@775"
+   ],
+   "wait_only_estimate_cluster_cost": 112,
+   "pause_saves_estimate": 97
+  },
+  {
+   "start_phase": 30,
+   "phase_at_tower1": 18,
+   "cluster_frames": 811,
+   "cluster_cost_over_791": 20,
+   "predicted_segment_best_luck": 4044,
+   "predicted_segment_median_luck": 4053,
+   "remedies_in_cluster": [
+    "pause5@231",
+    "pause5@263",
+    "pause5@551",
+    "pause5@775"
+   ],
+   "wait_only_estimate_cluster_cost": 111,
+   "pause_saves_estimate": 91
+  },
+  {
+   "start_phase": 31,
+   "phase_at_tower1": 19,
+   "cluster_frames": 811,
+   "cluster_cost_over_791": 20,
+   "predicted_segment_best_luck": 4044,
+   "predicted_segment_median_luck": 4053,
+   "remedies_in_cluster": [
+    "pause5@231",
+    "pause5@263",
+    "pause5@551",
+    "pause5@775"
+   ],
+   "wait_only_estimate_cluster_cost": 110,
+   "pause_saves_estimate": 90
+  },
+  {
+   "start_phase": 32,
+   "phase_at_tower1": 20,
+   "cluster_frames": 811,
+   "cluster_cost_over_791": 20,
+   "predicted_segment_best_luck": 4044,
+   "predicted_segment_median_luck": 4053,
+   "remedies_in_cluster": [
+    "pause5@231",
+    "pause5@263",
+    "pause5@551",
+    "pause5@775"
+   ],
+   "wait_only_estimate_cluster_cost": 109,
+   "pause_saves_estimate": 89
+  },
+  {
+   "start_phase": 33,
+   "phase_at_tower1": 21,
+   "cluster_frames": 811,
+   "cluster_cost_over_791": 20,
+   "predicted_segment_best_luck": 4044,
+   "predicted_segment_median_luck": 4053,
+   "remedies_in_cluster": [
+    "pause5@231",
+    "pause5@263",
+    "pause5@551",
+    "pause5@775"
+   ],
+   "wait_only_estimate_cluster_cost": 108,
+   "pause_saves_estimate": 88
+  },
+  {
+   "start_phase": 34,
+   "phase_at_tower1": 22,
+   "cluster_frames": 811,
+   "cluster_cost_over_791": 20,
+   "predicted_segment_best_luck": 4044,
+   "predicted_segment_median_luck": 4053,
+   "remedies_in_cluster": [
+    "pause5@231",
+    "pause5@263",
+    "pause5@551",
+    "pause5@775"
+   ],
+   "wait_only_estimate_cluster_cost": 107,
+   "pause_saves_estimate": 87
+  },
+  {
+   "start_phase": 35,
+   "phase_at_tower1": 23,
+   "cluster_frames": 811,
+   "cluster_cost_over_791": 20,
+   "predicted_segment_best_luck": 4044,
+   "predicted_segment_median_luck": 4053,
+   "remedies_in_cluster": [
+    "pause5@231",
+    "pause5@263",
+    "pause5@551",
+    "pause5@775"
+   ],
+   "wait_only_estimate_cluster_cost": 106,
+   "pause_saves_estimate": 86
+  },
+  {
+   "start_phase": 36,
+   "phase_at_tower1": 24,
+   "cluster_frames": 821,
+   "cluster_cost_over_791": 30,
+   "predicted_segment_best_luck": 4054,
+   "predicted_segment_median_luck": 4063,
+   "remedies_in_cluster": [
+    "pause5@199",
+    "pause5@231",
+    "pause5@263",
+    "pause5@519",
+    "pause5@551",
+    "pause5@775"
+   ],
+   "wait_only_estimate_cluster_cost": 105,
+   "pause_saves_estimate": 75
+  },
+  {
+   "start_phase": 37,
+   "phase_at_tower1": 25,
+   "cluster_frames": 821,
+   "cluster_cost_over_791": 30,
+   "predicted_segment_best_luck": 4054,
+   "predicted_segment_median_luck": 4063,
+   "remedies_in_cluster": [
+    "pause5@199",
+    "pause5@231",
+    "pause5@263",
+    "pause5@519",
+    "pause5@551",
+    "pause5@775"
+   ],
+   "wait_only_estimate_cluster_cost": 104,
+   "pause_saves_estimate": 74
+  },
+  {
+   "start_phase": 38,
+   "phase_at_tower1": 26,
+   "cluster_frames": 821,
+   "cluster_cost_over_791": 30,
+   "predicted_segment_best_luck": 4054,
+   "predicted_segment_median_luck": 4063,
+   "remedies_in_cluster": [
+    "pause5@199",
+    "pause5@231",
+    "pause5@263",
+    "pause5@519",
+    "pause5@551",
+    "pause5@775"
+   ],
+   "wait_only_estimate_cluster_cost": 103,
+   "pause_saves_estimate": 73
+  },
+  {
+   "start_phase": 39,
+   "phase_at_tower1": 27,
+   "cluster_frames": 821,
+   "cluster_cost_over_791": 30,
+   "predicted_segment_best_luck": 4054,
+   "predicted_segment_median_luck": 4063,
+   "remedies_in_cluster": [
+    "pause5@199",
+    "pause5@231",
+    "pause5@263",
+    "pause5@519",
+    "pause5@551",
+    "pause5@775"
+   ],
+   "wait_only_estimate_cluster_cost": 102,
+   "pause_saves_estimate": 72
+  },
+  {
+   "start_phase": 40,
+   "phase_at_tower1": 28,
+   "cluster_frames": 821,
+   "cluster_cost_over_791": 30,
+   "predicted_segment_best_luck": 4054,
+   "predicted_segment_median_luck": 4063,
+   "remedies_in_cluster": [
+    "pause5@199",
+    "pause5@231",
+    "pause5@263",
+    "pause5@519",
+    "pause5@551",
+    "pause5@775"
+   ],
+   "wait_only_estimate_cluster_cost": 101,
+   "pause_saves_estimate": 71
+  },
+  {
+   "start_phase": 41,
+   "phase_at_tower1": 29,
+   "cluster_frames": 822,
+   "cluster_cost_over_791": 31,
+   "predicted_segment_best_luck": 4055,
+   "predicted_segment_median_luck": 4064,
+   "remedies_in_cluster": [
+    "pause5@199",
+    "pause5@231",
+    "pause5@263",
+    "pause5@519",
+    "pause5@551",
+    "pause5@775"
+   ],
+   "wait_only_estimate_cluster_cost": 100,
+   "pause_saves_estimate": 69
+  },
+  {
+   "start_phase": 42,
+   "phase_at_tower1": 30,
+   "cluster_frames": 820,
+   "cluster_cost_over_791": 29,
+   "predicted_segment_best_luck": 4053,
+   "predicted_segment_median_luck": 4062,
+   "remedies_in_cluster": [
+    "pause5@199",
+    "pause5@231",
+    "pause5@263",
+    "pause5@519",
+    "pause5@551",
+    "pause5@775"
+   ],
+   "wait_only_estimate_cluster_cost": 99,
+   "pause_saves_estimate": 70
+  },
+  {
+   "start_phase": 43,
+   "phase_at_tower1": 31,
+   "cluster_frames": 821,
+   "cluster_cost_over_791": 30,
+   "predicted_segment_best_luck": 4054,
+   "predicted_segment_median_luck": 4063,
+   "remedies_in_cluster": [
+    "pause5@199",
+    "pause5@231",
+    "pause5@263",
+    "pause5@519",
+    "pause5@551",
+    "pause5@775"
+   ],
+   "wait_only_estimate_cluster_cost": 98,
+   "pause_saves_estimate": 68
+  },
+  {
+   "start_phase": 44,
+   "phase_at_tower1": 32,
+   "cluster_frames": 821,
+   "cluster_cost_over_791": 30,
+   "predicted_segment_best_luck": 4054,
+   "predicted_segment_median_luck": 4063,
+   "remedies_in_cluster": [
+    "pause5@199",
+    "pause5@231",
+    "pause5@263",
+    "pause5@519",
+    "pause5@551",
+    "pause5@775"
+   ],
+   "wait_only_estimate_cluster_cost": 97,
+   "pause_saves_estimate": 67
+  },
+  {
+   "start_phase": 45,
+   "phase_at_tower1": 33,
+   "cluster_frames": 821,
+   "cluster_cost_over_791": 30,
+   "predicted_segment_best_luck": 4054,
+   "predicted_segment_median_luck": 4063,
+   "remedies_in_cluster": [
+    "pause5@199",
+    "pause5@231",
+    "pause5@263",
+    "pause5@519",
+    "pause5@551",
+    "pause5@775"
+   ],
+   "wait_only_estimate_cluster_cost": 96,
+   "pause_saves_estimate": 66
+  },
+  {
+   "start_phase": 46,
+   "phase_at_tower1": 34,
+   "cluster_frames": 821,
+   "cluster_cost_over_791": 30,
+   "predicted_segment_best_luck": 4054,
+   "predicted_segment_median_luck": 4063,
+   "remedies_in_cluster": [
+    "pause5@199",
+    "pause5@231",
+    "pause5@263",
+    "pause5@519",
+    "pause5@551",
+    "pause5@775"
+   ],
+   "wait_only_estimate_cluster_cost": 95,
+   "pause_saves_estimate": 65
+  },
+  {
+   "start_phase": 47,
+   "phase_at_tower1": 35,
+   "cluster_frames": 821,
+   "cluster_cost_over_791": 30,
+   "predicted_segment_best_luck": 4054,
+   "predicted_segment_median_luck": 4063,
+   "remedies_in_cluster": [
+    "pause5@199",
+    "pause5@231",
+    "pause5@263",
+    "pause5@519",
+    "pause5@551",
+    "pause5@775"
+   ],
+   "wait_only_estimate_cluster_cost": 94,
+   "pause_saves_estimate": 64
+  },
+  {
+   "start_phase": 48,
+   "phase_at_tower1": 36,
+   "cluster_frames": 821,
+   "cluster_cost_over_791": 30,
+   "predicted_segment_best_luck": 4054,
+   "predicted_segment_median_luck": 4063,
+   "remedies_in_cluster": [
+    "pause5@199",
+    "pause5@231",
+    "pause5@263",
+    "pause5@519",
+    "pause5@551",
+    "pause5@775"
+   ],
+   "wait_only_estimate_cluster_cost": 93,
+   "pause_saves_estimate": 63
+  },
+  {
+   "start_phase": 49,
+   "phase_at_tower1": 37,
+   "cluster_frames": 821,
+   "cluster_cost_over_791": 30,
+   "predicted_segment_best_luck": 4054,
+   "predicted_segment_median_luck": 4063,
+   "remedies_in_cluster": [
+    "pause5@199",
+    "pause5@231",
+    "pause5@263",
+    "pause5@519",
+    "pause5@551",
+    "pause5@775"
+   ],
+   "wait_only_estimate_cluster_cost": 92,
+   "pause_saves_estimate": 62
+  },
+  {
+   "start_phase": 50,
+   "phase_at_tower1": 38,
+   "cluster_frames": 822,
+   "cluster_cost_over_791": 31,
+   "predicted_segment_best_luck": 4055,
+   "predicted_segment_median_luck": 4064,
+   "remedies_in_cluster": [
+    "pause5@199",
+    "pause5@231",
+    "pause5@263",
+    "pause5@519",
+    "pause5@551",
+    "pause5@776"
+   ],
+   "wait_only_estimate_cluster_cost": 91,
+   "pause_saves_estimate": 60
+  },
+  {
+   "start_phase": 51,
+   "phase_at_tower1": 39,
+   "cluster_frames": 821,
+   "cluster_cost_over_791": 30,
+   "predicted_segment_best_luck": 4054,
+   "predicted_segment_median_luck": 4063,
+   "remedies_in_cluster": [
+    "pause5@199",
+    "pause5@231",
+    "pause5@263",
+    "pause5@519",
+    "pause5@551",
+    "pause5@775"
+   ],
+   "wait_only_estimate_cluster_cost": 90,
+   "pause_saves_estimate": 60
+  },
+  {
+   "start_phase": 52,
+   "phase_at_tower1": 40,
+   "cluster_frames": 826,
+   "cluster_cost_over_791": 35,
+   "predicted_segment_best_luck": 4059,
+   "predicted_segment_median_luck": 4068,
+   "remedies_in_cluster": [
+    "pause5@199",
+    "pause5@231",
+    "pause5@263",
+    "pause5@519",
+    "pause5@551",
+    "pause5@775",
+    "pause5@871"
+   ],
+   "wait_only_estimate_cluster_cost": 89,
+   "pause_saves_estimate": 54
+  },
+  {
+   "start_phase": 53,
+   "phase_at_tower1": 41,
+   "cluster_frames": 826,
+   "cluster_cost_over_791": 35,
+   "predicted_segment_best_luck": 4059,
+   "predicted_segment_median_luck": 4068,
+   "remedies_in_cluster": [
+    "pause5@199",
+    "pause5@231",
+    "pause5@263",
+    "pause5@519",
+    "pause5@551",
+    "pause5@775",
+    "pause5@871"
+   ],
+   "wait_only_estimate_cluster_cost": 88,
+   "pause_saves_estimate": 53
+  },
+  {
+   "start_phase": 54,
+   "phase_at_tower1": 42,
+   "cluster_frames": 826,
+   "cluster_cost_over_791": 35,
+   "predicted_segment_best_luck": 4059,
+   "predicted_segment_median_luck": 4068,
+   "remedies_in_cluster": [
+    "pause5@199",
+    "pause5@231",
+    "pause5@263",
+    "pause5@519",
+    "pause5@551",
+    "pause5@775",
+    "pause5@871"
+   ],
+   "wait_only_estimate_cluster_cost": 87,
+   "pause_saves_estimate": 52
+  },
+  {
+   "start_phase": 55,
+   "phase_at_tower1": 43,
+   "cluster_frames": 827,
+   "cluster_cost_over_791": 36,
+   "predicted_segment_best_luck": 4060,
+   "predicted_segment_median_luck": 4069,
+   "remedies_in_cluster": [
+    "pause5@199",
+    "pause5@231",
+    "pause5@263",
+    "pause5@519",
+    "pause5@551",
+    "pause5@775",
+    "pause5@871"
+   ],
+   "wait_only_estimate_cluster_cost": 86,
+   "pause_saves_estimate": 50
+  },
+  {
+   "start_phase": 56,
+   "phase_at_tower1": 44,
+   "cluster_frames": 826,
+   "cluster_cost_over_791": 35,
+   "predicted_segment_best_luck": 4059,
+   "predicted_segment_median_luck": 4068,
+   "remedies_in_cluster": [
+    "pause5@199",
+    "pause5@231",
+    "pause5@263",
+    "pause5@519",
+    "pause5@551",
+    "pause5@775",
+    "pause5@871"
+   ],
+   "wait_only_estimate_cluster_cost": 85,
+   "pause_saves_estimate": 50
+  },
+  {
+   "start_phase": 57,
+   "phase_at_tower1": 45,
+   "cluster_frames": 826,
+   "cluster_cost_over_791": 35,
+   "predicted_segment_best_luck": 4059,
+   "predicted_segment_median_luck": 4068,
+   "remedies_in_cluster": [
+    "pause5@199",
+    "pause5@231",
+    "pause5@263",
+    "pause5@519",
+    "pause5@551",
+    "pause5@775",
+    "pause5@871"
+   ],
+   "wait_only_estimate_cluster_cost": 84,
+   "pause_saves_estimate": 49
+  },
+  {
+   "start_phase": 58,
+   "phase_at_tower1": 46,
+   "cluster_frames": 828,
+   "cluster_cost_over_791": 37,
+   "predicted_segment_best_luck": 4061,
+   "predicted_segment_median_luck": 4070,
+   "remedies_in_cluster": [
+    "pause5@199",
+    "pause5@231",
+    "pause5@263",
+    "pause5@519",
+    "pause5@551",
+    "pause5@776",
+    "pause5@872"
+   ],
+   "wait_only_estimate_cluster_cost": 83,
+   "pause_saves_estimate": 46
+  },
+  {
+   "start_phase": 59,
+   "phase_at_tower1": 47,
+   "cluster_frames": 826,
+   "cluster_cost_over_791": 35,
+   "predicted_segment_best_luck": 4059,
+   "predicted_segment_median_luck": 4068,
+   "remedies_in_cluster": [
+    "pause5@199",
+    "pause5@231",
+    "pause5@263",
+    "pause5@519",
+    "pause5@551",
+    "pause5@775",
+    "pause5@871"
+   ],
+   "wait_only_estimate_cluster_cost": 82,
+   "pause_saves_estimate": 47
+  },
+  {
+   "start_phase": 60,
+   "phase_at_tower1": 48,
+   "cluster_frames": 825,
+   "cluster_cost_over_791": 34,
+   "predicted_segment_best_luck": 4058,
+   "predicted_segment_median_luck": 4067,
+   "remedies_in_cluster": [
+    "pause5@199",
+    "pause5@231",
+    "wait4@217",
+    "pause5@519",
+    "pause5@551",
+    "pause5@775",
+    "pause5@871"
+   ],
+   "wait_only_estimate_cluster_cost": 81,
+   "pause_saves_estimate": 47
+  },
+  {
+   "start_phase": 61,
+   "phase_at_tower1": 49,
+   "cluster_frames": 824,
+   "cluster_cost_over_791": 33,
+   "predicted_segment_best_luck": 4057,
+   "predicted_segment_median_luck": 4066,
+   "remedies_in_cluster": [
+    "pause5@199",
+    "pause5@231",
+    "wait3@219",
+    "pause5@519",
+    "pause5@551",
+    "pause5@775",
+    "pause5@871"
+   ],
+   "wait_only_estimate_cluster_cost": 80,
+   "pause_saves_estimate": 47
+  },
+  {
+   "start_phase": 62,
+   "phase_at_tower1": 50,
+   "cluster_frames": 824,
+   "cluster_cost_over_791": 33,
+   "predicted_segment_best_luck": 4057,
+   "predicted_segment_median_luck": 4066,
+   "remedies_in_cluster": [
+    "pause5@199",
+    "pause5@231",
+    "wait3@220",
+    "pause5@519",
+    "pause5@551",
+    "pause5@775",
+    "pause5@871"
+   ],
+   "wait_only_estimate_cluster_cost": 79,
+   "pause_saves_estimate": 46
+  },
+  {
+   "start_phase": 63,
+   "phase_at_tower1": 51,
+   "cluster_frames": 823,
+   "cluster_cost_over_791": 32,
+   "predicted_segment_best_luck": 4056,
+   "predicted_segment_median_luck": 4065,
+   "remedies_in_cluster": [
+    "pause5@199",
+    "pause5@231",
+    "wait2@222",
+    "pause5@519",
+    "pause5@551",
+    "pause5@775",
+    "pause5@871"
+   ],
+   "wait_only_estimate_cluster_cost": 78,
+   "pause_saves_estimate": 46
+  },
+  {
+   "start_phase": 64,
+   "phase_at_tower1": 52,
+   "cluster_frames": 821,
+   "cluster_cost_over_791": 30,
+   "predicted_segment_best_luck": 4054,
+   "predicted_segment_median_luck": 4063,
+   "remedies_in_cluster": [
+    "pause5@199",
+    "pause5@231",
+    "pause5@519",
+    "pause5@551",
+    "pause5@775",
+    "pause5@871"
+   ],
+   "wait_only_estimate_cluster_cost": 77,
+   "pause_saves_estimate": 47
+  },
+  {
+   "start_phase": 65,
+   "phase_at_tower1": 53,
+   "cluster_frames": 821,
+   "cluster_cost_over_791": 30,
+   "predicted_segment_best_luck": 4054,
+   "predicted_segment_median_luck": 4063,
+   "remedies_in_cluster": [
+    "pause5@199",
+    "pause5@231",
+    "pause5@519",
+    "pause5@551",
+    "pause5@775",
+    "pause5@871"
+   ],
+   "wait_only_estimate_cluster_cost": 76,
+   "pause_saves_estimate": 46
+  },
+  {
+   "start_phase": 66,
+   "phase_at_tower1": 54,
+   "cluster_frames": 837,
+   "cluster_cost_over_791": 46,
+   "predicted_segment_best_luck": 4070,
+   "predicted_segment_median_luck": 4079,
+   "remedies_in_cluster": [
+    "pause5@71",
+    "pause5@103",
+    "pause5@391",
+    "pause5@423",
+    "wait16@639",
+    "pause5@647",
+    "pause5@743"
+   ],
+   "wait_only_estimate_cluster_cost": 75,
+   "pause_saves_estimate": 29
+  },
+  {
+   "start_phase": 67,
+   "phase_at_tower1": 55,
+   "cluster_frames": 820,
+   "cluster_cost_over_791": 29,
+   "predicted_segment_best_luck": 4053,
+   "predicted_segment_median_luck": 4062,
+   "remedies_in_cluster": [
+    "pause5@199",
+    "pause5@231",
+    "pause5@519",
+    "pause5@551",
+    "pause5@775",
+    "pause5@871"
+   ],
+   "wait_only_estimate_cluster_cost": 74,
+   "pause_saves_estimate": 45
+  },
+  {
+   "start_phase": 68,
+   "phase_at_tower1": 56,
+   "cluster_frames": 821,
+   "cluster_cost_over_791": 30,
+   "predicted_segment_best_luck": 4054,
+   "predicted_segment_median_luck": 4063,
+   "remedies_in_cluster": [
+    "pause5@199",
+    "pause5@231",
+    "pause5@519",
+    "pause5@551",
+    "pause5@775",
+    "pause5@871"
+   ],
+   "wait_only_estimate_cluster_cost": 73,
+   "pause_saves_estimate": 43
+  },
+  {
+   "start_phase": 69,
+   "phase_at_tower1": 57,
+   "cluster_frames": 821,
+   "cluster_cost_over_791": 30,
+   "predicted_segment_best_luck": 4054,
+   "predicted_segment_median_luck": 4063,
+   "remedies_in_cluster": [
+    "pause5@199",
+    "pause5@231",
+    "pause5@519",
+    "pause5@551",
+    "pause5@775",
+    "pause5@871"
+   ],
+   "wait_only_estimate_cluster_cost": 72,
+   "pause_saves_estimate": 42
+  },
+  {
+   "start_phase": 70,
+   "phase_at_tower1": 58,
+   "cluster_frames": 821,
+   "cluster_cost_over_791": 30,
+   "predicted_segment_best_luck": 4054,
+   "predicted_segment_median_luck": 4063,
+   "remedies_in_cluster": [
+    "pause5@199",
+    "pause5@231",
+    "pause5@519",
+    "pause5@551",
+    "pause5@775",
+    "pause5@871"
+   ],
+   "wait_only_estimate_cluster_cost": 71,
+   "pause_saves_estimate": 41
+  },
+  {
+   "start_phase": 71,
+   "phase_at_tower1": 59,
+   "cluster_frames": 821,
+   "cluster_cost_over_791": 30,
+   "predicted_segment_best_luck": 4054,
+   "predicted_segment_median_luck": 4063,
+   "remedies_in_cluster": [
+    "pause5@71",
+    "wait4@89",
+    "pause5@391",
+    "pause5@423",
+    "pause5@647",
+    "pause5@743"
+   ],
+   "wait_only_estimate_cluster_cost": 70,
+   "pause_saves_estimate": 40
+  },
+  {
+   "start_phase": 72,
+   "phase_at_tower1": 60,
+   "cluster_frames": 820,
+   "cluster_cost_over_791": 29,
+   "predicted_segment_best_luck": 4053,
+   "predicted_segment_median_luck": 4062,
+   "remedies_in_cluster": [
+    "pause5@71",
+    "wait4@90",
+    "pause5@391",
+    "pause5@423",
+    "pause5@647",
+    "pause5@743"
+   ],
+   "wait_only_estimate_cluster_cost": 69,
+   "pause_saves_estimate": 40
+  },
+  {
+   "start_phase": 73,
+   "phase_at_tower1": 61,
+   "cluster_frames": 819,
+   "cluster_cost_over_791": 28,
+   "predicted_segment_best_luck": 4052,
+   "predicted_segment_median_luck": 4061,
+   "remedies_in_cluster": [
+    "pause5@71",
+    "wait3@92",
+    "pause5@391",
+    "pause5@423",
+    "pause5@647",
+    "pause5@743"
+   ],
+   "wait_only_estimate_cluster_cost": 68,
+   "pause_saves_estimate": 40
+  },
+  {
+   "start_phase": 74,
+   "phase_at_tower1": 62,
+   "cluster_frames": 818,
+   "cluster_cost_over_791": 27,
+   "predicted_segment_best_luck": 4051,
+   "predicted_segment_median_luck": 4060,
+   "remedies_in_cluster": [
+    "pause5@71",
+    "wait2@94",
+    "pause5@391",
+    "pause5@423",
+    "pause5@647",
+    "pause5@743"
+   ],
+   "wait_only_estimate_cluster_cost": 67,
+   "pause_saves_estimate": 40
+  },
+  {
+   "start_phase": 75,
+   "phase_at_tower1": 63,
+   "cluster_frames": 818,
+   "cluster_cost_over_791": 27,
+   "predicted_segment_best_luck": 4051,
+   "predicted_segment_median_luck": 4060,
+   "remedies_in_cluster": [
+    "pause5@71",
+    "wait2@95",
+    "pause5@391",
+    "pause5@423",
+    "pause5@647",
+    "pause5@743"
+   ],
+   "wait_only_estimate_cluster_cost": 66,
+   "pause_saves_estimate": 39
+  },
+  {
+   "start_phase": 76,
+   "phase_at_tower1": 64,
+   "cluster_frames": 816,
+   "cluster_cost_over_791": 25,
+   "predicted_segment_best_luck": 4049,
+   "predicted_segment_median_luck": 4058,
+   "remedies_in_cluster": [
+    "pause5@71",
+    "pause5@391",
+    "pause5@423",
+    "pause5@647",
+    "pause5@743"
+   ],
+   "wait_only_estimate_cluster_cost": 65,
+   "pause_saves_estimate": 40
+  },
+  {
+   "start_phase": 77,
+   "phase_at_tower1": 65,
+   "cluster_frames": 816,
+   "cluster_cost_over_791": 25,
+   "predicted_segment_best_luck": 4049,
+   "predicted_segment_median_luck": 4058,
+   "remedies_in_cluster": [
+    "pause5@71",
+    "pause5@391",
+    "pause5@423",
+    "pause5@647",
+    "pause5@743"
+   ],
+   "wait_only_estimate_cluster_cost": 64,
+   "pause_saves_estimate": 39
+  },
+  {
+   "start_phase": 78,
+   "phase_at_tower1": 66,
+   "cluster_frames": 817,
+   "cluster_cost_over_791": 26,
+   "predicted_segment_best_luck": 4050,
+   "predicted_segment_median_luck": 4059,
+   "remedies_in_cluster": [
+    "pause5@71",
+    "pause5@391",
+    "pause5@423",
+    "pause5@647",
+    "pause5@743"
+   ],
+   "wait_only_estimate_cluster_cost": 63,
+   "pause_saves_estimate": 37
+  },
+  {
+   "start_phase": 79,
+   "phase_at_tower1": 67,
+   "cluster_frames": 816,
+   "cluster_cost_over_791": 25,
+   "predicted_segment_best_luck": 4049,
+   "predicted_segment_median_luck": 4058,
+   "remedies_in_cluster": [
+    "pause5@71",
+    "pause5@391",
+    "pause5@423",
+    "pause5@647",
+    "pause5@743"
+   ],
+   "wait_only_estimate_cluster_cost": 62,
+   "pause_saves_estimate": 37
+  },
+  {
+   "start_phase": 80,
+   "phase_at_tower1": 68,
+   "cluster_frames": 815,
+   "cluster_cost_over_791": 24,
+   "predicted_segment_best_luck": 4048,
+   "predicted_segment_median_luck": 4057,
+   "remedies_in_cluster": [
+    "pause5@71",
+    "pause5@391",
+    "pause5@423",
+    "pause5@647",
+    "pause5@743"
+   ],
+   "wait_only_estimate_cluster_cost": 61,
+   "pause_saves_estimate": 37
+  },
+  {
+   "start_phase": 81,
+   "phase_at_tower1": 69,
+   "cluster_frames": 816,
+   "cluster_cost_over_791": 25,
+   "predicted_segment_best_luck": 4049,
+   "predicted_segment_median_luck": 4058,
+   "remedies_in_cluster": [
+    "pause5@71",
+    "pause5@391",
+    "pause5@423",
+    "pause5@647",
+    "pause5@743"
+   ],
+   "wait_only_estimate_cluster_cost": 60,
+   "pause_saves_estimate": 35
+  },
+  {
+   "start_phase": 82,
+   "phase_at_tower1": 70,
+   "cluster_frames": 816,
+   "cluster_cost_over_791": 25,
+   "predicted_segment_best_luck": 4049,
+   "predicted_segment_median_luck": 4058,
+   "remedies_in_cluster": [
+    "pause5@71",
+    "pause5@391",
+    "pause5@423",
+    "pause5@647",
+    "pause5@743"
+   ],
+   "wait_only_estimate_cluster_cost": 59,
+   "pause_saves_estimate": 34
+  },
+  {
+   "start_phase": 83,
+   "phase_at_tower1": 71,
+   "cluster_frames": 817,
+   "cluster_cost_over_791": 26,
+   "predicted_segment_best_luck": 4050,
+   "predicted_segment_median_luck": 4059,
+   "remedies_in_cluster": [
+    "pause5@71",
+    "pause5@391",
+    "pause5@423",
+    "pause5@647",
+    "pause5@743"
+   ],
+   "wait_only_estimate_cluster_cost": 58,
+   "pause_saves_estimate": 32
+  },
+  {
+   "start_phase": 84,
+   "phase_at_tower1": 72,
+   "cluster_frames": 816,
+   "cluster_cost_over_791": 25,
+   "predicted_segment_best_luck": 4049,
+   "predicted_segment_median_luck": 4058,
+   "remedies_in_cluster": [
+    "pause5@71",
+    "pause5@391",
+    "pause5@423",
+    "pause5@647",
+    "pause5@743"
+   ],
+   "wait_only_estimate_cluster_cost": 57,
+   "pause_saves_estimate": 32
+  },
+  {
+   "start_phase": 85,
+   "phase_at_tower1": 73,
+   "cluster_frames": 816,
+   "cluster_cost_over_791": 25,
+   "predicted_segment_best_luck": 4049,
+   "predicted_segment_median_luck": 4058,
+   "remedies_in_cluster": [
+    "pause5@71",
+    "pause5@391",
+    "pause5@423",
+    "pause5@647",
+    "pause5@743"
+   ],
+   "wait_only_estimate_cluster_cost": 56,
+   "pause_saves_estimate": 31
+  },
+  {
+   "start_phase": 86,
+   "phase_at_tower1": 74,
+   "cluster_frames": 816,
+   "cluster_cost_over_791": 25,
+   "predicted_segment_best_luck": 4049,
+   "predicted_segment_median_luck": 4058,
+   "remedies_in_cluster": [
+    "pause5@71",
+    "pause5@391",
+    "pause5@423",
+    "pause5@647",
+    "pause5@743"
+   ],
+   "wait_only_estimate_cluster_cost": 55,
+   "pause_saves_estimate": 30
+  },
+  {
+   "start_phase": 87,
+   "phase_at_tower1": 75,
+   "cluster_frames": 816,
+   "cluster_cost_over_791": 25,
+   "predicted_segment_best_luck": 4049,
+   "predicted_segment_median_luck": 4058,
+   "remedies_in_cluster": [
+    "pause5@71",
+    "pause5@391",
+    "pause5@423",
+    "pause5@647",
+    "pause5@743"
+   ],
+   "wait_only_estimate_cluster_cost": 54,
+   "pause_saves_estimate": 29
+  },
+  {
+   "start_phase": 88,
+   "phase_at_tower1": 76,
+   "cluster_frames": 816,
+   "cluster_cost_over_791": 25,
+   "predicted_segment_best_luck": 4049,
+   "predicted_segment_median_luck": 4058,
+   "remedies_in_cluster": [
+    "pause5@71",
+    "pause5@391",
+    "pause5@423",
+    "pause5@647",
+    "pause5@743"
+   ],
+   "wait_only_estimate_cluster_cost": 53,
+   "pause_saves_estimate": 28
+  },
+  {
+   "start_phase": 89,
+   "phase_at_tower1": 77,
+   "cluster_frames": 816,
+   "cluster_cost_over_791": 25,
+   "predicted_segment_best_luck": 4049,
+   "predicted_segment_median_luck": 4058,
+   "remedies_in_cluster": [
+    "pause5@71",
+    "pause5@391",
+    "pause5@423",
+    "pause5@647",
+    "pause5@743"
+   ],
+   "wait_only_estimate_cluster_cost": 52,
+   "pause_saves_estimate": 27
+  },
+  {
+   "start_phase": 90,
+   "phase_at_tower1": 78,
+   "cluster_frames": 816,
+   "cluster_cost_over_791": 25,
+   "predicted_segment_best_luck": 4049,
+   "predicted_segment_median_luck": 4058,
+   "remedies_in_cluster": [
+    "pause5@71",
+    "pause5@391",
+    "pause5@423",
+    "pause5@647",
+    "pause5@743"
+   ],
+   "wait_only_estimate_cluster_cost": 51,
+   "pause_saves_estimate": 26
+  },
+  {
+   "start_phase": 91,
+   "phase_at_tower1": 79,
+   "cluster_frames": 815,
+   "cluster_cost_over_791": 24,
+   "predicted_segment_best_luck": 4048,
+   "predicted_segment_median_luck": 4057,
+   "remedies_in_cluster": [
+    "pause5@71",
+    "pause5@391",
+    "pause5@423",
+    "wait4@668",
+    "pause5@743"
+   ],
+   "wait_only_estimate_cluster_cost": 50,
+   "pause_saves_estimate": 26
+  },
+  {
+   "start_phase": 92,
+   "phase_at_tower1": 80,
+   "cluster_frames": 814,
+   "cluster_cost_over_791": 23,
+   "predicted_segment_best_luck": 4047,
+   "predicted_segment_median_luck": 4056,
+   "remedies_in_cluster": [
+    "pause5@71",
+    "pause5@391",
+    "pause5@423",
+    "wait4@668",
+    "pause5@743"
+   ],
+   "wait_only_estimate_cluster_cost": 49,
+   "pause_saves_estimate": 26
+  },
+  {
+   "start_phase": 93,
+   "phase_at_tower1": 81,
+   "cluster_frames": 813,
+   "cluster_cost_over_791": 22,
+   "predicted_segment_best_luck": 4046,
+   "predicted_segment_median_luck": 4055,
+   "remedies_in_cluster": [
+    "pause5@71",
+    "pause5@391",
+    "wait3@379",
+    "wait4@668",
+    "pause5@743"
+   ],
+   "wait_only_estimate_cluster_cost": 48,
+   "pause_saves_estimate": 26
+  },
+  {
+   "start_phase": 94,
+   "phase_at_tower1": 82,
+   "cluster_frames": 812,
+   "cluster_cost_over_791": 21,
+   "predicted_segment_best_luck": 4045,
+   "predicted_segment_median_luck": 4054,
+   "remedies_in_cluster": [
+    "pause5@71",
+    "pause5@391",
+    "wait2@380",
+    "wait4@668",
+    "pause5@743"
+   ],
+   "wait_only_estimate_cluster_cost": 47,
+   "pause_saves_estimate": 26
+  },
+  {
+   "start_phase": 95,
+   "phase_at_tower1": 83,
+   "cluster_frames": 812,
+   "cluster_cost_over_791": 21,
+   "predicted_segment_best_luck": 4045,
+   "predicted_segment_median_luck": 4054,
+   "remedies_in_cluster": [
+    "pause5@71",
+    "pause5@391",
+    "wait2@382",
+    "wait3@671",
+    "pause5@744"
+   ],
+   "wait_only_estimate_cluster_cost": 46,
+   "pause_saves_estimate": 25
+  },
+  {
+   "start_phase": 96,
+   "phase_at_tower1": 84,
+   "cluster_frames": 811,
+   "cluster_cost_over_791": 20,
+   "predicted_segment_best_luck": 4044,
+   "predicted_segment_median_luck": 4053,
+   "remedies_in_cluster": [
+    "pause5@71",
+    "pause5@391",
+    "wait2@382",
+    "wait2@673",
+    "pause5@744"
+   ],
+   "wait_only_estimate_cluster_cost": 45,
+   "pause_saves_estimate": 25
+  },
+  {
+   "start_phase": 97,
+   "phase_at_tower1": 85,
+   "cluster_frames": 810,
+   "cluster_cost_over_791": 19,
+   "predicted_segment_best_luck": 4043,
+   "predicted_segment_median_luck": 4052,
+   "remedies_in_cluster": [
+    "pause5@71",
+    "pause5@391",
+    "wait3@671",
+    "pause5@744"
+   ],
+   "wait_only_estimate_cluster_cost": 44,
+   "pause_saves_estimate": 25
+  },
+  {
+   "start_phase": 98,
+   "phase_at_tower1": 86,
+   "cluster_frames": 809,
+   "cluster_cost_over_791": 18,
+   "predicted_segment_best_luck": 4042,
+   "predicted_segment_median_luck": 4051,
+   "remedies_in_cluster": [
+    "pause5@71",
+    "pause5@391",
+    "wait2@673",
+    "pause5@743"
+   ],
+   "wait_only_estimate_cluster_cost": 43,
+   "pause_saves_estimate": 25
+  },
+  {
+   "start_phase": 99,
+   "phase_at_tower1": 87,
+   "cluster_frames": 809,
+   "cluster_cost_over_791": 18,
+   "predicted_segment_best_luck": 4042,
+   "predicted_segment_median_luck": 4051,
+   "remedies_in_cluster": [
+    "wait4@16",
+    "pause5@391",
+    "wait2@673",
+    "pause5@744"
+   ],
+   "wait_only_estimate_cluster_cost": 42,
+   "pause_saves_estimate": 24
+  },
+  {
+   "start_phase": 100,
+   "phase_at_tower1": 88,
+   "cluster_frames": 807,
+   "cluster_cost_over_791": 16,
+   "predicted_segment_best_luck": 4040,
+   "predicted_segment_median_luck": 4049,
+   "remedies_in_cluster": [
+    "wait2@53",
+    "pause5@391",
+    "wait2@673",
+    "pause5@744"
+   ],
+   "wait_only_estimate_cluster_cost": 41,
+   "pause_saves_estimate": 25
+  },
+  {
+   "start_phase": 101,
+   "phase_at_tower1": 89,
+   "cluster_frames": 806,
+   "cluster_cost_over_791": 15,
+   "predicted_segment_best_luck": 4039,
+   "predicted_segment_median_luck": 4048,
+   "remedies_in_cluster": [
+    "wait2@53",
+    "pause5@391",
+    "wait2@673",
+    "pause5@744"
+   ],
+   "wait_only_estimate_cluster_cost": 40,
+   "pause_saves_estimate": 25
+  },
+  {
+   "start_phase": 102,
+   "phase_at_tower1": 90,
+   "cluster_frames": 805,
+   "cluster_cost_over_791": 14,
+   "predicted_segment_best_luck": 4038,
+   "predicted_segment_median_luck": 4047,
+   "remedies_in_cluster": [
+    "wait2@53",
+    "pause5@391",
+    "wait2@673",
+    "pause5@743"
+   ],
+   "wait_only_estimate_cluster_cost": 39,
+   "pause_saves_estimate": 25
+  },
+  {
+   "start_phase": 103,
+   "phase_at_tower1": 91,
+   "cluster_frames": 804,
+   "cluster_cost_over_791": 13,
+   "predicted_segment_best_luck": 4037,
+   "predicted_segment_median_luck": 4046,
+   "remedies_in_cluster": [
+    "pause5@391",
+    "wait2@673",
+    "pause5@743"
+   ],
+   "wait_only_estimate_cluster_cost": 38,
+   "pause_saves_estimate": 25
+  },
+  {
+   "start_phase": 104,
+   "phase_at_tower1": 92,
+   "cluster_frames": 803,
+   "cluster_cost_over_791": 12,
+   "predicted_segment_best_luck": 4036,
+   "predicted_segment_median_luck": 4045,
+   "remedies_in_cluster": [
+    "pause5@391",
+    "wait2@673",
+    "pause5@743"
+   ],
+   "wait_only_estimate_cluster_cost": 37,
+   "pause_saves_estimate": 25
+  },
+  {
+   "start_phase": 105,
+   "phase_at_tower1": 93,
+   "cluster_frames": 801,
+   "cluster_cost_over_791": 10,
+   "predicted_segment_best_luck": 4034,
+   "predicted_segment_median_luck": 4043,
+   "remedies_in_cluster": [
+    "pause5@391",
+    "pause5@743"
+   ],
+   "wait_only_estimate_cluster_cost": 36,
+   "pause_saves_estimate": 26
+  },
+  {
+   "start_phase": 106,
+   "phase_at_tower1": 94,
+   "cluster_frames": 801,
+   "cluster_cost_over_791": 10,
+   "predicted_segment_best_luck": 4034,
+   "predicted_segment_median_luck": 4043,
+   "remedies_in_cluster": [
+    "pause5@391",
+    "pause5@743"
+   ],
+   "wait_only_estimate_cluster_cost": 35,
+   "pause_saves_estimate": 25
+  },
+  {
+   "start_phase": 107,
+   "phase_at_tower1": 95,
+   "cluster_frames": 801,
+   "cluster_cost_over_791": 10,
+   "predicted_segment_best_luck": 4034,
+   "predicted_segment_median_luck": 4043,
+   "remedies_in_cluster": [
+    "pause5@391",
+    "pause5@743"
+   ],
+   "wait_only_estimate_cluster_cost": 34,
+   "pause_saves_estimate": 24
+  },
+  {
+   "start_phase": 108,
+   "phase_at_tower1": 96,
+   "cluster_frames": 801,
+   "cluster_cost_over_791": 10,
+   "predicted_segment_best_luck": 4034,
+   "predicted_segment_median_luck": 4043,
+   "remedies_in_cluster": [
+    "pause5@391",
+    "pause5@743"
+   ],
+   "wait_only_estimate_cluster_cost": 33,
+   "pause_saves_estimate": 23
+  },
+  {
+   "start_phase": 109,
+   "phase_at_tower1": 97,
+   "cluster_frames": 801,
+   "cluster_cost_over_791": 10,
+   "predicted_segment_best_luck": 4034,
+   "predicted_segment_median_luck": 4043,
+   "remedies_in_cluster": [
+    "pause5@391",
+    "pause5@743"
+   ],
+   "wait_only_estimate_cluster_cost": 32,
+   "pause_saves_estimate": 22
+  },
+  {
+   "start_phase": 110,
+   "phase_at_tower1": 98,
+   "cluster_frames": 801,
+   "cluster_cost_over_791": 10,
+   "predicted_segment_best_luck": 4034,
+   "predicted_segment_median_luck": 4043,
+   "remedies_in_cluster": [
+    "pause5@391",
+    "pause5@743"
+   ],
+   "wait_only_estimate_cluster_cost": 31,
+   "pause_saves_estimate": 21
+  },
+  {
+   "start_phase": 111,
+   "phase_at_tower1": 99,
+   "cluster_frames": 801,
+   "cluster_cost_over_791": 10,
+   "predicted_segment_best_luck": 4034,
+   "predicted_segment_median_luck": 4043,
+   "remedies_in_cluster": [
+    "pause5@391",
+    "pause5@743"
+   ],
+   "wait_only_estimate_cluster_cost": 30,
+   "pause_saves_estimate": 20
+  },
+  {
+   "start_phase": 112,
+   "phase_at_tower1": 100,
+   "cluster_frames": 803,
+   "cluster_cost_over_791": 12,
+   "predicted_segment_best_luck": 4036,
+   "predicted_segment_median_luck": 4045,
+   "remedies_in_cluster": [
+    "pause5@391",
+    "pause5@743"
+   ],
+   "wait_only_estimate_cluster_cost": 29,
+   "pause_saves_estimate": 17
+  },
+  {
+   "start_phase": 113,
+   "phase_at_tower1": 101,
+   "cluster_frames": 801,
+   "cluster_cost_over_791": 10,
+   "predicted_segment_best_luck": 4034,
+   "predicted_segment_median_luck": 4043,
+   "remedies_in_cluster": [
+    "pause5@391",
+    "pause5@743"
+   ],
+   "wait_only_estimate_cluster_cost": 28,
+   "pause_saves_estimate": 18
+  },
+  {
+   "start_phase": 114,
+   "phase_at_tower1": 102,
+   "cluster_frames": 801,
+   "cluster_cost_over_791": 10,
+   "predicted_segment_best_luck": 4034,
+   "predicted_segment_median_luck": 4043,
+   "remedies_in_cluster": [
+    "pause5@391",
+    "pause5@743"
+   ],
+   "wait_only_estimate_cluster_cost": 27,
+   "pause_saves_estimate": 17
+  },
+  {
+   "start_phase": 115,
+   "phase_at_tower1": 103,
+   "cluster_frames": 801,
+   "cluster_cost_over_791": 10,
+   "predicted_segment_best_luck": 4034,
+   "predicted_segment_median_luck": 4043,
+   "remedies_in_cluster": [
+    "pause5@391",
+    "pause5@743"
+   ],
+   "wait_only_estimate_cluster_cost": 26,
+   "pause_saves_estimate": 16
+  },
+  {
+   "start_phase": 116,
+   "phase_at_tower1": 104,
+   "cluster_frames": 801,
+   "cluster_cost_over_791": 10,
+   "predicted_segment_best_luck": 4034,
+   "predicted_segment_median_luck": 4043,
+   "remedies_in_cluster": [
+    "pause5@391",
+    "pause5@743"
+   ],
+   "wait_only_estimate_cluster_cost": 25,
+   "pause_saves_estimate": 15
+  },
+  {
+   "start_phase": 117,
+   "phase_at_tower1": 105,
+   "cluster_frames": 801,
+   "cluster_cost_over_791": 10,
+   "predicted_segment_best_luck": 4034,
+   "predicted_segment_median_luck": 4043,
+   "remedies_in_cluster": [
+    "pause5@391",
+    "pause5@743"
+   ],
+   "wait_only_estimate_cluster_cost": 24,
+   "pause_saves_estimate": 14
+  },
+  {
+   "start_phase": 118,
+   "phase_at_tower1": 106,
+   "cluster_frames": 801,
+   "cluster_cost_over_791": 10,
+   "predicted_segment_best_luck": 4034,
+   "predicted_segment_median_luck": 4043,
+   "remedies_in_cluster": [
+    "pause5@391",
+    "pause5@743"
+   ],
+   "wait_only_estimate_cluster_cost": 23,
+   "pause_saves_estimate": 13
+  },
+  {
+   "start_phase": 119,
+   "phase_at_tower1": 107,
+   "cluster_frames": 801,
+   "cluster_cost_over_791": 10,
+   "predicted_segment_best_luck": 4034,
+   "predicted_segment_median_luck": 4043,
+   "remedies_in_cluster": [
+    "pause5@391",
+    "pause5@743"
+   ],
+   "wait_only_estimate_cluster_cost": 22,
+   "pause_saves_estimate": 12
+  },
+  {
+   "start_phase": 120,
+   "phase_at_tower1": 108,
+   "cluster_frames": 801,
+   "cluster_cost_over_791": 10,
+   "predicted_segment_best_luck": 4034,
+   "predicted_segment_median_luck": 4043,
+   "remedies_in_cluster": [
+    "pause5@391",
+    "pause5@743"
+   ],
+   "wait_only_estimate_cluster_cost": 21,
+   "pause_saves_estimate": 11
+  },
+  {
+   "start_phase": 121,
+   "phase_at_tower1": 109,
+   "cluster_frames": 800,
+   "cluster_cost_over_791": 9,
+   "predicted_segment_best_luck": 4033,
+   "predicted_segment_median_luck": 4042,
+   "remedies_in_cluster": [
+    "pause5@391",
+    "pause5@743"
+   ],
+   "wait_only_estimate_cluster_cost": 20,
+   "pause_saves_estimate": 11
+  },
+  {
+   "start_phase": 122,
+   "phase_at_tower1": 110,
+   "cluster_frames": 804,
+   "cluster_cost_over_791": 13,
+   "predicted_segment_best_luck": 4037,
+   "predicted_segment_median_luck": 4046,
+   "remedies_in_cluster": [
+    "pause5@391",
+    "wait8@703"
+   ],
+   "wait_only_estimate_cluster_cost": 19,
+   "pause_saves_estimate": 6
+  },
+  {
+   "start_phase": 123,
+   "phase_at_tower1": 111,
+   "cluster_frames": 802,
+   "cluster_cost_over_791": 11,
+   "predicted_segment_best_luck": 4035,
+   "predicted_segment_median_luck": 4044,
+   "remedies_in_cluster": [
+    "pause5@391",
+    "wait6@706"
+   ],
+   "wait_only_estimate_cluster_cost": 18,
+   "pause_saves_estimate": 7
+  },
+  {
+   "start_phase": 124,
+   "phase_at_tower1": 112,
+   "cluster_frames": 801,
+   "cluster_cost_over_791": 10,
+   "predicted_segment_best_luck": 4034,
+   "predicted_segment_median_luck": 4043,
+   "remedies_in_cluster": [
+    "pause5@391",
+    "pause5@743"
+   ],
+   "wait_only_estimate_cluster_cost": 17,
+   "pause_saves_estimate": 7
+  },
+  {
+   "start_phase": 125,
+   "phase_at_tower1": 113,
+   "cluster_frames": 800,
+   "cluster_cost_over_791": 9,
+   "predicted_segment_best_luck": 4033,
+   "predicted_segment_median_luck": 4042,
+   "remedies_in_cluster": [
+    "pause5@391",
+    "wait4@730"
+   ],
+   "wait_only_estimate_cluster_cost": 16,
+   "pause_saves_estimate": 7
+  },
+  {
+   "start_phase": 126,
+   "phase_at_tower1": 114,
+   "cluster_frames": 799,
+   "cluster_cost_over_791": 8,
+   "predicted_segment_best_luck": 4032,
+   "predicted_segment_median_luck": 4041,
+   "remedies_in_cluster": [
+    "pause5@391",
+    "wait2@734"
+   ],
+   "wait_only_estimate_cluster_cost": 15,
+   "pause_saves_estimate": 7
+  },
+  {
+   "start_phase": 127,
+   "phase_at_tower1": 115,
+   "cluster_frames": 798,
+   "cluster_cost_over_791": 7,
+   "predicted_segment_best_luck": 4031,
+   "predicted_segment_median_luck": 4040,
+   "remedies_in_cluster": [
+    "pause5@391",
+    "wait2@734"
+   ],
+   "wait_only_estimate_cluster_cost": 14,
+   "pause_saves_estimate": 7
+  }
+ ]
+}

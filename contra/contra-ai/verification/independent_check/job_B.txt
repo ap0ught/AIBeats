@@ -1,0 +1,6 @@
+inputs=run_chain2.inputs.txt
+out=verify2/runB
+shots=all
+extra=600
+maxrows=0
+every=0

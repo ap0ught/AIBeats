@@ -1,0 +1,51 @@
+# never: the game. The cartridge belongs in roms/ - the path is part of the
+# interface, the bytes are not, and git history cannot cleanly un-ship a ROM.
+*.nes
+*.zip
+
+# Run artefacts ARE tracked, because they are the evidence:
+#   logs/*.inputs.txt   the input log of a run - the run itself
+#   logs/*.bk2          the exported movie
+#   logs/segments/*.json  what the search found for each segment
+#   states/*.State      the bookmarks the search searched from
+# Caveat: a BizHawk .State only loads in the exact BizHawk build that wrote it,
+# so these are pinned to 2.11.1 like everything else here.
+
+# What stays out is the raw emulator stdout: ~100 KB of "Read a zipstate" and
+# absolute paths, which says nothing a reader does not already have.
+logs/*.log
+logs/**/*.log
+logs/*.prev.log
+# Video dumps are large and regenerable from the .bk2. Screenshots under shots/
+# ARE tracked - they are the visual record of what each run actually reached -
+# but the global *.png below still keeps every other PNG out of the repository.
+video/
+*.mkv
+*.mp4
+*.wav
+*.m4a
+*.png
+!shots/*.png
+# the bridge's port file, rewritten on every launch
+.bridge_port
+youtube/capture/
+youtube/clips/
+youtube/clips_v3/
+youtube/out/
+youtube/out_v3/
+youtube/voice/
+youtube/final/
+youtube/check/
+youtube/sheets/
+# Screenshots taken with a *patched* cartridge. They are of somebody else's
+# mod, not of this project's runs, and none of them are evidence for anything the
+# stock run does not already show. Keep them out; the patched ROMs themselves
+# belong in /tmp.
+shots/automap_*.png
+shots/mapwin_*.png
+shots/hacked_*.png
+
+# third-party disassembly: linked from the README, not redistributed
+tools/disasm/
+__pycache__/
+*.pyc

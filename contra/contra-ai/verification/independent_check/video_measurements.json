@@ -1,0 +1,41 @@
+{
+ "_about": "Verifier's own reading of the record's video (Angrylanks 9:48.183, https://www.youtube.com/watch?v=YgtFCclM1jM), taken 2026-10-12 in the built-in browser: new tab, paused and muted, quality hd720 (player stats: 1280x720@60, avc1.4D4020 itag 298), seek to (n + 0.5)/60 s, wait for 'seeked', drawImage to a 1280x720 canvas, analyse in the page. Nothing was downloaded; the tab was closed afterwards. Video frame n covers [n/60, (n+1)/60) s. Numbers below are copied from the page-script results.",
+ "frame_rate": {
+  "distinct_pictures_in_100_seeks_of_1_240_s_from_12.000": 25,
+  "change_times": "12.0000, 12.0167, 12.0333, ... 12.4000 (every 1/60 s, on the 1/60 grid)",
+  "boundary_phase_in_frames_at_t_158.3_308.3_458.4": "0.00 / 1.00 at all three (scan step 1/600 s); a 59.94 stream would show phases about 0.49, 0.48 and 0.48 there",
+  "listed_formats": "720p60@60 mp4 (709.883 s), 720p@30, 360p@30, 144p@30",
+  "conclusion": "constant 60.000 fps",
+  "content_cadence": "mean abs difference of successive frames 1500..1539 alternates about 11 / 0.3: a new picture about every 2 video frames (30 pictures a second), occasionally 1 or 3. Each picture is two console frames woven by lines (a new sprite first shows on every other line group at reduced brightness)."
+ },
+ "game_area_px": "x about 298..1265, y 0..720 (left strip is hand camera and splits)",
+ "start": {
+  "metric": "max over rows 50..99 of the mean blue channel in columns 360..387 (first medal) / max over rows 56..109 of the brightest channel in columns 470..529 (where Bill first appears)",
+  "series": {"696-719": "0 / 2-3", "720": "117 / 3", "721": "116 / 3", "722": "159 / 98", "723": "159 / 98", "724": "162 / 116", "725": "165 / 128", "726": "165 / 128"},
+  "row_profile_720": "7,16,37,50,34,40,52,41,43,50,32,35,38,26,26,25,16,12,9,6,18,31,5,5,6,7,31,50,24,43,72,20,68,117,27,59,87,23,58,80,21,48,69,17,3,2,1,0,0,0",
+  "row_profile_722": "23,49,71,82,84,88,93,91,86,82,79,72,55,33,27,23,13,10,7,20,28,29,5,7,17,70,84,85,94,104,121,133,143,159,157,146,130,112,116,117,93,95,82,29,13,8,3,1,0,0",
+  "reading": "719: no medal. 720-721 (one picture): medals on one field only (3-row comb, about half brightness), no Bill. 722-724: medals on both fields, Bill on one field. Our emulator shows medals on console frames M and M+1 and Bill from M+2, so picture 720/721 = console (M-1, M) and picture 722.. = (M+1, M+2).",
+  "first_video_frame_with_a_medal_visible": 720,
+  "first_video_frame_with_medals_in_both_fields": 722,
+  "looked_at": "video_crops/v721_x340-520_y44-100_sx2.png (721 = 720), video_crops/v722_x340-520_y44-100_sx2.png"
+ },
+ "end": {
+  "metric_a": "count of trouser-blue (B) and skin (S) pixels and their bounding box in x 700..1009, y 440..589",
+  "series_a": {"35980-36010": "about 245B 400S, box top y = 547 (prone, facing right)", "36011": "47B 32S, box top 521", "36012": "47B 32S, box top 521", "36013": "134B 266S, box top 499", "36014": "134B 266S, box top 499", "36015-36030": "box top 499 (standing, facing right)"},
+  "metric_b": "max over rows 499..539 of the brightest channel in columns 860..899 (where the standing torso and head are, empty while prone)",
+  "series_b": {"36004": 38, "36005-36010": 37, "36011": 138, "36012": 138, "36013": 169, "36014": 169, "36015": 169, "36016": 170},
+  "reading": "Prone (Down held) and facing right through 36010. 36011-36012 (one picture): prone figure and standing figure each on one field. 36013 on: standing, facing right, gun forward.",
+  "first_video_frame_with_the_standing_pose_visible": 36011,
+  "first_video_frame_fully_standing": 36013,
+  "looked_at": "character-art dumps of x 806..1000, y 493..595 for 36010, 36011, 36012, 36013 in the page (not saved as pictures)",
+  "heart_explosion": "explosion-coloured pixel count in the heart area steps up at 35779 and again 35788-35798; not pinned to a frame by me. Stand minus that = about 213-232 video frames; our run: 35066 - 34842 = 224."
+ },
+ "span": {
+  "first_visible_to_first_visible": {"video_frames": 35291, "seconds": 588.1833},
+  "fully_visible_to_fully_visible": {"video_frames": 35291, "seconds": 588.1833},
+  "board_time_s": 588.183,
+  "difference_video_frames": 0,
+  "console_frames_at_60.0988": 35349.1,
+  "tolerance": "+/-2 video frames on the span from the 2-frame pictures (+/-1 at each event; both events are of the same kind, new state on one field first), +/-3 allowing for the irregular cadence: +/-0.05 s"
+ }
+}

@@ -1,0 +1,106 @@
+[
+ {
+  "type": "level",
+  "frame": 1904,
+  "text": "LEVEL 1: RAGNAROK'S CANYON",
+  "y": 340,
+  "size": 70
+ },
+ {
+  "type": "credit",
+  "frame": 1904,
+  "dur": 5,
+  "title": "jay_cee — world record 12:29.25",
+  "body": "the route and the time to beat",
+  "pos": "top"
+ },
+ {
+  "type": "credit",
+  "frame": 2469,
+  "dur": 5,
+  "title": "jc583 — run notes (Speed Demos Archive)",
+  "body": "warps, dash-jumps, the rat boot"
+ },
+ {
+  "type": "level",
+  "frame": 2531,
+  "text": "LEVEL 3: TURBO TUNNEL",
+  "size": 70
+ },
+ {
+  "type": "credit",
+  "frame": 4137,
+  "dur": 5,
+  "title": "TASVideos #5093 — feos, Alyosha & Samsara",
+  "body": "the bike skip mechanics and the tower fights"
+ },
+ {
+  "type": "level",
+  "frame": 4783,
+  "text": "LEVEL 4: ARCTIC CAVERNS",
+  "size": 70
+ },
+ {
+  "type": "level",
+  "frame": 9903,
+  "text": "LEVEL 6: KARNATH'S LAIR",
+  "size": 70
+ },
+ {
+  "type": "credit",
+  "frame": 9903,
+  "dur": 5,
+  "title": "feos's disassembly + DataCrystal RAM map",
+  "body": "how the game's memory is laid out"
+ },
+ {
+  "type": "level",
+  "frame": 12518,
+  "text": "LEVEL 8: INTRUDER EXCLUDER",
+  "size": 70
+ },
+ {
+  "type": "level",
+  "frame": 17380,
+  "text": "LEVEL 9: TERRA TUBES",
+  "size": 70
+ },
+ {
+  "type": "level",
+  "frame": 27366,
+  "text": "LEVEL 10: RAT RACE",
+  "size": 70
+ },
+ {
+  "type": "level",
+  "frame": 29313,
+  "text": "LEVEL 11: CLINGER-WINGER",
+  "size": 70
+ },
+ {
+  "type": "level",
+  "frame": 36192,
+  "text": "LEVEL 12: THE REVOLUTION",
+  "size": 70
+ },
+ {
+  "type": "credit",
+  "frame": 36192,
+  "dur": 5,
+  "title": "1-player TAS (feos, Alyosha, Samsara)",
+  "body": "the Level 12 kills and spring pumps the AI copied"
+ },
+ {
+  "type": "level",
+  "frame": 45077,
+  "text": "LEVEL 13: ARMAGEDDON",
+  "size": 70
+ },
+ {
+  "type": "final",
+  "frame": 46751,
+  "dur": 4,
+  "text": "12:23.39",
+  "sub": "WORLD RECORD 12:29.25  ·  5.86 s FASTER"
+ }
+]
