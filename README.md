@@ -32,3 +32,13 @@ harness, journal, knowledge notes, and the final input movie. Game ROMs are not 
 
 - Runs are tool-assisted: built with save states and search, played back in an emulator (BizHawk 2.11.1).
 - Nothing here plays without your own copy of the cartridge; ROMs are deliberately excluded.
+
+
+## ROMs
+
+ROMs are not committed. Each game's `roms/` directory documents the expected filename and hash:
+- `zelda/roms/README.md`
+- `battletoads/roms/README.md`
+- `contra/roms/README.md`
+
+Copy your own dump into the matching `roms/` folder; `.gitignore` keeps `*.nes` out of git.
