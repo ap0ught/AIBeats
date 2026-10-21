@@ -3,7 +3,7 @@
 This is everything behind the video: the player the AI wrote for itself, the notes it kept while writing it,
 and the input file of the final run (37:02 from power-on to Zelda, no glitches, no memory editing, no human input).
 
-**The video:** [I Gave an AI Zelda and One Rule: Don't Cheat.](https://www.youtube.com/watch?v=mBalZml520o)
+**The video:** [I Gave an AI Zelda and One Rule: Don't Cheat.](https://www.youtube.com/watch?v=mBalZml520o&t=116s)
 (Bears Gaming Den, 2026-09-23, 48:17). Its narration is in [`TRANSCRIPT.md`](TRANSCRIPT.md), rendered from
 `youtube/SCRIPT_v3.md`; the on-screen reasoning panel is `zelda/captions.py`.
 

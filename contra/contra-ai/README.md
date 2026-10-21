@@ -1,5 +1,7 @@
 # An AI vs Contra (NES): a 9:24.321 run under the human "No Turbo" rules
 
+**The video:** [An AI Beat Contra's World Record by 24 Seconds](https://www.youtube.com/watch?v=OaePvbX8jqw)
+
 This folder has an input file for Contra (NES, USA), Any%, 1 player. It was built by an AI (Claude, working in Claude
 Code). It starts at power-on and plays all eight stages. On the speedrun.com clock it takes
 **9:24.321 (33,915 NES frames)**. The human record in the same category, Angrylanks' **9:48.183**, is 23.86 s slower.

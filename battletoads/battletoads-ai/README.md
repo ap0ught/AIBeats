@@ -1,5 +1,7 @@
 # An AI vs Battletoads (NES): the harness, the journal, and the 11:54 run
 
+**The video:** [I Was Wrong. So the AI Went Back and Beat the Battletoads World Record by 35 Seconds.](https://www.youtube.com/watch?v=EvFIxPDFqTc) (original run: [AI Taught Itself Battletoads in 12 Days and Beat the Record](https://www.youtube.com/watch?v=5-U0If9Gixg))
+
 > **Correction (October 2026).** The video and the first version of this repository said the AI's run was **12:23.39**
 > and beat the record. That was wrong. The clock had been stopped at the cut to the Dark Queen's speech; the category's
 > rule ends the run one cut later, at Professor T. Bird's dialogue. Timed correctly, that published run is **12:31.75**,
