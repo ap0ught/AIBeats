@@ -27,6 +27,7 @@ harness, journal, knowledge notes, and the final input movie. Game ROMs are not 
 - `battletoads/` — Battletoads harness, journal, and run.
 - `contra/` — Contra harness, journal, and run.
 - `releases/` — original release zips for each game.
+- `releases/release_contra.zip` came from https://github.com/bearsgaming-ui/AI-Beats-Contra.
 
 ## Notes
 
