@@ -1,0 +1,4 @@
+{
+  "name": "AI Beats",
+  "install": "python3 -m pip install -r zelda/requirements.txt -r battletoads/requirements.txt -r contra/requirements.txt"
+}
