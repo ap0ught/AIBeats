@@ -35,6 +35,7 @@ harness, journal, knowledge notes, and the final input movie. Game ROMs are not 
 - `releases/release_battletoads.zip` came from https://github.com/bearsgaming-ui/AIBeatsBattletoads2.
 - `releases/release_battletoads_original.zip` came from https://github.com/bearsgaming-ui/AIBeatsBattletoads.
 - `releases/release_contra.zip` came from https://github.com/bearsgaming-ui/AI-Beats-Contra.
+- `releases/release_zelda.zip` came from https://github.com/bearsgaming-ui/AIBeatsZelda/blob/main/release.zip.
 
 ## Notes
 
