@@ -1,0 +1,17 @@
+ninja_gaiden_ai_11m25s.inputs.txt: 41390 frames; mode HUMAN; cap: one press per 5 frames, hold >= 2, release >= 2; windows 600:109,1800:246; buttons Up,Down,Left,Right,Select,Start,B,A
+  ok   controller_1_only  violations      0
+  ok   no_left_right      violations      0
+  ok   no_up_down         violations      0
+  ok   press_period       violations      0
+  ok   min_hold           violations      0
+  ok   min_release        violations      0
+  ok   max_109_in_600_frames violations      0
+  ok   max_246_in_1800_frames violations      0
+  Up     presses   595  held   1508 f  fastest second 12 presses  min start-to-start 5  holds {'2': 298, '3': 288, '4': 4, '5': 1, '6': 1, '7': 3}
+  Down   presses    85  held    184 f  fastest second 12 presses  min start-to-start 5  holds {'2': 81, '4': 3, '8+': 1}
+  Left   presses   353  held  10351 f  fastest second 12 presses  min start-to-start 5  holds {'2': 227, '3': 36, '4': 16, '5': 6, '6': 4, '7': 2, '8+': 62}
+  Right  presses   392  held  20479 f  fastest second 12 presses  min start-to-start 5  holds {'2': 96, '3': 138, '4': 23, '5': 10, '6': 33, '7': 5, '8+': 87}
+  Start  presses    13  held     26 f  fastest second  3 presses  min start-to-start 5  holds {'2': 13}
+  B      presses   408  held   1272 f  fastest second 12 presses  min start-to-start 5  holds {'2': 385, '3': 8, '4': 3, '5': 2, '6': 2, '7': 1, '8+': 7}
+  A      presses   828  held   2007 f  fastest second 12 presses  min start-to-start 5  holds {'2': 702, '3': 37, '4': 50, '5': 15, '6': 9, '7': 5, '8+': 10}
+RESULT: PASS

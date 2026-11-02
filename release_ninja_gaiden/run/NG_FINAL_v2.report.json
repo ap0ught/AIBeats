@@ -1,0 +1,733 @@
+{
+ "stages": [
+  {
+   "stage": 0,
+   "name": "1-1",
+   "load": null,
+   "first_frame_seen": 3,
+   "control": 174,
+   "timer_at_control": 149,
+   "lives_at_control": 2,
+   "lag_at_control": 9,
+   "control_to_next_load": 2148,
+   "control_to_next_control": 2300
+  },
+  {
+   "stage": 1,
+   "name": "1-2",
+   "load": 2322,
+   "first_frame_seen": 2322,
+   "control": 2474,
+   "timer_at_control": 150,
+   "lives_at_control": 2,
+   "lag_at_control": 9,
+   "boss_hp_set": 2474,
+   "boss0": 2560,
+   "control_to_next_load": 682,
+   "control_to_next_control": 834
+  },
+  {
+   "stage": 2,
+   "name": "2-1",
+   "load": 3156,
+   "first_frame_seen": 3156,
+   "control": 3308,
+   "timer_at_control": 150,
+   "lives_at_control": 2,
+   "lag_at_control": 12,
+   "control_to_next_load": 2670,
+   "control_to_next_control": 2822
+  },
+  {
+   "stage": 3,
+   "name": "2-2",
+   "load": 5978,
+   "first_frame_seen": 5978,
+   "control": 6130,
+   "timer_at_control": 150,
+   "lives_at_control": 2,
+   "lag_at_control": 12,
+   "control_to_next_load": 2885,
+   "control_to_next_control": 3037
+  },
+  {
+   "stage": 4,
+   "name": "2-3",
+   "load": 9015,
+   "first_frame_seen": 9015,
+   "control": 9167,
+   "timer_at_control": 150,
+   "lives_at_control": 2,
+   "lag_at_control": 12,
+   "boss_hp_set": 9167,
+   "boss0": 9247,
+   "control_to_next_load": 674,
+   "control_to_next_control": 826
+  },
+  {
+   "stage": 5,
+   "name": "3-1",
+   "load": 9841,
+   "first_frame_seen": 9841,
+   "control": 9993,
+   "timer_at_control": 150,
+   "lives_at_control": 2,
+   "lag_at_control": 14,
+   "control_to_next_load": 1450,
+   "control_to_next_control": 1602
+  },
+  {
+   "stage": 6,
+   "name": "3-2",
+   "load": 11443,
+   "first_frame_seen": 11443,
+   "control": 11595,
+   "timer_at_control": 150,
+   "lives_at_control": 2,
+   "lag_at_control": 14,
+   "control_to_next_load": 2183,
+   "control_to_next_control": 2335
+  },
+  {
+   "stage": 7,
+   "name": "3-3",
+   "load": 13778,
+   "first_frame_seen": 13778,
+   "control": 13930,
+   "timer_at_control": 150,
+   "lives_at_control": 2,
+   "lag_at_control": 14,
+   "boss_hp_set": 13930,
+   "boss0": 14100,
+   "control_to_next_load": 766,
+   "control_to_next_control": 918
+  },
+  {
+   "stage": 8,
+   "name": "4-1",
+   "load": 14696,
+   "first_frame_seen": 14696,
+   "control": 14848,
+   "timer_at_control": 150,
+   "lives_at_control": 2,
+   "lag_at_control": 16,
+   "control_to_next_load": 1998,
+   "control_to_next_control": 2150
+  },
+  {
+   "stage": 9,
+   "name": "4-2",
+   "load": 16846,
+   "first_frame_seen": 16846,
+   "control": 16998,
+   "timer_at_control": 150,
+   "lives_at_control": 2,
+   "lag_at_control": 21,
+   "control_to_next_load": 2147,
+   "control_to_next_control": 2299
+  },
+  {
+   "stage": 10,
+   "name": "4-3",
+   "load": 19145,
+   "first_frame_seen": 19145,
+   "control": 19297,
+   "timer_at_control": 150,
+   "lives_at_control": 2,
+   "lag_at_control": 21,
+   "control_to_next_load": 2409,
+   "control_to_next_control": 2561
+  },
+  {
+   "stage": 11,
+   "name": "4-4",
+   "load": 21706,
+   "first_frame_seen": 21706,
+   "control": 21858,
+   "timer_at_control": 150,
+   "lives_at_control": 2,
+   "lag_at_control": 21,
+   "boss_hp_set": 21858,
+   "boss0": 21880,
+   "control_to_next_load": 619,
+   "control_to_next_control": 771
+  },
+  {
+   "stage": 12,
+   "name": "5-1",
+   "load": 22477,
+   "first_frame_seen": 22477,
+   "control": 22629,
+   "timer_at_control": 150,
+   "lives_at_control": 2,
+   "lag_at_control": 23,
+   "control_to_next_load": 2217,
+   "control_to_next_control": 2369
+  },
+  {
+   "stage": 13,
+   "name": "5-2",
+   "load": 24846,
+   "first_frame_seen": 24846,
+   "control": 24998,
+   "timer_at_control": 150,
+   "lives_at_control": 2,
+   "lag_at_control": 23,
+   "control_to_next_load": 2211,
+   "control_to_next_control": 2363
+  },
+  {
+   "stage": 14,
+   "name": "5-3",
+   "load": 27209,
+   "first_frame_seen": 27209,
+   "control": 27361,
+   "timer_at_control": 150,
+   "lives_at_control": 2,
+   "lag_at_control": 23,
+   "control_to_next_load": 2739,
+   "control_to_next_control": 2891
+  },
+  {
+   "stage": 15,
+   "name": "5-4",
+   "load": 30100,
+   "first_frame_seen": 30100,
+   "control": 30252,
+   "timer_at_control": 150,
+   "lives_at_control": 2,
+   "lag_at_control": 25,
+   "boss_hp_set": 30252,
+   "boss0": 30306,
+   "control_to_next_load": 653,
+   "control_to_next_control": 805
+  },
+  {
+   "stage": 16,
+   "name": "6-1",
+   "load": 30905,
+   "first_frame_seen": 30905,
+   "control": 31057,
+   "timer_at_control": 150,
+   "lives_at_control": 2,
+   "lag_at_control": 27,
+   "control_to_next_load": 1424,
+   "control_to_next_control": 1576
+  },
+  {
+   "stage": 17,
+   "name": "6-2",
+   "load": 32481,
+   "first_frame_seen": 32481,
+   "control": 32633,
+   "timer_at_control": 150,
+   "lives_at_control": 2,
+   "lag_at_control": 27,
+   "control_to_next_load": 3015,
+   "control_to_next_control": 3167
+  },
+  {
+   "stage": 18,
+   "name": "6-3",
+   "load": 35648,
+   "first_frame_seen": 35648,
+   "control": 35800,
+   "timer_at_control": 150,
+   "lives_at_control": 2,
+   "lag_at_control": 27,
+   "control_to_next_load": 2853,
+   "control_to_next_control": 3005
+  },
+  {
+   "stage": 19,
+   "name": "6-4a",
+   "load": 38653,
+   "first_frame_seen": 38653,
+   "control": 38805,
+   "timer_at_control": 150,
+   "lives_at_control": 2,
+   "lag_at_control": 29,
+   "boss_hp_set": 38805,
+   "boss0": 38879,
+   "control_to_next_load": 668,
+   "control_to_next_control": 820
+  },
+  {
+   "stage": 20,
+   "name": "6-4b",
+   "load": 39473,
+   "first_frame_seen": 39473,
+   "control": 39625,
+   "timer_at_control": 150,
+   "lives_at_control": 2,
+   "lag_at_control": 31,
+   "boss_hp_set": 39625,
+   "boss0": 39878,
+   "control_to_next_load": 862,
+   "control_to_next_control": 1014
+  },
+  {
+   "stage": 21,
+   "name": "6-5",
+   "load": 40487,
+   "first_frame_seen": 40487,
+   "control": 40639,
+   "timer_at_control": 150,
+   "lives_at_control": 2,
+   "lag_at_control": 33,
+   "boss_hp_set": 40639,
+   "boss0": 40947
+  }
+ ],
+ "rooms": [
+  {
+   "frame": 2322,
+   "stage": "1-2",
+   "room": 1,
+   "from": 0
+  },
+  {
+   "frame": 3156,
+   "stage": "2-1",
+   "room": 2,
+   "from": 1
+  },
+  {
+   "frame": 4280,
+   "stage": "2-1",
+   "room": 3,
+   "from": 2
+  },
+  {
+   "frame": 5100,
+   "stage": "2-1",
+   "room": 4,
+   "from": 3
+  },
+  {
+   "frame": 5225,
+   "stage": "2-1",
+   "room": 5,
+   "from": 4
+  },
+  {
+   "frame": 5978,
+   "stage": "2-2",
+   "room": 6,
+   "from": 5
+  },
+  {
+   "frame": 6751,
+   "stage": "2-2",
+   "room": 7,
+   "from": 6
+  },
+  {
+   "frame": 7494,
+   "stage": "2-2",
+   "room": 8,
+   "from": 7
+  },
+  {
+   "frame": 9015,
+   "stage": "2-3",
+   "room": 9,
+   "from": 8
+  },
+  {
+   "frame": 9841,
+   "stage": "3-1",
+   "room": 10,
+   "from": 9
+  },
+  {
+   "frame": 11443,
+   "stage": "3-2",
+   "room": 11,
+   "from": 10
+  },
+  {
+   "frame": 13778,
+   "stage": "3-3",
+   "room": 12,
+   "from": 11
+  },
+  {
+   "frame": 14696,
+   "stage": "4-1",
+   "room": 13,
+   "from": 12
+  },
+  {
+   "frame": 16292,
+   "stage": "4-1",
+   "room": 14,
+   "from": 13
+  },
+  {
+   "frame": 16400,
+   "stage": "4-1",
+   "room": 15,
+   "from": 14
+  },
+  {
+   "frame": 16846,
+   "stage": "4-2",
+   "room": 16,
+   "from": 15
+  },
+  {
+   "frame": 19145,
+   "stage": "4-3",
+   "room": 17,
+   "from": 16
+  },
+  {
+   "frame": 19426,
+   "stage": "4-3",
+   "room": 18,
+   "from": 17
+  },
+  {
+   "frame": 20090,
+   "stage": "4-3",
+   "room": 19,
+   "from": 18
+  },
+  {
+   "frame": 20962,
+   "stage": "4-3",
+   "room": 20,
+   "from": 19
+  },
+  {
+   "frame": 21706,
+   "stage": "4-4",
+   "room": 21,
+   "from": 20
+  },
+  {
+   "frame": 22477,
+   "stage": "5-1",
+   "room": 22,
+   "from": 21
+  },
+  {
+   "frame": 24846,
+   "stage": "5-2",
+   "room": 23,
+   "from": 22
+  },
+  {
+   "frame": 25495,
+   "stage": "5-2",
+   "room": 24,
+   "from": 23
+  },
+  {
+   "frame": 26025,
+   "stage": "5-2",
+   "room": 25,
+   "from": 24
+  },
+  {
+   "frame": 26506,
+   "stage": "5-2",
+   "room": 26,
+   "from": 25
+  },
+  {
+   "frame": 27209,
+   "stage": "5-3",
+   "room": 27,
+   "from": 26
+  },
+  {
+   "frame": 27839,
+   "stage": "5-3",
+   "room": 28,
+   "from": 27
+  },
+  {
+   "frame": 28326,
+   "stage": "5-3",
+   "room": 29,
+   "from": 28
+  },
+  {
+   "frame": 28822,
+   "stage": "5-3",
+   "room": 30,
+   "from": 29
+  },
+  {
+   "frame": 29313,
+   "stage": "5-3",
+   "room": 31,
+   "from": 30
+  },
+  {
+   "frame": 29615,
+   "stage": "5-3",
+   "room": 32,
+   "from": 31
+  },
+  {
+   "frame": 29837,
+   "stage": "5-3",
+   "room": 33,
+   "from": 32
+  },
+  {
+   "frame": 30100,
+   "stage": "5-4",
+   "room": 34,
+   "from": 33
+  },
+  {
+   "frame": 30905,
+   "stage": "6-1",
+   "room": 35,
+   "from": 34
+  },
+  {
+   "frame": 32481,
+   "stage": "6-2",
+   "room": 36,
+   "from": 35
+  },
+  {
+   "frame": 33567,
+   "stage": "6-2",
+   "room": 37,
+   "from": 36
+  },
+  {
+   "frame": 34261,
+   "stage": "6-2",
+   "room": 38,
+   "from": 37
+  },
+  {
+   "frame": 34375,
+   "stage": "6-2",
+   "room": 39,
+   "from": 38
+  },
+  {
+   "frame": 34877,
+   "stage": "6-2",
+   "room": 40,
+   "from": 39
+  },
+  {
+   "frame": 35648,
+   "stage": "6-3",
+   "room": 41,
+   "from": 40
+  },
+  {
+   "frame": 36230,
+   "stage": "6-3",
+   "room": 42,
+   "from": 41
+  },
+  {
+   "frame": 36450,
+   "stage": "6-3",
+   "room": 43,
+   "from": 42
+  },
+  {
+   "frame": 37900,
+   "stage": "6-3",
+   "room": 44,
+   "from": 43
+  },
+  {
+   "frame": 38653,
+   "stage": "6-4a",
+   "room": 45,
+   "from": 44
+  },
+  {
+   "frame": 39473,
+   "stage": "6-4b",
+   "room": 46,
+   "from": 45
+  },
+  {
+   "frame": 40487,
+   "stage": "6-5",
+   "room": 47,
+   "from": 46
+  }
+ ],
+ "deaths": [],
+ "cutscenes": [
+  {
+   "first": 5,
+   "stage": "1-1",
+   "skipped": true,
+   "last": 20
+  },
+  {
+   "first": 3149,
+   "stage": "1-2",
+   "skipped": true,
+   "last": 3154
+  },
+  {
+   "first": 9835,
+   "stage": "2-3",
+   "skipped": true,
+   "last": 9839
+  },
+  {
+   "first": 14690,
+   "stage": "3-3",
+   "skipped": true,
+   "last": 14694
+  },
+  {
+   "first": 16837,
+   "stage": "4-1",
+   "skipped": false,
+   "last": 16837
+  },
+  {
+   "first": 16843,
+   "stage": "4-1",
+   "skipped": true,
+   "last": 16844
+  },
+  {
+   "first": 22471,
+   "stage": "4-4",
+   "skipped": true,
+   "last": 22475
+  },
+  {
+   "first": 30094,
+   "stage": "5-3",
+   "skipped": true,
+   "last": 30098
+  },
+  {
+   "first": 30897,
+   "stage": "5-4",
+   "skipped": true,
+   "last": 30903
+  },
+  {
+   "first": 38647,
+   "stage": "6-3",
+   "skipped": true,
+   "last": 38651
+  },
+  {
+   "first": 39467,
+   "stage": "6-4a",
+   "skipped": true,
+   "last": 39471
+  },
+  {
+   "first": 40459,
+   "stage": "6-4b",
+   "skipped": true,
+   "last": 40485
+  }
+ ],
+ "game_lag_frames": 0,
+ "game_lag_first": [],
+ "bizhawk_lag_total": 33,
+ "frames": 41390,
+ "last": {
+  "frame": 41390,
+  "gm": 0,
+  "dw": 0,
+  "bk": 0,
+  "se": 1,
+  "nx": 0,
+  "cs": 0,
+  "csskip": 0,
+  "title": 0,
+  "act1": 0,
+  "csdone": 0,
+  "pad": 0,
+  "padnew": 0,
+  "pause": 0,
+  "score_lo": 211,
+  "score_hi": 9,
+  "subtimer": 43,
+  "timer": 0,
+  "ninpo": 0,
+  "hp": 12,
+  "bosshp": 0,
+  "stage": 21,
+  "room": 47,
+  "lives": 2,
+  "bossrush": 3,
+  "anim": 0,
+  "rflags": 0,
+  "xsub": 128,
+  "x": 140,
+  "vy_sub": 61,
+  "vy": 5,
+  "y": 208,
+  "dead": 0,
+  "coll": 17,
+  "inv": 0,
+  "scroll_sub": 0,
+  "scroll": 0,
+  "scroll_scr": 0,
+  "vx_sub": 128,
+  "vx": 1,
+  "cutscene": 138,
+  "rng": 141,
+  "item": 0,
+  "timestop": 0,
+  "bosskill": 0,
+  "ctl": 151,
+  "gmode": 7,
+  "scroll_flags": 0,
+  "stk": 214,
+  "boss_real": 1,
+  "room_back": 0,
+  "slots": 0,
+  "script_done": 0,
+  "hudphase": 1,
+  "lag": 33,
+  "lagged": 0
+ },
+ "clock": {
+  "start": {
+   "ram": 174,
+   "seen": 175
+  },
+  "end": {
+   "ram": 41382,
+   "hud_buffer_frame": 41384,
+   "seen": 41385
+  },
+  "finished": true,
+  "frames": 41210,
+  "seconds": 685.7042070723543,
+  "time": "11:25.704",
+  "ram_frames": 41208
+ },
+ "route": "NG_FINAL_v2",
+ "input_frames": 41390,
+ "start_mode": "reset",
+ "segments": [
+  {
+   "first_row": 1,
+   "segment": "G:\\AI World Record\\Ninja Gaiden\\logs\\NG_FINAL_v2.inputs.txt"
+  }
+ ],
+ "ram_sha1_a": "d5d58c8792b76f44d9e6892ce940ab367a19b3dd",
+ "ram_sha1_b": "d5d58c8792b76f44d9e6892ce940ab367a19b3dd",
+ "trace_sha1_a": "efa870f860b219aa190244822c3eb779eed661a4",
+ "trace_sha1_b": "efa870f860b219aa190244822c3eb779eed661a4",
+ "replays_match": true
+}

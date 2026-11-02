@@ -1,0 +1,86 @@
+{
+ "movie": "ninja_gaiden_ai_11m25s.bk2",
+ "movie_sha1": "5f12ba4428da6c84a041bd75b427b32499a64c07",
+ "rom_whole_sha1": "ca513f841d75efeb33bb8099fb02beeb39f6bb9c",
+ "rom_headerless_sha1": "15f245161179ab1959b7dc20e82add024d23aa3d",
+ "seconds": 265.4,
+ "bizhawk": {
+  "start_framecount": "1",
+  "movie_loaded": "true",
+  "movie_mode": "PLAY",
+  "movie_length": "41390",
+  "movie_startsfromsavestate": "false",
+  "movie_header Core": "NesHawk",
+  "movie_header SHA1": "CA513F841D75EFEB33BB8099FB02BEEB39F6BB9C",
+  "romhash": "CA513F841D75EFEB33BB8099FB02BEEB39F6BB9C",
+  "board": "SxROM",
+  "end_framecount": "41390",
+  "end_lagcount": "33",
+  "end_movie_mode": "FINISHED"
+ },
+ "movie_modes": [
+  "movie_mode_at_frame 2 PLAY",
+  "movie_mode_at_frame 41390 FINISHED"
+ ],
+ "core_seen": "NesHawk",
+ "trace_sha1_2_to_41390_lag_and_ram": "0d5f77e24252417616d5bbf794b188802bc542d1",
+ "subset_sha1_2_to_41390": "3d6654fd0fa9e790bff3a9b18131d272914825bd",
+ "ram_sha1_at_41390": "d5d58c8792b76f44d9e6892ce940ab367a19b3dd",
+ "lag_frames_2_to_41390": 32,
+ "events_ram": {
+  "control": 174,
+  "timer0_ram": 41382,
+  "timer000_nametable": 41385,
+  "lives_lost_at": [],
+  "stage_loads": 22
+ },
+ "pictures": {
+  "174": {
+   "timer_cells_lit": [
+    0,
+    0,
+    0
+   ],
+   "timer_reads_000": false,
+   "identical_to_reference": true
+  },
+  "175": {
+   "timer_cells_lit": [
+    0,
+    0,
+    0
+   ],
+   "timer_reads_000": false,
+   "identical_to_reference": true
+  },
+  "41384": {
+   "timer_cells_lit": [
+    139,
+    139,
+    115
+   ],
+   "timer_reads_000": false,
+   "identical_to_reference": true
+  },
+  "41385": {
+   "timer_cells_lit": [
+    139,
+    139,
+    139
+   ],
+   "timer_reads_000": true,
+   "identical_to_reference": true
+  },
+  "playfield_change_174_to_175": 0.85
+ },
+ "clock": {
+  "start_seen": 175,
+  "end_seen": 41385,
+  "frames": 41210,
+  "seconds": 685.704,
+  "time": "11:25.704"
+ },
+ "result": "PASS",
+ "failures": [],
+ "checked_utc": "2026-10-31 11:02:47"
+}

@@ -1,0 +1,229 @@
+{
+ "start_state": "ref4751/room47_6-5",
+ "inputs": "logs/a56_6-5_b16.inputs.txt",
+ "boss0_frame": 39769,
+ "clock_py_end_from_trace": {
+  "ram": 40177,
+  "hud_buffer_frame": 40183,
+  "seen": 40184
+ },
+ "clock_evidence_end": {
+  "P_first_timer0": 40177,
+  "frames": [
+   {
+    "frame": 40168,
+    "stage": 21,
+    "timer": 3,
+    "bosshp": 0,
+    "stk": 213,
+    "lagged": 0,
+    "shot": "end_40168.png"
+   },
+   {
+    "frame": 40169,
+    "stage": 21,
+    "timer": 3,
+    "bosshp": 0,
+    "stk": 213,
+    "lagged": 0,
+    "shot": "end_40169.png"
+   },
+   {
+    "frame": 40170,
+    "stage": 21,
+    "timer": 3,
+    "bosshp": 0,
+    "stk": 213,
+    "lagged": 0,
+    "shot": "end_40170.png"
+   },
+   {
+    "frame": 40171,
+    "stage": 21,
+    "timer": 2,
+    "bosshp": 0,
+    "stk": 213,
+    "lagged": 0,
+    "shot": "end_40171.png"
+   },
+   {
+    "frame": 40172,
+    "stage": 21,
+    "timer": 2,
+    "bosshp": 0,
+    "stk": 213,
+    "lagged": 0,
+    "shot": "end_40172.png"
+   },
+   {
+    "frame": 40173,
+    "stage": 21,
+    "timer": 2,
+    "bosshp": 0,
+    "stk": 213,
+    "lagged": 0,
+    "shot": "end_40173.png"
+   },
+   {
+    "frame": 40174,
+    "stage": 21,
+    "timer": 1,
+    "bosshp": 0,
+    "stk": 213,
+    "lagged": 0,
+    "shot": "end_40174.png"
+   },
+   {
+    "frame": 40175,
+    "stage": 21,
+    "timer": 1,
+    "bosshp": 0,
+    "stk": 213,
+    "lagged": 0,
+    "shot": "end_40175.png"
+   },
+   {
+    "frame": 40176,
+    "stage": 21,
+    "timer": 1,
+    "bosshp": 0,
+    "stk": 213,
+    "lagged": 0,
+    "shot": "end_40176.png"
+   },
+   {
+    "frame": 40177,
+    "stage": 21,
+    "timer": 0,
+    "bosshp": 0,
+    "stk": 213,
+    "lagged": 0,
+    "shot": "end_40177.png"
+   },
+   {
+    "frame": 40178,
+    "stage": 21,
+    "timer": 0,
+    "bosshp": 0,
+    "stk": 213,
+    "lagged": 0,
+    "shot": "end_40178.png"
+   },
+   {
+    "frame": 40179,
+    "stage": 21,
+    "timer": 0,
+    "bosshp": 0,
+    "stk": 213,
+    "lagged": 0,
+    "shot": "end_40179.png"
+   },
+   {
+    "frame": 40180,
+    "stage": 21,
+    "timer": 0,
+    "bosshp": 0,
+    "stk": 214,
+    "lagged": 0,
+    "shot": "end_40180.png"
+   },
+   {
+    "frame": 40181,
+    "stage": 21,
+    "timer": 0,
+    "bosshp": 0,
+    "stk": 214,
+    "lagged": 0,
+    "shot": "end_40181.png"
+   },
+   {
+    "frame": 40182,
+    "stage": 21,
+    "timer": 0,
+    "bosshp": 0,
+    "stk": 214,
+    "lagged": 0,
+    "shot": "end_40182.png"
+   },
+   {
+    "frame": 40183,
+    "stage": 21,
+    "timer": 0,
+    "bosshp": 0,
+    "stk": 214,
+    "lagged": 0,
+    "shot": "end_40183.png"
+   },
+   {
+    "frame": 40184,
+    "stage": 21,
+    "timer": 0,
+    "bosshp": 0,
+    "stk": 214,
+    "lagged": 0,
+    "shot": "end_40184.png"
+   },
+   {
+    "frame": 40185,
+    "stage": 21,
+    "timer": 0,
+    "bosshp": 0,
+    "stk": 214,
+    "lagged": 0,
+    "shot": "end_40185.png"
+   },
+   {
+    "frame": 40186,
+    "stage": 21,
+    "timer": 0,
+    "bosshp": 0,
+    "stk": 214,
+    "lagged": 0,
+    "shot": "end_40186.png"
+   },
+   {
+    "frame": 40187,
+    "stage": 21,
+    "timer": 0,
+    "bosshp": 0,
+    "stk": 214,
+    "lagged": 0,
+    "shot": "end_40187.png"
+   },
+   {
+    "frame": 40188,
+    "stage": 21,
+    "timer": 0,
+    "bosshp": 0,
+    "stk": 214,
+    "lagged": 0,
+    "shot": "end_40188.png"
+   },
+   {
+    "frame": 40189,
+    "stage": 21,
+    "timer": 0,
+    "bosshp": 0,
+    "stk": 214,
+    "lagged": 0,
+    "shot": "end_40189.png"
+   }
+  ]
+ },
+ "stdout_tail": [
+  "{'frame': 40176, 'stage': 21, 'timer': 1, 'bosshp': 0, 'stk': 213, 'lagged': 0, 'shot': 'end_40176.png'}",
+  "{'frame': 40177, 'stage': 21, 'timer': 0, 'bosshp': 0, 'stk': 213, 'lagged': 0, 'shot': 'end_40177.png'}",
+  "{'frame': 40178, 'stage': 21, 'timer': 0, 'bosshp': 0, 'stk': 213, 'lagged': 0, 'shot': 'end_40178.png'}",
+  "{'frame': 40179, 'stage': 21, 'timer': 0, 'bosshp': 0, 'stk': 213, 'lagged': 0, 'shot': 'end_40179.png'}",
+  "{'frame': 40180, 'stage': 21, 'timer': 0, 'bosshp': 0, 'stk': 214, 'lagged': 0, 'shot': 'end_40180.png'}",
+  "{'frame': 40181, 'stage': 21, 'timer': 0, 'bosshp': 0, 'stk': 214, 'lagged': 0, 'shot': 'end_40181.png'}",
+  "{'frame': 40182, 'stage': 21, 'timer': 0, 'bosshp': 0, 'stk': 214, 'lagged': 0, 'shot': 'end_40182.png'}",
+  "{'frame': 40183, 'stage': 21, 'timer': 0, 'bosshp': 0, 'stk': 214, 'lagged': 0, 'shot': 'end_40183.png'}",
+  "{'frame': 40184, 'stage': 21, 'timer': 0, 'bosshp': 0, 'stk': 214, 'lagged': 0, 'shot': 'end_40184.png'}",
+  "{'frame': 40185, 'stage': 21, 'timer': 0, 'bosshp': 0, 'stk': 214, 'lagged': 0, 'shot': 'end_40185.png'}",
+  "{'frame': 40186, 'stage': 21, 'timer': 0, 'bosshp': 0, 'stk': 214, 'lagged': 0, 'shot': 'end_40186.png'}",
+  "{'frame': 40187, 'stage': 21, 'timer': 0, 'bosshp': 0, 'stk': 214, 'lagged': 0, 'shot': 'end_40187.png'}",
+  "{'frame': 40188, 'stage': 21, 'timer': 0, 'bosshp': 0, 'stk': 214, 'lagged': 0, 'shot': 'end_40188.png'}",
+  "{'frame': 40189, 'stage': 21, 'timer': 0, 'bosshp': 0, 'stk': 214, 'lagged': 0, 'shot': 'end_40189.png'}"
+ ]
+}

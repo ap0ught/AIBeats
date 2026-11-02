@@ -1,0 +1,45 @@
+INPUT RULES: PASS  (41390 rows; L+R 0, U+D 0, period 0, hold 0, release 0, windows 0, bad tokens 0)
+   Up     presses   595  min start-to-start 5  min hold 2  max/600f 87 (cap 109)  max/1800f 171 (cap 246)
+   Down   presses    85  min start-to-start 5  min hold 2  max/600f 52 (cap 109)  max/1800f 68 (cap 246)
+   Left   presses   353  min start-to-start 5  min hold 2  max/600f 39 (cap 109)  max/1800f 54 (cap 246)
+   Right  presses   392  min start-to-start 5  min hold 2  max/600f 38 (cap 109)  max/1800f 51 (cap 246)
+   Select presses     0  min start-to-start None  min hold None  max/600f 0 (cap 109)  max/1800f 0 (cap 246)
+   Start  presses    13  min start-to-start 5  min hold 2  max/600f 3 (cap 109)  max/1800f 3 (cap 246)
+   B      presses   408  min start-to-start 5  min hold 2  max/600f 52 (cap 109)  max/1800f 69 (cap 246)
+   A      presses   828  min start-to-start 5  min hold 2  max/600f 78 (cap 109)  max/1800f 125 (cap 246)
+REPLAY: fresh power-on, core NesHawk, rom sha1 CA513F841D75EFEB33BB8099FB02BEEB39F6BB9C, first row played 2 (row 1 = the launch frame), rows 41390, RAM sha1 at the last row d5d58c8792b7, lag frames 33, HUD tiles = digits: False
+DEATHS (lives $76 drops): 0 []
+START: RAM control row 174 ($33=$97 in 1-1), Ryu first in the picture row 175; 1-1 TIMER digits first in the picture row 179 / in the nametable row 179 (must be equal)
+END:   6-5 timer $63=0 row 41382, nametable TIMER 000 row 41385, TIMER-000 first in the picture row 41385
+OUR TIME (Ryu first visible -> TIMER-000 first visible): 41210 NES frames / 60.0988 = 685.704 s = 11:25.704
+RECORD: 11:32.183 = 692.183 s = 41599.4 NES frames (its video f1707 -> f43238, 41,531 frames at 60.000 fps)
+MARGIN: +6.479 s = +389.4 NES frames (record-side error bars +/-2 frames = +/-0.033 s; ours exact)  -> BEATS the record
+STAGES (event = HUD TIMER digits first drawn in the stage; cum = NES frames after Ryu first visible; the record's video frames x 60.0988/60; +/-2 f; jitter of up to 5 f per stage from the 6-frame HUD redraw cycle):
+   stage    load  digits  ours cum   rec cum  cum diff stage split diff  rooms
+   1-1      None     179         4       4.0      -0.0            -11.8  [0]
+   1-2      2322    2477      2302    2313.8     -11.8             -7.4  [1]
+   2-1      3156    3311      3136    3155.2     -19.2            -84.8  [2, 3, 4, 5]
+   2-2      5978    6131      5956    6060.0    -104.0            -59.1  [6, 7, 8]
+   2-3      9015    9173      8998    9161.1    -163.1            -12.4  [9]
+   3-1      9841    9994      9819    9994.4    -175.4             +1.4  [10]
+   3-2     11443   11598     11423   11597.1    -174.1             +8.2  [11]
+   3-3     13778   13934     13759   13924.9    -165.9             +5.5  [12]
+   4-1     14696   14851     14676   14836.4    -160.4            -41.6  [13, 14, 15]
+   4-2     16846   17001     16826   17028.0    -202.0             -5.8  [16]
+   4-3     19145   19299     19124   19331.8    -207.8             +6.8  [17, 18, 19, 20]
+   4-4     21706   21863     21688   21889.0    -201.0            -18.3  [21]
+   5-1     22477   22630     22455   22674.3    -219.3            -86.0  [22]
+   5-2     24846   25004     24829   25134.3    -305.3            -96.0  [23, 24, 25, 26]
+   5-3     27209   27366     27191   27592.4    -401.4            -93.9  [27, 28, 29, 30, 31, 32, 33]
+   5-4     30100   30257     30082   30577.3    -495.3             -0.3  [34]
+   6-1     30905   31062     30887   31382.6    -495.6            -10.6  [35]
+   6-2     32481   32636     32461   32967.2    -506.2            +16.8  [36, 37, 38, 39, 40]
+   6-3     35648   35806     35631   36120.4    -489.4            +90.2  [41, 42, 43, 44]
+   6-4a    38653   38809     38634   39033.2    -399.2             +1.7  [45]
+   6-4b    39473   39630     39455   39852.5    -397.5            +13.4  [46]
+   6-5     40487   40641     40466   40850.2    -384.2             -5.2  [47]
+   END      None   41385     41210   41599.4    -389.4           (open)  []
+PROJECT REPORT logs/NG_FINAL_v2.report.json: clock {"start": {"ram": 174, "seen": 175}, "end": {"ram": 41382, "hud_buffer_frame": 41384, "seen": 41385}, "finished": true, "frames": 41210, "seconds": 685.7042070723543, "time": "11:25.704", "ram_frames": 41208}
+   RAM sha1 at the last row: project d5d58c8792b7 / verifier d5d58c8792b7 -> SAME
+   differences from the project's report: none
+PROBLEMS: none

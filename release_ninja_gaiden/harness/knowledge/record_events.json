@@ -1,0 +1,945 @@
+{
+ "_about": "Frame-by-frame timing of the Ninja Gaiden (NES) Any% record: TheRetroRunner 11:32.183, speedrun.com run z5pwrgdm, Twitch VOD https://www.twitch.tv/videos/1890225973 (downloaded 1080p60 source, dl/record_video/v1890225973.mp4). All 'f' values are VIDEO frame indices (frame n = n/60 s). cum_* are from START. cum_nes = cum_f * 60.0988/60. See record_notes.md.",
+ "video": {
+  "file": "dl/record_video/v1890225973.mp4",
+  "format": "1920x1080 h264, 86,340 frames, 1438.999 s",
+  "container_fps": 60.0,
+  "container_fps_evidence": "packet timestamps step 1530/1440 ticks of 1/90000 s (ms-rounded 1/60 s); 86,340 frames over 1,439.0 s; every frame-accurate seek (t=(n-0.5)/60) reproduced the sequential decode exactly (mean abs diff 0.00 at n=3980, 15000, 30001, 43230).",
+  "content_rate": "30 distinct images per second. Each distinct image is ONE NES frame (no interlace comb: adjacent lines align at shift 0), shown for 2 video frames; the other NES frame of each pair is missing (scroll between distinct images = 3 NES px = 2 frames of running). Pair phase drifts (pairs start on odd frames at 3600, on even frames at 43238).",
+  "game_area_px": {
+   "x0": 600,
+   "x1": 1800,
+   "y0": 140,
+   "y1": 1040,
+   "note": "approx. Twitch chat lines are drawn over the top of the HUD; webcam at lower left; LiveSplit at upper left (attempt 1516/31808)."
+  },
+  "tolerance": "+/-1 video frame for start/end (events can fall on a missing NES frame, so the true NES event can be 1 NES frame earlier than seen)."
+ },
+ "claim": {
+  "time_s": 692.183,
+  "frames_at_60fps": 41531
+ },
+ "start": {
+  "rule": "Timing starts when you gain control of Ryu.",
+  "f": 1707,
+  "t_s": 28.45,
+  "detail": "1-1 playfield: black 1314-1602 (preceded by the TECMO PRESENTS 1989 screen ~1350-1560 and the previous attempt's reset), first picture 1603, fade complete ~1699. 1706 no Ryu; 1707 Ryu first visible at the left edge (pair 1707-1708). HUD TIMER digits are blank until 1711, where they appear already reading 149.",
+  "tol_f": 1,
+  "previous_attempt": "VOD starts mid-attempt (2-1 at 1:10); that attempt is reset around frame 1250 (blue screen, then TECMO PRESENTS)."
+ },
+ "end": {
+  "rule": "Timing ends when the timer reaches 000 after defeating the demon statue.",
+  "f": 43238,
+  "t_s": 720.633,
+  "detail": "6-5 demon: ENEMY bar empty at 42806 (HUD TIMER 145); timer tallies down by 2 every 6 video frames (odd values only seen); TIMER-001 shown 43232-43237, TIMER-000 first shown 43238. Screen goes black at 43264, ending cutscene follows.",
+  "tol_f": 1
+ },
+ "span": {
+  "video_frames": 41531,
+  "seconds": 692.1833,
+  "claimed_s": 692.183,
+  "difference_frames": 0,
+  "nes_frames_at_60_0988": 41599.4,
+  "nes_frames_tolerance": 2,
+  "note": "The moderators' number is exactly (first video frame with Ryu visible) to (first video frame showing TIMER-000), counted at 60 fps."
+ },
+ "stages": [
+  {
+   "stage": "1-1",
+   "black_before": [
+    1314,
+    1602
+   ],
+   "first_picture_f": 1603,
+   "timer_digits_first_f": 1711,
+   "control_est_f": 1705,
+   "control_est_cum_f": -2,
+   "control_est_cum_s": -0.033,
+   "control_est_cum_nes": -2.0,
+   "tas_control_nes": 173
+  },
+  {
+   "stage": "1-2",
+   "black_before": [
+    3791,
+    3910
+   ],
+   "first_picture_f": 3911,
+   "timer_digits_first_f": 4017,
+   "control_est_f": 4011,
+   "control_est_cum_f": 2304,
+   "control_est_cum_s": 38.4,
+   "control_est_cum_nes": 2307.8,
+   "tas_control_nes": 2467,
+   "boss_bar_empty_f": 4109,
+   "boss_bar_empty_cum_f": 2402,
+   "boss_bar_empty_cum_s": 40.033,
+   "boss_bar_empty_cum_nes": 2406.0,
+   "hud_timer_at_bar_empty": 148,
+   "tas_boss_display_zero_nes": 2554
+  },
+  {
+   "stage": "2-1",
+   "black_before": [
+    4649,
+    4746
+   ],
+   "first_picture_f": 4747,
+   "timer_digits_first_f": 4857,
+   "control_est_f": 4851,
+   "control_est_cum_f": 3144,
+   "control_est_cum_s": 52.4,
+   "control_est_cum_nes": 3149.2,
+   "tas_control_nes": 3301
+  },
+  {
+   "stage": "2-2",
+   "black_before": [
+    7533,
+    7650
+   ],
+   "first_picture_f": 7651,
+   "timer_digits_first_f": 7757,
+   "control_est_f": 7751,
+   "control_est_cum_f": 6044,
+   "control_est_cum_s": 100.733,
+   "control_est_cum_nes": 6054.0,
+   "tas_control_nes": 6103
+  },
+  {
+   "stage": "2-3",
+   "black_before": [
+    10649,
+    10744
+   ],
+   "first_picture_f": 10745,
+   "timer_digits_first_f": 10853,
+   "control_est_f": 10847,
+   "control_est_cum_f": 9140,
+   "control_est_cum_s": 152.333,
+   "control_est_cum_nes": 9155.1,
+   "tas_control_nes": 8998,
+   "boss_bar_empty_f": 10933,
+   "boss_bar_empty_cum_f": 9226,
+   "boss_bar_empty_cum_s": 153.767,
+   "boss_bar_empty_cum_nes": 9241.2,
+   "hud_timer_at_bar_empty": 149,
+   "tas_boss_display_zero_nes": 9079
+  },
+  {
+   "stage": "3-1",
+   "black_before": [
+    11527,
+    11570
+   ],
+   "first_picture_f": 11571,
+   "timer_digits_first_f": 11685,
+   "control_est_f": 11679,
+   "control_est_cum_f": 9972,
+   "control_est_cum_s": 166.2,
+   "control_est_cum_nes": 9988.4,
+   "tas_control_nes": 9828
+  },
+  {
+   "stage": "3-2",
+   "black_before": [
+    13087,
+    13168
+   ],
+   "first_picture_f": 13169,
+   "timer_digits_first_f": 13285,
+   "control_est_f": 13279,
+   "control_est_cum_f": 11572,
+   "control_est_cum_s": 192.867,
+   "control_est_cum_nes": 11591.1,
+   "tas_control_nes": 11433
+  },
+  {
+   "stage": "3-3",
+   "black_before": [
+    15415,
+    15526
+   ],
+   "first_picture_f": 15527,
+   "timer_digits_first_f": 15609,
+   "control_est_f": 15603,
+   "control_est_cum_f": 13896,
+   "control_est_cum_s": 231.6,
+   "control_est_cum_nes": 13918.9,
+   "tas_control_nes": 13740,
+   "boss_bar_empty_f": 15769,
+   "boss_bar_empty_cum_f": 14062,
+   "boss_bar_empty_cum_s": 234.367,
+   "boss_bar_empty_cum_nes": 14085.2,
+   "hud_timer_at_bar_empty": 147,
+   "tas_boss_display_zero_nes": 13824
+  },
+  {
+   "stage": "4-1",
+   "black_before": [
+    16361,
+    16410
+   ],
+   "first_picture_f": 16411,
+   "timer_digits_first_f": 16519,
+   "control_est_f": 16513,
+   "control_est_cum_f": 14806,
+   "control_est_cum_s": 246.767,
+   "control_est_cum_nes": 14830.4,
+   "tas_control_nes": 14568
+  },
+  {
+   "stage": "4-2",
+   "black_before": [
+    18553,
+    18630
+   ],
+   "first_picture_f": 18631,
+   "timer_digits_first_f": 18707,
+   "control_est_f": 18701,
+   "control_est_cum_f": 16994,
+   "control_est_cum_s": 283.233,
+   "control_est_cum_nes": 17022.0,
+   "tas_control_nes": 16681
+  },
+  {
+   "stage": "4-3",
+   "black_before": [
+    20772,
+    20898
+   ],
+   "first_picture_f": 20899,
+   "timer_digits_first_f": 21007,
+   "control_est_f": 21001,
+   "control_est_cum_f": 19294,
+   "control_est_cum_s": 321.567,
+   "control_est_cum_nes": 19325.8,
+   "tas_control_nes": 18959
+  },
+  {
+   "stage": "4-4",
+   "black_before": [
+    23336,
+    23481
+   ],
+   "first_picture_f": 23482,
+   "timer_digits_first_f": 23560,
+   "control_est_f": 23554,
+   "control_est_cum_f": 21847,
+   "control_est_cum_s": 364.117,
+   "control_est_cum_nes": 21883.0,
+   "tas_control_nes": 21353,
+   "boss_bar_empty_f": 23588,
+   "boss_bar_empty_cum_f": 21881,
+   "boss_bar_empty_cum_s": 364.683,
+   "boss_bar_empty_cum_nes": 21917.0,
+   "hud_timer_at_bar_empty": 150,
+   "tas_boss_display_zero_nes": 21376
+  },
+  {
+   "stage": "5-1",
+   "black_before": [
+    24072,
+    24227
+   ],
+   "first_picture_f": 24228,
+   "timer_digits_first_f": 24344,
+   "control_est_f": 24338,
+   "control_est_cum_f": 22631,
+   "control_est_cum_s": 377.183,
+   "control_est_cum_nes": 22668.3,
+   "tas_control_nes": 22124
+  },
+  {
+   "stage": "5-2",
+   "black_before": [
+    26596,
+    26693
+   ],
+   "first_picture_f": 26694,
+   "timer_digits_first_f": 26800,
+   "control_est_f": 26794,
+   "control_est_cum_f": 25087,
+   "control_est_cum_s": 418.117,
+   "control_est_cum_nes": 25128.3,
+   "tas_control_nes": 24427
+  },
+  {
+   "stage": "5-3",
+   "black_before": [
+    29056,
+    29169
+   ],
+   "first_picture_f": 29170,
+   "timer_digits_first_f": 29254,
+   "control_est_f": 29248,
+   "control_est_cum_f": 27541,
+   "control_est_cum_s": 459.017,
+   "control_est_cum_nes": 27586.4,
+   "tas_control_nes": 26608
+  },
+  {
+   "stage": "5-4",
+   "black_before": [
+    32076,
+    32127
+   ],
+   "first_picture_f": 32128,
+   "timer_digits_first_f": 32234,
+   "control_est_f": 32228,
+   "control_est_cum_f": 30521,
+   "control_est_cum_s": 508.683,
+   "control_est_cum_nes": 30571.3,
+   "tas_control_nes": 29259,
+   "boss_bar_empty_f": 32292,
+   "boss_bar_empty_cum_f": 30585,
+   "boss_bar_empty_cum_s": 509.75,
+   "boss_bar_empty_cum_nes": 30635.4,
+   "hud_timer_at_bar_empty": 149,
+   "tas_boss_display_zero_nes": 29314
+  },
+  {
+   "stage": "6-1",
+   "black_before": [
+    32882,
+    32931
+   ],
+   "first_picture_f": 32932,
+   "timer_digits_first_f": 33038,
+   "control_est_f": 33032,
+   "control_est_cum_f": 31325,
+   "control_est_cum_s": 522.083,
+   "control_est_cum_nes": 31376.6,
+   "tas_control_nes": 30062
+  },
+  {
+   "stage": "6-2",
+   "black_before": [
+    34394,
+    34510
+   ],
+   "first_picture_f": 34511,
+   "timer_digits_first_f": 34620,
+   "control_est_f": 34614,
+   "control_est_cum_f": 32907,
+   "control_est_cum_s": 548.45,
+   "control_est_cum_nes": 32961.2,
+   "tas_control_nes": 31638
+  },
+  {
+   "stage": "6-3",
+   "black_before": [
+    37538,
+    37657
+   ],
+   "first_picture_f": 37658,
+   "timer_digits_first_f": 37768,
+   "control_est_f": 37762,
+   "control_est_cum_f": 36055,
+   "control_est_cum_s": 600.917,
+   "control_est_cum_nes": 36114.4,
+   "tas_control_nes": 34561
+  },
+  {
+   "stage": "6-4a",
+   "black_before": [
+    40512,
+    40567
+   ],
+   "first_picture_f": 40568,
+   "timer_digits_first_f": 40676,
+   "control_est_f": 40670,
+   "control_est_cum_f": 38963,
+   "control_est_cum_s": 649.383,
+   "control_est_cum_nes": 39027.2,
+   "tas_control_nes": 37277,
+   "boss_bar_empty_f": 40744,
+   "boss_bar_empty_cum_f": 39037,
+   "boss_bar_empty_cum_s": 650.617,
+   "boss_bar_empty_cum_nes": 39101.3,
+   "hud_timer_at_bar_empty": 148,
+   "tas_boss_display_zero_nes": 37339
+  },
+  {
+   "stage": "6-4b",
+   "black_before": [
+    41256,
+    41387
+   ],
+   "first_picture_f": 41388,
+   "timer_digits_first_f": 41494,
+   "control_est_f": 41488,
+   "control_est_cum_f": 39781,
+   "control_est_cum_s": 663.017,
+   "control_est_cum_nes": 39846.5,
+   "tas_control_nes": 38086,
+   "boss_bar_empty_f": 41756,
+   "boss_bar_empty_cum_f": 40049,
+   "boss_bar_empty_cum_s": 667.483,
+   "boss_bar_empty_cum_nes": 40114.9,
+   "hud_timer_at_bar_empty": 146,
+   "tas_boss_display_zero_nes": 38188
+  },
+  {
+   "stage": "6-5",
+   "black_before": [
+    42256,
+    42441
+   ],
+   "first_picture_f": 42442,
+   "timer_digits_first_f": 42490,
+   "control_est_f": 42484,
+   "control_est_cum_f": 40777,
+   "control_est_cum_s": 679.617,
+   "control_est_cum_nes": 40844.1,
+   "tas_control_nes": 38932,
+   "boss_bar_empty_f": 42806,
+   "boss_bar_empty_cum_f": 41099,
+   "boss_bar_empty_cum_s": 684.983,
+   "boss_bar_empty_cum_nes": 41166.7,
+   "hud_timer_at_bar_empty": 145,
+   "tas_boss_display_zero_nes": 39084
+  }
+ ],
+ "rooms_in_stage": [
+  {
+   "room": "2-1b",
+   "dark_first_f": 5849,
+   "dark_last_f": 5870,
+   "first_picture_f": 5871,
+   "dark_len_f": 22,
+   "cum_f": 4164,
+   "cum_s": 69.4,
+   "cum_nes": 4170.9
+  },
+  {
+   "room": "2-1c",
+   "dark_first_f": 6709,
+   "dark_last_f": 6730,
+   "first_picture_f": 6731,
+   "dark_len_f": 22,
+   "cum_f": 5024,
+   "cum_s": 83.733,
+   "cum_nes": 5032.3
+  },
+  {
+   "room": "2-1d",
+   "dark_first_f": 6843,
+   "dark_last_f": 6864,
+   "first_picture_f": 6865,
+   "dark_len_f": 22,
+   "cum_f": 5158,
+   "cum_s": 85.967,
+   "cum_nes": 5166.5
+  },
+  {
+   "room": "2-2b",
+   "dark_first_f": 8379,
+   "dark_last_f": 8400,
+   "first_picture_f": 8401,
+   "dark_len_f": 22,
+   "cum_f": 6694,
+   "cum_s": 111.567,
+   "cum_nes": 6705.0
+  },
+  {
+   "room": "2-2c",
+   "dark_first_f": 9161,
+   "dark_last_f": 9182,
+   "first_picture_f": 9183,
+   "dark_len_f": 22,
+   "cum_f": 7476,
+   "cum_s": 124.6,
+   "cum_nes": 7488.3
+  },
+  {
+   "room": "4-1b",
+   "dark_first_f": 17963,
+   "dark_last_f": 17984,
+   "first_picture_f": 17985,
+   "dark_len_f": 22,
+   "cum_f": 16278,
+   "cum_s": 271.3,
+   "cum_nes": 16304.8
+  },
+  {
+   "room": "4-1c",
+   "dark_first_f": 18091,
+   "dark_last_f": 18112,
+   "first_picture_f": 18113,
+   "dark_len_f": 22,
+   "cum_f": 16406,
+   "cum_s": 273.433,
+   "cum_nes": 16433.0
+  },
+  {
+   "room": "4-3b",
+   "dark_first_f": 21139,
+   "dark_last_f": 21160,
+   "first_picture_f": 21161,
+   "dark_len_f": 22,
+   "cum_f": 19454,
+   "cum_s": 324.233,
+   "cum_nes": 19486.0
+  },
+  {
+   "room": "4-3c",
+   "dark_first_f": 21835,
+   "dark_last_f": 21856,
+   "first_picture_f": 21857,
+   "dark_len_f": 22,
+   "cum_f": 20150,
+   "cum_s": 335.833,
+   "cum_nes": 20183.2
+  },
+  {
+   "room": "4-3d",
+   "dark_first_f": 22664,
+   "dark_last_f": 22685,
+   "first_picture_f": 22686,
+   "dark_len_f": 22,
+   "cum_f": 20979,
+   "cum_s": 349.65,
+   "cum_nes": 21013.5
+  },
+  {
+   "room": "5-2b",
+   "dark_first_f": 27312,
+   "dark_last_f": 27333,
+   "first_picture_f": 27334,
+   "dark_len_f": 22,
+   "cum_f": 25627,
+   "cum_s": 427.117,
+   "cum_nes": 25669.2
+  },
+  {
+   "room": "5-2c",
+   "dark_first_f": 27880,
+   "dark_last_f": 27901,
+   "first_picture_f": 27902,
+   "dark_len_f": 22,
+   "cum_f": 26195,
+   "cum_s": 436.583,
+   "cum_nes": 26238.1
+  },
+  {
+   "room": "5-2d",
+   "dark_first_f": 28370,
+   "dark_last_f": 28391,
+   "first_picture_f": 28392,
+   "dark_len_f": 22,
+   "cum_f": 26685,
+   "cum_s": 444.75,
+   "cum_nes": 26728.9
+  },
+  {
+   "room": "5-3b",
+   "dark_first_f": 29762,
+   "dark_last_f": 29783,
+   "first_picture_f": 29784,
+   "dark_len_f": 22,
+   "cum_f": 28077,
+   "cum_s": 467.95,
+   "cum_nes": 28123.2
+  },
+  {
+   "room": "5-3c",
+   "dark_first_f": 30274,
+   "dark_last_f": 30295,
+   "first_picture_f": 30296,
+   "dark_len_f": 22,
+   "cum_f": 28589,
+   "cum_s": 476.483,
+   "cum_nes": 28636.1
+  },
+  {
+   "room": "5-3d",
+   "dark_first_f": 30778,
+   "dark_last_f": 30799,
+   "first_picture_f": 30800,
+   "dark_len_f": 22,
+   "cum_f": 29093,
+   "cum_s": 484.883,
+   "cum_nes": 29140.9
+  },
+  {
+   "room": "5-3e",
+   "dark_first_f": 31282,
+   "dark_last_f": 31303,
+   "first_picture_f": 31304,
+   "dark_len_f": 22,
+   "cum_f": 29597,
+   "cum_s": 493.283,
+   "cum_nes": 29645.7
+  },
+  {
+   "room": "5-3f",
+   "dark_first_f": 31586,
+   "dark_last_f": 31607,
+   "first_picture_f": 31608,
+   "dark_len_f": 22,
+   "cum_f": 29901,
+   "cum_s": 498.35,
+   "cum_nes": 29950.2
+  },
+  {
+   "room": "5-3g",
+   "dark_first_f": 31820,
+   "dark_last_f": 31841,
+   "first_picture_f": 31842,
+   "dark_len_f": 22,
+   "cum_f": 30135,
+   "cum_s": 502.25,
+   "cum_nes": 30184.6
+  },
+  {
+   "room": "6-2b",
+   "dark_first_f": 35604,
+   "dark_last_f": 35625,
+   "first_picture_f": 35626,
+   "dark_len_f": 22,
+   "cum_f": 33919,
+   "cum_s": 565.317,
+   "cum_nes": 33974.9
+  },
+  {
+   "room": "6-2c",
+   "dark_first_f": 36302,
+   "dark_last_f": 36323,
+   "first_picture_f": 36324,
+   "dark_len_f": 22,
+   "cum_f": 34617,
+   "cum_s": 576.95,
+   "cum_nes": 34674.0
+  },
+  {
+   "room": "6-2d",
+   "dark_first_f": 36428,
+   "dark_last_f": 36449,
+   "first_picture_f": 36450,
+   "dark_len_f": 22,
+   "cum_f": 34743,
+   "cum_s": 579.05,
+   "cum_nes": 34800.2
+  },
+  {
+   "room": "6-2e",
+   "dark_first_f": 36892,
+   "dark_last_f": 36913,
+   "first_picture_f": 36914,
+   "dark_len_f": 22,
+   "cum_f": 35207,
+   "cum_s": 586.783,
+   "cum_nes": 35265.0
+  },
+  {
+   "room": "6-3b",
+   "dark_first_f": 38210,
+   "dark_last_f": 38231,
+   "first_picture_f": 38232,
+   "dark_len_f": 22,
+   "cum_f": 36525,
+   "cum_s": 608.75,
+   "cum_nes": 36585.1
+  },
+  {
+   "room": "6-3c",
+   "dark_first_f": 38426,
+   "dark_last_f": 38447,
+   "first_picture_f": 38448,
+   "dark_len_f": 22,
+   "cum_f": 36741,
+   "cum_s": 612.35,
+   "cum_nes": 36801.5
+  },
+  {
+   "room": "6-3d",
+   "dark_first_f": 39788,
+   "dark_last_f": 39809,
+   "first_picture_f": 39810,
+   "dark_len_f": 22,
+   "cum_f": 38103,
+   "cum_s": 635.05,
+   "cum_nes": 38165.7
+  }
+ ],
+ "all_dark_segments": [
+  {
+   "first": 1314,
+   "last": 1602,
+   "len": 289
+  },
+  {
+   "first": 3791,
+   "last": 3910,
+   "len": 120
+  },
+  {
+   "first": 4649,
+   "last": 4746,
+   "len": 98
+  },
+  {
+   "first": 5849,
+   "last": 5870,
+   "len": 22
+  },
+  {
+   "first": 6709,
+   "last": 6730,
+   "len": 22
+  },
+  {
+   "first": 6843,
+   "last": 6864,
+   "len": 22
+  },
+  {
+   "first": 7533,
+   "last": 7650,
+   "len": 118
+  },
+  {
+   "first": 8379,
+   "last": 8400,
+   "len": 22
+  },
+  {
+   "first": 9161,
+   "last": 9182,
+   "len": 22
+  },
+  {
+   "first": 10649,
+   "last": 10744,
+   "len": 96
+  },
+  {
+   "first": 11445,
+   "last": 11524,
+   "len": 80
+  },
+  {
+   "first": 11527,
+   "last": 11570,
+   "len": 44
+  },
+  {
+   "first": 13087,
+   "last": 13168,
+   "len": 82
+  },
+  {
+   "first": 15415,
+   "last": 15526,
+   "len": 112
+  },
+  {
+   "first": 16241,
+   "last": 16356,
+   "len": 116
+  },
+  {
+   "first": 16361,
+   "last": 16410,
+   "len": 50
+  },
+  {
+   "first": 17963,
+   "last": 17984,
+   "len": 22
+  },
+  {
+   "first": 18091,
+   "last": 18112,
+   "len": 22
+  },
+  {
+   "first": 18543,
+   "last": 18550,
+   "len": 8
+  },
+  {
+   "first": 18553,
+   "last": 18630,
+   "len": 78
+  },
+  {
+   "first": 20772,
+   "last": 20898,
+   "len": 127
+  },
+  {
+   "first": 21139,
+   "last": 21160,
+   "len": 22
+  },
+  {
+   "first": 21835,
+   "last": 21856,
+   "len": 22
+  },
+  {
+   "first": 22664,
+   "last": 22685,
+   "len": 22
+  },
+  {
+   "first": 23336,
+   "last": 23481,
+   "len": 146
+  },
+  {
+   "first": 24072,
+   "last": 24227,
+   "len": 156
+  },
+  {
+   "first": 26596,
+   "last": 26693,
+   "len": 98
+  },
+  {
+   "first": 27312,
+   "last": 27333,
+   "len": 22
+  },
+  {
+   "first": 27880,
+   "last": 27901,
+   "len": 22
+  },
+  {
+   "first": 28370,
+   "last": 28391,
+   "len": 22
+  },
+  {
+   "first": 29056,
+   "last": 29169,
+   "len": 114
+  },
+  {
+   "first": 29762,
+   "last": 29783,
+   "len": 22
+  },
+  {
+   "first": 30274,
+   "last": 30295,
+   "len": 22
+  },
+  {
+   "first": 30778,
+   "last": 30799,
+   "len": 22
+  },
+  {
+   "first": 31282,
+   "last": 31303,
+   "len": 22
+  },
+  {
+   "first": 31586,
+   "last": 31607,
+   "len": 22
+  },
+  {
+   "first": 31820,
+   "last": 31841,
+   "len": 22
+  },
+  {
+   "first": 32076,
+   "last": 32127,
+   "len": 52
+  },
+  {
+   "first": 32804,
+   "last": 32879,
+   "len": 76
+  },
+  {
+   "first": 32882,
+   "last": 32931,
+   "len": 50
+  },
+  {
+   "first": 34394,
+   "last": 34510,
+   "len": 117
+  },
+  {
+   "first": 35604,
+   "last": 35625,
+   "len": 22
+  },
+  {
+   "first": 36302,
+   "last": 36323,
+   "len": 22
+  },
+  {
+   "first": 36428,
+   "last": 36449,
+   "len": 22
+  },
+  {
+   "first": 36892,
+   "last": 36913,
+   "len": 22
+  },
+  {
+   "first": 37538,
+   "last": 37657,
+   "len": 120
+  },
+  {
+   "first": 38210,
+   "last": 38231,
+   "len": 22
+  },
+  {
+   "first": 38426,
+   "last": 38447,
+   "len": 22
+  },
+  {
+   "first": 39788,
+   "last": 39809,
+   "len": 22
+  },
+  {
+   "first": 40512,
+   "last": 40567,
+   "len": 56
+  },
+  {
+   "first": 41256,
+   "last": 41387,
+   "len": 132
+  },
+  {
+   "first": 42256,
+   "last": 42441,
+   "len": 186
+  },
+  {
+   "first": 43264,
+   "last": 43967,
+   "len": 704
+  },
+  {
+   "first": 44204,
+   "last": 44699,
+   "len": 496
+  }
+ ],
+ "tas_4751_board_timed": {
+  "start_ram_frame": 174,
+  "end_ram_frame": 39525,
+  "frames": 39351,
+  "seconds": 654.772,
+  "note": "From the replay of 4751M in BizHawk 2.11.1 NesHawk (work/tasrun/tas4751_ram.csv): first frame $33==0x97 (control, Ryu moves next frame) to first frame $63==0 in stage $6D=21 after $66 reaches 0. The movie's last input frame is 39084 (demon display 0); the tally (147 s x 3 frames) continues without input."
+ }
+}

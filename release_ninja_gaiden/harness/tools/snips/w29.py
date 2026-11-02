@@ -1,0 +1,11 @@
+e.watch('r', 0x29)
+s=e.step((),40); print(s.frame, e.watchget())
+pcs=sorted(set(pc for _,_,pc,_ in e.watchget()))
+for pc in pcs:
+    print(hex(pc), e.ram_domain('System Bus', pc-24, 48).hex())
+print('bank $5C', zp(0x5c,0x5d))
+e.watchclear()
+e.watch('r',0x29)
+s=e.step(('Start',),2); s=e.step((),10); print(s.frame, e.watchget(), zp(0x20,0x40))
+s=e.step((),30); print(s.frame, zp(0x20,0x40))
+s=e.step(('Start',),2); s=e.step((),10); print(s.frame, e.watchget(), zp(0x20,0x40))

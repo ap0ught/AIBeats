@@ -1,0 +1,26 @@
+judge: PASS
+NG_FINAL_v2: 41390 input frames (reset); two power-on replays MATCH (RAM sha1 d5d58c8792b7 / d5d58c8792b7, trace sha1 efa870f860b2 / efa870f860b2)
+  1-1   load None  control 174  control_to_next_control 2300
+  1-2   load 2322  control 2474  boss0 2560  control_to_next_control 834
+  2-1   load 3156  control 3308  control_to_next_control 2822
+  2-2   load 5978  control 6130  control_to_next_control 3037
+  2-3   load 9015  control 9167  boss0 9247  control_to_next_control 826
+  3-1   load 9841  control 9993  control_to_next_control 1602
+  3-2   load 11443  control 11595  control_to_next_control 2335
+  3-3   load 13778  control 13930  boss0 14100  control_to_next_control 918
+  4-1   load 14696  control 14848  control_to_next_control 2150
+  4-2   load 16846  control 16998  control_to_next_control 2299
+  4-3   load 19145  control 19297  control_to_next_control 2561
+  4-4   load 21706  control 21858  boss0 21880  control_to_next_control 771
+  5-1   load 22477  control 22629  control_to_next_control 2369
+  5-2   load 24846  control 24998  control_to_next_control 2363
+  5-3   load 27209  control 27361  control_to_next_control 2891
+  5-4   load 30100  control 30252  boss0 30306  control_to_next_control 805
+  6-1   load 30905  control 31057  control_to_next_control 1576
+  6-2   load 32481  control 32633  control_to_next_control 3167
+  6-3   load 35648  control 35800  control_to_next_control 3005
+  6-4a  load 38653  control 38805  boss0 38879  control_to_next_control 820
+  6-4b  load 39473  control 39625  boss0 39878  control_to_next_control 1014
+  6-5   load 40487  control 40639  boss0 40947
+  deaths 0; cutscenes 12 (skipped 11); game-lag frames 0; BizHawk lag frames 33
+NG_FINAL_v2: START RAM 174 seen 175; END RAM 41382 seen 41385; RUN TIME 11:25.704 = 41210 frames / 60.0988

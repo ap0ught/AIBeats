@@ -1,0 +1,16 @@
+{
+ "skip_opening": {
+  "press_frame": 7,
+  "row": 6
+ },
+ "start_game": {
+  "press_frame": 15,
+  "row": 14
+ },
+ "skip_act1_card": {
+  "press_frame": 20,
+  "row": 19
+ },
+ "first_gm_frame": 174,
+ "first_gm_row": 173
+}

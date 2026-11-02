@@ -1,0 +1,2113 @@
+{
+ "_about": "Lanterns per stage/room from the ROM tables (ng/solve/items.py); x = world x in the room (= icon x on the owner's map resources/maps/<map>.png), y = RAM $4E1 (feet line of the lantern).",
+ "maps_check": {
+  "1-1": "18 icons found / 18 ROM lanterns",
+  "2-1": "multi-room map (rooms stacked; not auto-checked)",
+  "2-2": "multi-room map (rooms stacked; not auto-checked)",
+  "2-3": "multi-room map (rooms stacked; not auto-checked)",
+  "3-1": "11 icons found / 11 ROM lanterns",
+  "3-2": "15 icons found / 15 ROM lanterns",
+  "4-1": "multi-room map (rooms stacked; not auto-checked)",
+  "4-2": "21 icons found / 21 ROM lanterns",
+  "4-3": "multi-room map (rooms stacked; not auto-checked)",
+  "5-1": "17 icons found / 17 ROM lanterns",
+  "5-2": "multi-room map (rooms stacked; not auto-checked)",
+  "5-3": "multi-room map (rooms stacked; not auto-checked)",
+  "6-1": "10 icons found / 10 ROM lanterns",
+  "6-2": "multi-room map (rooms stacked; not auto-checked)",
+  "6-3": "multi-room map (rooms stacked; not auto-checked)"
+ },
+ "stages": {
+  "1-1": {
+   "map": "1-1",
+   "rooms": {
+    "0": [
+     {
+      "col": 24,
+      "x": 384,
+      "y": 176,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 28,
+      "x": 448,
+      "y": 176,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 41,
+      "x": 656,
+      "y": 144,
+      "item": 1,
+      "name": "ninpo+10"
+     },
+     {
+      "col": 47,
+      "x": 752,
+      "y": 80,
+      "item": 8,
+      "name": "Star"
+     },
+     {
+      "col": 53,
+      "x": 848,
+      "y": 144,
+      "item": 5,
+      "name": "500pts"
+     },
+     {
+      "col": 65,
+      "x": 1040,
+      "y": 112,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 68,
+      "x": 1088,
+      "y": 112,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 71,
+      "x": 1136,
+      "y": 176,
+      "item": 6,
+      "name": "1000pts"
+     },
+     {
+      "col": 92,
+      "x": 1472,
+      "y": 176,
+      "item": 5,
+      "name": "500pts"
+     },
+     {
+      "col": 95,
+      "x": 1520,
+      "y": 80,
+      "item": 10,
+      "name": "FireWheel"
+     },
+     {
+      "col": 100,
+      "x": 1600,
+      "y": 80,
+      "item": 11,
+      "name": "J&S"
+     },
+     {
+      "col": 106,
+      "x": 1696,
+      "y": 160,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 109,
+      "x": 1744,
+      "y": 128,
+      "item": 7,
+      "name": "InvFireWheel"
+     },
+     {
+      "col": 123,
+      "x": 1968,
+      "y": 80,
+      "item": 4,
+      "name": "hourglass"
+     },
+     {
+      "col": 126,
+      "x": 2016,
+      "y": 160,
+      "item": 5,
+      "name": "500pts"
+     },
+     {
+      "col": 141,
+      "x": 2256,
+      "y": 128,
+      "item": 9,
+      "name": "Windmill"
+     },
+     {
+      "col": 141,
+      "x": 2256,
+      "y": 176,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 161,
+      "x": 2576,
+      "y": 160,
+      "item": 0,
+      "name": "ninpo+5"
+     }
+    ]
+   },
+   "ninpo_total": 45
+  },
+  "1-2": {
+   "map": null,
+   "rooms": {
+    "1": []
+   },
+   "ninpo_total": 0
+  },
+  "2-1": {
+   "map": "2-1",
+   "rooms": {
+    "2": [
+     {
+      "col": 21,
+      "x": 336,
+      "y": 112,
+      "item": 1,
+      "name": "ninpo+10"
+     },
+     {
+      "col": 27,
+      "x": 432,
+      "y": 160,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 32,
+      "x": 512,
+      "y": 112,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 37,
+      "x": 592,
+      "y": 112,
+      "item": 8,
+      "name": "Star"
+     },
+     {
+      "col": 42,
+      "x": 672,
+      "y": 144,
+      "item": 6,
+      "name": "1000pts"
+     },
+     {
+      "col": 49,
+      "x": 784,
+      "y": 144,
+      "item": 10,
+      "name": "FireWheel"
+     },
+     {
+      "col": 51,
+      "x": 816,
+      "y": 144,
+      "item": 6,
+      "name": "1000pts"
+     },
+     {
+      "col": 56,
+      "x": 896,
+      "y": 144,
+      "item": 1,
+      "name": "ninpo+10"
+     },
+     {
+      "col": 67,
+      "x": 1072,
+      "y": 96,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 73,
+      "x": 1168,
+      "y": 96,
+      "item": 9,
+      "name": "Windmill"
+     },
+     {
+      "col": 73,
+      "x": 1168,
+      "y": 160,
+      "item": 6,
+      "name": "1000pts"
+     },
+     {
+      "col": 82,
+      "x": 1312,
+      "y": 160,
+      "item": 5,
+      "name": "500pts"
+     },
+     {
+      "col": 84,
+      "x": 1344,
+      "y": 112,
+      "item": 1,
+      "name": "ninpo+10"
+     }
+    ],
+    "3": [
+     {
+      "col": 17,
+      "x": 272,
+      "y": 112,
+      "item": 1,
+      "name": "ninpo+10"
+     },
+     {
+      "col": 34,
+      "x": 544,
+      "y": 96,
+      "item": 5,
+      "name": "500pts"
+     },
+     {
+      "col": 37,
+      "x": 592,
+      "y": 96,
+      "item": 11,
+      "name": "J&S"
+     },
+     {
+      "col": 42,
+      "x": 672,
+      "y": 128,
+      "item": 6,
+      "name": "1000pts"
+     },
+     {
+      "col": 47,
+      "x": 752,
+      "y": 128,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 56,
+      "x": 896,
+      "y": 128,
+      "item": 8,
+      "name": "Star"
+     },
+     {
+      "col": 66,
+      "x": 1056,
+      "y": 96,
+      "item": 5,
+      "name": "500pts"
+     }
+    ],
+    "4": [
+     {
+      "col": 3,
+      "x": 48,
+      "y": 160,
+      "item": 3,
+      "name": "health"
+     }
+    ],
+    "5": [
+     {
+      "col": 11,
+      "x": 176,
+      "y": 112,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 26,
+      "x": 416,
+      "y": 96,
+      "item": 9,
+      "name": "Windmill"
+     },
+     {
+      "col": 31,
+      "x": 496,
+      "y": 160,
+      "item": 5,
+      "name": "500pts"
+     },
+     {
+      "col": 43,
+      "x": 688,
+      "y": 144,
+      "item": 6,
+      "name": "1000pts"
+     }
+    ]
+   },
+   "ninpo_total": 65
+  },
+  "2-2": {
+   "map": "2-2 & 2-3",
+   "rooms": {
+    "6": [
+     {
+      "col": 6,
+      "x": 96,
+      "y": 112,
+      "item": 1,
+      "name": "ninpo+10"
+     },
+     {
+      "col": 16,
+      "x": 256,
+      "y": 160,
+      "item": 8,
+      "name": "Star"
+     },
+     {
+      "col": 26,
+      "x": 416,
+      "y": 96,
+      "item": 5,
+      "name": "500pts"
+     },
+     {
+      "col": 38,
+      "x": 608,
+      "y": 128,
+      "item": 1,
+      "name": "ninpo+10"
+     },
+     {
+      "col": 42,
+      "x": 672,
+      "y": 128,
+      "item": 0,
+      "name": "ninpo+5"
+     }
+    ],
+    "7": [
+     {
+      "col": 6,
+      "x": 96,
+      "y": 128,
+      "item": 5,
+      "name": "500pts"
+     },
+     {
+      "col": 17,
+      "x": 272,
+      "y": 128,
+      "item": 1,
+      "name": "ninpo+10"
+     },
+     {
+      "col": 27,
+      "x": 432,
+      "y": 128,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 37,
+      "x": 592,
+      "y": 96,
+      "item": 7,
+      "name": "InvFireWheel"
+     },
+     {
+      "col": 41,
+      "x": 656,
+      "y": 128,
+      "item": 3,
+      "name": "health"
+     }
+    ],
+    "8": [
+     {
+      "col": 27,
+      "x": 432,
+      "y": 96,
+      "item": 6,
+      "name": "1000pts"
+     },
+     {
+      "col": 39,
+      "x": 624,
+      "y": 128,
+      "item": 5,
+      "name": "500pts"
+     },
+     {
+      "col": 50,
+      "x": 800,
+      "y": 112,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 59,
+      "x": 944,
+      "y": 128,
+      "item": 10,
+      "name": "FireWheel"
+     },
+     {
+      "col": 68,
+      "x": 1088,
+      "y": 160,
+      "item": 1,
+      "name": "ninpo+10"
+     },
+     {
+      "col": 82,
+      "x": 1312,
+      "y": 96,
+      "item": 11,
+      "name": "J&S"
+     },
+     {
+      "col": 88,
+      "x": 1408,
+      "y": 96,
+      "item": 5,
+      "name": "500pts"
+     },
+     {
+      "col": 97,
+      "x": 1552,
+      "y": 128,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 101,
+      "x": 1616,
+      "y": 128,
+      "item": 0,
+      "name": "ninpo+5"
+     }
+    ]
+   },
+   "ninpo_total": 65
+  },
+  "2-3": {
+   "map": "2-2 & 2-3",
+   "rooms": {
+    "9": []
+   },
+   "ninpo_total": 0
+  },
+  "3-1": {
+   "map": "3-1",
+   "rooms": {
+    "10": [
+     {
+      "col": 21,
+      "x": 336,
+      "y": 160,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 27,
+      "x": 432,
+      "y": 160,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 36,
+      "x": 576,
+      "y": 160,
+      "item": 1,
+      "name": "ninpo+10"
+     },
+     {
+      "col": 40,
+      "x": 640,
+      "y": 144,
+      "item": 4,
+      "name": "hourglass"
+     },
+     {
+      "col": 48,
+      "x": 768,
+      "y": 128,
+      "item": 8,
+      "name": "Star"
+     },
+     {
+      "col": 56,
+      "x": 896,
+      "y": 96,
+      "item": 6,
+      "name": "1000pts"
+     },
+     {
+      "col": 72,
+      "x": 1152,
+      "y": 160,
+      "item": 1,
+      "name": "ninpo+10"
+     },
+     {
+      "col": 74,
+      "x": 1184,
+      "y": 96,
+      "item": 10,
+      "name": "FireWheel"
+     },
+     {
+      "col": 83,
+      "x": 1328,
+      "y": 96,
+      "item": 1,
+      "name": "ninpo+10"
+     },
+     {
+      "col": 104,
+      "x": 1664,
+      "y": 160,
+      "item": 3,
+      "name": "health"
+     },
+     {
+      "col": 116,
+      "x": 1856,
+      "y": 160,
+      "item": 5,
+      "name": "500pts"
+     }
+    ]
+   },
+   "ninpo_total": 40
+  },
+  "3-2": {
+   "map": "3-2",
+   "rooms": {
+    "11": [
+     {
+      "col": 22,
+      "x": 352,
+      "y": 128,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 28,
+      "x": 448,
+      "y": 96,
+      "item": 1,
+      "name": "ninpo+10"
+     },
+     {
+      "col": 44,
+      "x": 704,
+      "y": 80,
+      "item": 5,
+      "name": "500pts"
+     },
+     {
+      "col": 63,
+      "x": 1008,
+      "y": 96,
+      "item": 9,
+      "name": "Windmill"
+     },
+     {
+      "col": 72,
+      "x": 1152,
+      "y": 160,
+      "item": 1,
+      "name": "ninpo+10"
+     },
+     {
+      "col": 87,
+      "x": 1392,
+      "y": 96,
+      "item": 6,
+      "name": "1000pts"
+     },
+     {
+      "col": 94,
+      "x": 1504,
+      "y": 96,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 105,
+      "x": 1680,
+      "y": 144,
+      "item": 10,
+      "name": "FireWheel"
+     },
+     {
+      "col": 114,
+      "x": 1824,
+      "y": 160,
+      "item": 5,
+      "name": "500pts"
+     },
+     {
+      "col": 130,
+      "x": 2080,
+      "y": 112,
+      "item": 6,
+      "name": "1000pts"
+     },
+     {
+      "col": 137,
+      "x": 2192,
+      "y": 96,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 148,
+      "x": 2368,
+      "y": 128,
+      "item": 1,
+      "name": "ninpo+10"
+     },
+     {
+      "col": 156,
+      "x": 2496,
+      "y": 128,
+      "item": 5,
+      "name": "500pts"
+     },
+     {
+      "col": 164,
+      "x": 2624,
+      "y": 112,
+      "item": 9,
+      "name": "Windmill"
+     },
+     {
+      "col": 177,
+      "x": 2832,
+      "y": 96,
+      "item": 1,
+      "name": "ninpo+10"
+     }
+    ]
+   },
+   "ninpo_total": 55
+  },
+  "3-3": {
+   "map": null,
+   "rooms": {
+    "12": []
+   },
+   "ninpo_total": 0
+  },
+  "4-1": {
+   "map": "4-1",
+   "rooms": {
+    "13": [
+     {
+      "col": 17,
+      "x": 272,
+      "y": 144,
+      "item": 1,
+      "name": "ninpo+10"
+     },
+     {
+      "col": 29,
+      "x": 464,
+      "y": 144,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 38,
+      "x": 608,
+      "y": 144,
+      "item": 6,
+      "name": "1000pts"
+     },
+     {
+      "col": 45,
+      "x": 720,
+      "y": 144,
+      "item": 5,
+      "name": "500pts"
+     },
+     {
+      "col": 56,
+      "x": 896,
+      "y": 80,
+      "item": 11,
+      "name": "J&S"
+     },
+     {
+      "col": 59,
+      "x": 944,
+      "y": 128,
+      "item": 9,
+      "name": "Windmill"
+     },
+     {
+      "col": 63,
+      "x": 1008,
+      "y": 160,
+      "item": 2,
+      "name": "1-UP"
+     },
+     {
+      "col": 73,
+      "x": 1168,
+      "y": 96,
+      "item": 1,
+      "name": "ninpo+10"
+     },
+     {
+      "col": 85,
+      "x": 1360,
+      "y": 80,
+      "item": 7,
+      "name": "InvFireWheel"
+     },
+     {
+      "col": 105,
+      "x": 1680,
+      "y": 80,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 114,
+      "x": 1824,
+      "y": 96,
+      "item": 5,
+      "name": "500pts"
+     },
+     {
+      "col": 130,
+      "x": 2080,
+      "y": 96,
+      "item": 6,
+      "name": "1000pts"
+     }
+    ],
+    "14": [],
+    "15": []
+   },
+   "ninpo_total": 30
+  },
+  "4-2": {
+   "map": "4-2",
+   "rooms": {
+    "16": [
+     {
+      "col": 19,
+      "x": 304,
+      "y": 112,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 27,
+      "x": 432,
+      "y": 112,
+      "item": 1,
+      "name": "ninpo+10"
+     },
+     {
+      "col": 43,
+      "x": 688,
+      "y": 96,
+      "item": 9,
+      "name": "Windmill"
+     },
+     {
+      "col": 44,
+      "x": 704,
+      "y": 160,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 48,
+      "x": 768,
+      "y": 96,
+      "item": 1,
+      "name": "ninpo+10"
+     },
+     {
+      "col": 49,
+      "x": 784,
+      "y": 160,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 59,
+      "x": 944,
+      "y": 160,
+      "item": 10,
+      "name": "FireWheel"
+     },
+     {
+      "col": 62,
+      "x": 992,
+      "y": 96,
+      "item": 6,
+      "name": "1000pts"
+     },
+     {
+      "col": 66,
+      "x": 1056,
+      "y": 96,
+      "item": 5,
+      "name": "500pts"
+     },
+     {
+      "col": 72,
+      "x": 1152,
+      "y": 160,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 78,
+      "x": 1248,
+      "y": 96,
+      "item": 1,
+      "name": "ninpo+10"
+     },
+     {
+      "col": 78,
+      "x": 1248,
+      "y": 160,
+      "item": 8,
+      "name": "Star"
+     },
+     {
+      "col": 87,
+      "x": 1392,
+      "y": 160,
+      "item": 4,
+      "name": "hourglass"
+     },
+     {
+      "col": 139,
+      "x": 2224,
+      "y": 96,
+      "item": 9,
+      "name": "Windmill"
+     },
+     {
+      "col": 146,
+      "x": 2336,
+      "y": 96,
+      "item": 6,
+      "name": "1000pts"
+     },
+     {
+      "col": 147,
+      "x": 2352,
+      "y": 160,
+      "item": 3,
+      "name": "health"
+     },
+     {
+      "col": 160,
+      "x": 2560,
+      "y": 96,
+      "item": 2,
+      "name": "1-UP"
+     },
+     {
+      "col": 164,
+      "x": 2624,
+      "y": 128,
+      "item": 11,
+      "name": "J&S"
+     },
+     {
+      "col": 172,
+      "x": 2752,
+      "y": 160,
+      "item": 5,
+      "name": "500pts"
+     },
+     {
+      "col": 174,
+      "x": 2784,
+      "y": 80,
+      "item": 1,
+      "name": "ninpo+10"
+     },
+     {
+      "col": 186,
+      "x": 2976,
+      "y": 128,
+      "item": 9,
+      "name": "Windmill"
+     }
+    ]
+   },
+   "ninpo_total": 60
+  },
+  "4-3": {
+   "map": "4-3",
+   "rooms": {
+    "17": [],
+    "18": [
+     {
+      "col": 17,
+      "x": 272,
+      "y": 112,
+      "item": 10,
+      "name": "FireWheel"
+     },
+     {
+      "col": 17,
+      "x": 272,
+      "y": 176,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 29,
+      "x": 464,
+      "y": 176,
+      "item": 5,
+      "name": "500pts"
+     },
+     {
+      "col": 37,
+      "x": 592,
+      "y": 112,
+      "item": 1,
+      "name": "ninpo+10"
+     },
+     {
+      "col": 43,
+      "x": 688,
+      "y": 96,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 47,
+      "x": 752,
+      "y": 160,
+      "item": 9,
+      "name": "Windmill"
+     },
+     {
+      "col": 53,
+      "x": 848,
+      "y": 96,
+      "item": 6,
+      "name": "1000pts"
+     }
+    ],
+    "19": [
+     {
+      "col": 19,
+      "x": 304,
+      "y": 144,
+      "item": 9,
+      "name": "Windmill"
+     },
+     {
+      "col": 27,
+      "x": 432,
+      "y": 144,
+      "item": 6,
+      "name": "1000pts"
+     },
+     {
+      "col": 30,
+      "x": 480,
+      "y": 144,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 45,
+      "x": 720,
+      "y": 128,
+      "item": 3,
+      "name": "health"
+     },
+     {
+      "col": 51,
+      "x": 816,
+      "y": 96,
+      "item": 10,
+      "name": "FireWheel"
+     },
+     {
+      "col": 56,
+      "x": 896,
+      "y": 96,
+      "item": 5,
+      "name": "500pts"
+     },
+     {
+      "col": 71,
+      "x": 1136,
+      "y": 128,
+      "item": 6,
+      "name": "1000pts"
+     }
+    ],
+    "20": [
+     {
+      "col": 19,
+      "x": 304,
+      "y": 96,
+      "item": 9,
+      "name": "Windmill"
+     },
+     {
+      "col": 19,
+      "x": 304,
+      "y": 144,
+      "item": 5,
+      "name": "500pts"
+     },
+     {
+      "col": 29,
+      "x": 464,
+      "y": 96,
+      "item": 1,
+      "name": "ninpo+10"
+     },
+     {
+      "col": 41,
+      "x": 656,
+      "y": 96,
+      "item": 0,
+      "name": "ninpo+5"
+     }
+    ]
+   },
+   "ninpo_total": 40
+  },
+  "4-4": {
+   "map": null,
+   "rooms": {
+    "21": []
+   },
+   "ninpo_total": 0
+  },
+  "5-1": {
+   "map": "5-1",
+   "rooms": {
+    "22": [
+     {
+      "col": 19,
+      "x": 304,
+      "y": 160,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 23,
+      "x": 368,
+      "y": 96,
+      "item": 8,
+      "name": "Star"
+     },
+     {
+      "col": 23,
+      "x": 368,
+      "y": 160,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 33,
+      "x": 528,
+      "y": 96,
+      "item": 5,
+      "name": "500pts"
+     },
+     {
+      "col": 37,
+      "x": 592,
+      "y": 96,
+      "item": 1,
+      "name": "ninpo+10"
+     },
+     {
+      "col": 41,
+      "x": 656,
+      "y": 160,
+      "item": 6,
+      "name": "1000pts"
+     },
+     {
+      "col": 46,
+      "x": 736,
+      "y": 160,
+      "item": 9,
+      "name": "Windmill"
+     },
+     {
+      "col": 54,
+      "x": 864,
+      "y": 128,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 59,
+      "x": 944,
+      "y": 128,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 65,
+      "x": 1040,
+      "y": 96,
+      "item": 5,
+      "name": "500pts"
+     },
+     {
+      "col": 73,
+      "x": 1168,
+      "y": 128,
+      "item": 6,
+      "name": "1000pts"
+     },
+     {
+      "col": 86,
+      "x": 1376,
+      "y": 112,
+      "item": 10,
+      "name": "FireWheel"
+     },
+     {
+      "col": 103,
+      "x": 1648,
+      "y": 128,
+      "item": 1,
+      "name": "ninpo+10"
+     },
+     {
+      "col": 136,
+      "x": 2176,
+      "y": 96,
+      "item": 9,
+      "name": "Windmill"
+     },
+     {
+      "col": 161,
+      "x": 2576,
+      "y": 80,
+      "item": 3,
+      "name": "health"
+     },
+     {
+      "col": 172,
+      "x": 2752,
+      "y": 160,
+      "item": 6,
+      "name": "1000pts"
+     },
+     {
+      "col": 186,
+      "x": 2976,
+      "y": 160,
+      "item": 1,
+      "name": "ninpo+10"
+     }
+    ]
+   },
+   "ninpo_total": 50
+  },
+  "5-2": {
+   "map": "5-2",
+   "rooms": {
+    "23": [
+     {
+      "col": 9,
+      "x": 144,
+      "y": 112,
+      "item": 11,
+      "name": "J&S"
+     },
+     {
+      "col": 19,
+      "x": 304,
+      "y": 96,
+      "item": 5,
+      "name": "500pts"
+     },
+     {
+      "col": 22,
+      "x": 352,
+      "y": 96,
+      "item": 1,
+      "name": "ninpo+10"
+     },
+     {
+      "col": 30,
+      "x": 480,
+      "y": 144,
+      "item": 0,
+      "name": "ninpo+5"
+     }
+    ],
+    "24": [
+     {
+      "col": 20,
+      "x": 320,
+      "y": 96,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 20,
+      "x": 320,
+      "y": 160,
+      "item": 10,
+      "name": "FireWheel"
+     },
+     {
+      "col": 24,
+      "x": 384,
+      "y": 96,
+      "item": 6,
+      "name": "1000pts"
+     },
+     {
+      "col": 32,
+      "x": 512,
+      "y": 128,
+      "item": 8,
+      "name": "Star"
+     },
+     {
+      "col": 35,
+      "x": 560,
+      "y": 128,
+      "item": 5,
+      "name": "500pts"
+     }
+    ],
+    "25": [
+     {
+      "col": 6,
+      "x": 96,
+      "y": 144,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 14,
+      "x": 224,
+      "y": 128,
+      "item": 9,
+      "name": "Windmill"
+     },
+     {
+      "col": 18,
+      "x": 288,
+      "y": 128,
+      "item": 6,
+      "name": "1000pts"
+     },
+     {
+      "col": 26,
+      "x": 416,
+      "y": 160,
+      "item": 5,
+      "name": "500pts"
+     },
+     {
+      "col": 28,
+      "x": 448,
+      "y": 96,
+      "item": 7,
+      "name": "InvFireWheel"
+     },
+     {
+      "col": 30,
+      "x": 480,
+      "y": 160,
+      "item": 0,
+      "name": "ninpo+5"
+     }
+    ],
+    "26": [
+     {
+      "col": 16,
+      "x": 256,
+      "y": 80,
+      "item": 3,
+      "name": "health"
+     },
+     {
+      "col": 20,
+      "x": 320,
+      "y": 96,
+      "item": 5,
+      "name": "500pts"
+     },
+     {
+      "col": 28,
+      "x": 448,
+      "y": 176,
+      "item": 6,
+      "name": "1000pts"
+     },
+     {
+      "col": 35,
+      "x": 560,
+      "y": 96,
+      "item": 1,
+      "name": "ninpo+10"
+     }
+    ]
+   },
+   "ninpo_total": 40
+  },
+  "5-3": {
+   "map": "5-3",
+   "rooms": {
+    "27": [
+     {
+      "col": 12,
+      "x": 192,
+      "y": 112,
+      "item": 10,
+      "name": "FireWheel"
+     },
+     {
+      "col": 15,
+      "x": 240,
+      "y": 160,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 20,
+      "x": 320,
+      "y": 80,
+      "item": 1,
+      "name": "ninpo+10"
+     },
+     {
+      "col": 25,
+      "x": 400,
+      "y": 160,
+      "item": 0,
+      "name": "ninpo+5"
+     }
+    ],
+    "28": [
+     {
+      "col": 18,
+      "x": 288,
+      "y": 96,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 28,
+      "x": 448,
+      "y": 80,
+      "item": 6,
+      "name": "1000pts"
+     },
+     {
+      "col": 31,
+      "x": 496,
+      "y": 144,
+      "item": 1,
+      "name": "ninpo+10"
+     },
+     {
+      "col": 33,
+      "x": 528,
+      "y": 80,
+      "item": 5,
+      "name": "500pts"
+     }
+    ],
+    "29": [
+     {
+      "col": 9,
+      "x": 144,
+      "y": 80,
+      "item": 7,
+      "name": "InvFireWheel"
+     },
+     {
+      "col": 17,
+      "x": 272,
+      "y": 80,
+      "item": 1,
+      "name": "ninpo+10"
+     },
+     {
+      "col": 19,
+      "x": 304,
+      "y": 80,
+      "item": 5,
+      "name": "500pts"
+     },
+     {
+      "col": 27,
+      "x": 432,
+      "y": 80,
+      "item": 6,
+      "name": "1000pts"
+     },
+     {
+      "col": 31,
+      "x": 496,
+      "y": 80,
+      "item": 2,
+      "name": "1-UP"
+     },
+     {
+      "col": 31,
+      "x": 496,
+      "y": 160,
+      "item": 8,
+      "name": "Star"
+     }
+    ],
+    "30": [
+     {
+      "col": 21,
+      "x": 336,
+      "y": 112,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 29,
+      "x": 464,
+      "y": 96,
+      "item": 9,
+      "name": "Windmill"
+     },
+     {
+      "col": 39,
+      "x": 624,
+      "y": 128,
+      "item": 8,
+      "name": "Star"
+     }
+    ],
+    "31": [
+     {
+      "col": 4,
+      "x": 64,
+      "y": 144,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 11,
+      "x": 176,
+      "y": 80,
+      "item": 6,
+      "name": "1000pts"
+     },
+     {
+      "col": 15,
+      "x": 240,
+      "y": 80,
+      "item": 10,
+      "name": "FireWheel"
+     }
+    ],
+    "32": [
+     {
+      "col": 16,
+      "x": 256,
+      "y": 160,
+      "item": 10,
+      "name": "FireWheel"
+     },
+     {
+      "col": 23,
+      "x": 368,
+      "y": 160,
+      "item": 9,
+      "name": "Windmill"
+     },
+     {
+      "col": 26,
+      "x": 416,
+      "y": 112,
+      "item": 0,
+      "name": "ninpo+5"
+     }
+    ],
+    "33": []
+   },
+   "ninpo_total": 60
+  },
+  "5-4": {
+   "map": null,
+   "rooms": {
+    "34": []
+   },
+   "ninpo_total": 0
+  },
+  "6-1": {
+   "map": "6-1",
+   "rooms": {
+    "35": [
+     {
+      "col": 7,
+      "x": 112,
+      "y": 96,
+      "item": 1,
+      "name": "ninpo+10"
+     },
+     {
+      "col": 15,
+      "x": 240,
+      "y": 96,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 23,
+      "x": 368,
+      "y": 96,
+      "item": 5,
+      "name": "500pts"
+     },
+     {
+      "col": 33,
+      "x": 528,
+      "y": 128,
+      "item": 11,
+      "name": "J&S"
+     },
+     {
+      "col": 41,
+      "x": 656,
+      "y": 128,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 50,
+      "x": 800,
+      "y": 128,
+      "item": 9,
+      "name": "Windmill"
+     },
+     {
+      "col": 60,
+      "x": 960,
+      "y": 160,
+      "item": 5,
+      "name": "500pts"
+     },
+     {
+      "col": 64,
+      "x": 1024,
+      "y": 160,
+      "item": 1,
+      "name": "ninpo+10"
+     },
+     {
+      "col": 76,
+      "x": 1216,
+      "y": 160,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 91,
+      "x": 1456,
+      "y": 160,
+      "item": 8,
+      "name": "Star"
+     }
+    ]
+   },
+   "ninpo_total": 35
+  },
+  "6-2": {
+   "map": "6-2",
+   "rooms": {
+    "36": [
+     {
+      "col": 4,
+      "x": 64,
+      "y": 112,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 16,
+      "x": 256,
+      "y": 128,
+      "item": 9,
+      "name": "Windmill"
+     },
+     {
+      "col": 27,
+      "x": 432,
+      "y": 80,
+      "item": 11,
+      "name": "J&S"
+     },
+     {
+      "col": 34,
+      "x": 544,
+      "y": 96,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 40,
+      "x": 640,
+      "y": 96,
+      "item": 5,
+      "name": "500pts"
+     },
+     {
+      "col": 50,
+      "x": 800,
+      "y": 176,
+      "item": 1,
+      "name": "ninpo+10"
+     },
+     {
+      "col": 60,
+      "x": 960,
+      "y": 160,
+      "item": 6,
+      "name": "1000pts"
+     },
+     {
+      "col": 66,
+      "x": 1056,
+      "y": 160,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 67,
+      "x": 1072,
+      "y": 112,
+      "item": 9,
+      "name": "Windmill"
+     },
+     {
+      "col": 77,
+      "x": 1232,
+      "y": 160,
+      "item": 0,
+      "name": "ninpo+5"
+     }
+    ],
+    "37": [
+     {
+      "col": 11,
+      "x": 176,
+      "y": 96,
+      "item": 8,
+      "name": "Star"
+     },
+     {
+      "col": 20,
+      "x": 320,
+      "y": 160,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 27,
+      "x": 432,
+      "y": 96,
+      "item": 9,
+      "name": "Windmill"
+     },
+     {
+      "col": 30,
+      "x": 480,
+      "y": 144,
+      "item": 5,
+      "name": "500pts"
+     },
+     {
+      "col": 34,
+      "x": 544,
+      "y": 128,
+      "item": 10,
+      "name": "FireWheel"
+     },
+     {
+      "col": 38,
+      "x": 608,
+      "y": 96,
+      "item": 6,
+      "name": "1000pts"
+     },
+     {
+      "col": 45,
+      "x": 720,
+      "y": 96,
+      "item": 1,
+      "name": "ninpo+10"
+     }
+    ],
+    "38": [
+     {
+      "col": 3,
+      "x": 48,
+      "y": 112,
+      "item": 9,
+      "name": "Windmill"
+     }
+    ],
+    "39": [
+     {
+      "col": 17,
+      "x": 272,
+      "y": 96,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 20,
+      "x": 320,
+      "y": 96,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 27,
+      "x": 432,
+      "y": 96,
+      "item": 5,
+      "name": "500pts"
+     },
+     {
+      "col": 34,
+      "x": 544,
+      "y": 96,
+      "item": 1,
+      "name": "ninpo+10"
+     },
+     {
+      "col": 38,
+      "x": 608,
+      "y": 128,
+      "item": 6,
+      "name": "1000pts"
+     }
+    ],
+    "40": [
+     {
+      "col": 19,
+      "x": 304,
+      "y": 144,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 24,
+      "x": 384,
+      "y": 80,
+      "item": 3,
+      "name": "health"
+     },
+     {
+      "col": 32,
+      "x": 512,
+      "y": 160,
+      "item": 1,
+      "name": "ninpo+10"
+     },
+     {
+      "col": 35,
+      "x": 560,
+      "y": 160,
+      "item": 7,
+      "name": "InvFireWheel"
+     },
+     {
+      "col": 41,
+      "x": 656,
+      "y": 96,
+      "item": 5,
+      "name": "500pts"
+     }
+    ]
+   },
+   "ninpo_total": 80
+  },
+  "6-3": {
+   "map": "6-3",
+   "rooms": {
+    "41": [
+     {
+      "col": 20,
+      "x": 320,
+      "y": 96,
+      "item": 10,
+      "name": "FireWheel"
+     },
+     {
+      "col": 20,
+      "x": 320,
+      "y": 144,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 31,
+      "x": 496,
+      "y": 96,
+      "item": 5,
+      "name": "500pts"
+     },
+     {
+      "col": 34,
+      "x": 544,
+      "y": 96,
+      "item": 1,
+      "name": "ninpo+10"
+     },
+     {
+      "col": 37,
+      "x": 592,
+      "y": 96,
+      "item": 6,
+      "name": "1000pts"
+     },
+     {
+      "col": 43,
+      "x": 688,
+      "y": 160,
+      "item": 11,
+      "name": "J&S"
+     }
+    ],
+    "42": [],
+    "43": [
+     {
+      "col": 4,
+      "x": 64,
+      "y": 96,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 13,
+      "x": 208,
+      "y": 144,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 16,
+      "x": 256,
+      "y": 80,
+      "item": 1,
+      "name": "ninpo+10"
+     },
+     {
+      "col": 22,
+      "x": 352,
+      "y": 160,
+      "item": 5,
+      "name": "500pts"
+     },
+     {
+      "col": 32,
+      "x": 512,
+      "y": 80,
+      "item": 10,
+      "name": "FireWheel"
+     },
+     {
+      "col": 44,
+      "x": 704,
+      "y": 80,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 52,
+      "x": 832,
+      "y": 176,
+      "item": 4,
+      "name": "hourglass"
+     },
+     {
+      "col": 65,
+      "x": 1040,
+      "y": 80,
+      "item": 5,
+      "name": "500pts"
+     },
+     {
+      "col": 69,
+      "x": 1104,
+      "y": 80,
+      "item": 9,
+      "name": "Windmill"
+     },
+     {
+      "col": 77,
+      "x": 1232,
+      "y": 96,
+      "item": 6,
+      "name": "1000pts"
+     },
+     {
+      "col": 82,
+      "x": 1312,
+      "y": 96,
+      "item": 1,
+      "name": "ninpo+10"
+     },
+     {
+      "col": 87,
+      "x": 1392,
+      "y": 128,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 89,
+      "x": 1424,
+      "y": 128,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 96,
+      "x": 1536,
+      "y": 144,
+      "item": 10,
+      "name": "FireWheel"
+     },
+     {
+      "col": 104,
+      "x": 1664,
+      "y": 96,
+      "item": 5,
+      "name": "500pts"
+     },
+     {
+      "col": 106,
+      "x": 1696,
+      "y": 96,
+      "item": 5,
+      "name": "500pts"
+     },
+     {
+      "col": 110,
+      "x": 1760,
+      "y": 128,
+      "item": 8,
+      "name": "Star"
+     }
+    ],
+    "44": [
+     {
+      "col": 18,
+      "x": 288,
+      "y": 80,
+      "item": 3,
+      "name": "health"
+     },
+     {
+      "col": 25,
+      "x": 400,
+      "y": 160,
+      "item": 4,
+      "name": "hourglass"
+     },
+     {
+      "col": 33,
+      "x": 528,
+      "y": 176,
+      "item": 1,
+      "name": "ninpo+10"
+     },
+     {
+      "col": 36,
+      "x": 576,
+      "y": 80,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 39,
+      "x": 624,
+      "y": 80,
+      "item": 0,
+      "name": "ninpo+5"
+     },
+     {
+      "col": 44,
+      "x": 704,
+      "y": 128,
+      "item": 10,
+      "name": "FireWheel"
+     },
+     {
+      "col": 51,
+      "x": 816,
+      "y": 160,
+      "item": 8,
+      "name": "Star"
+     },
+     {
+      "col": 55,
+      "x": 880,
+      "y": 160,
+      "item": 9,
+      "name": "Windmill"
+     },
+     {
+      "col": 59,
+      "x": 944,
+      "y": 160,
+      "item": 10,
+      "name": "FireWheel"
+     }
+    ]
+   },
+   "ninpo_total": 80
+  },
+  "6-4a": {
+   "map": null,
+   "rooms": {
+    "45": []
+   },
+   "ninpo_total": 0
+  },
+  "6-4b": {
+   "map": null,
+   "rooms": {
+    "46": []
+   },
+   "ninpo_total": 0
+  },
+  "6-5": {
+   "map": null,
+   "rooms": {
+    "47": []
+   },
+   "ninpo_total": 0
+  }
+ }
+}

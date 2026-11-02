@@ -1,0 +1,160 @@
+[
+ {
+  "n": 0,
+  "stage": "1-1",
+  "first": 5,
+  "last": 20,
+  "tas_skipped": true,
+  "natural_play_frame": null,
+  "start_presses": [
+   7,
+   15,
+   20
+  ],
+  "skipped_play_frame": 174,
+  "saved_vs_natural": null
+ },
+ {
+  "n": 1,
+  "stage": "1-2",
+  "first": 3143,
+  "last": 3148,
+  "tas_skipped": true,
+  "natural_play_frame": 8331,
+  "start_presses": [
+   3148
+  ],
+  "skipped_play_frame": 3302,
+  "saved_vs_natural": 5029
+ },
+ {
+  "n": 2,
+  "stage": "2-3",
+  "first": 9670,
+  "last": 9675,
+  "tas_skipped": true,
+  "natural_play_frame": null,
+  "start_presses": [
+   9674
+  ],
+  "skipped_play_frame": 9828,
+  "saved_vs_natural": null
+ },
+ {
+  "n": 3,
+  "stage": "3-3",
+  "first": 14411,
+  "last": 14415,
+  "tas_skipped": true,
+  "natural_play_frame": null,
+  "start_presses": [
+   14415
+  ],
+  "skipped_play_frame": 14569,
+  "saved_vs_natural": null
+ },
+ {
+  "n": 4,
+  "stage": "4-1",
+  "first": 16521,
+  "last": 16521,
+  "tas_skipped": false,
+  "natural_play_frame": 18001,
+  "start_presses": [
+   16528
+  ],
+  "skipped_play_frame": 16682,
+  "saved_vs_natural": 1319
+ },
+ {
+  "n": 5,
+  "stage": "4-1",
+  "first": 16527,
+  "last": 16528,
+  "tas_skipped": true,
+  "natural_play_frame": 18001,
+  "start_presses": [
+   16528
+  ],
+  "skipped_play_frame": 16682,
+  "saved_vs_natural": 1319
+ },
+ {
+  "n": 6,
+  "stage": "4-4",
+  "first": 21967,
+  "last": 21971,
+  "tas_skipped": true,
+  "natural_play_frame": 27507,
+  "start_presses": [
+   21971
+  ],
+  "skipped_play_frame": 22125,
+  "saved_vs_natural": 5382
+ },
+ {
+  "n": 7,
+  "stage": "5-3",
+  "first": 29102,
+  "last": 29106,
+  "tas_skipped": true,
+  "natural_play_frame": 31267,
+  "start_presses": [
+   29106
+  ],
+  "skipped_play_frame": 29260,
+  "saved_vs_natural": 2007
+ },
+ {
+  "n": 8,
+  "stage": "5-4",
+  "first": 29905,
+  "last": 29909,
+  "tas_skipped": true,
+  "natural_play_frame": 32411,
+  "start_presses": [
+   29909
+  ],
+  "skipped_play_frame": 30063,
+  "saved_vs_natural": 2348
+ },
+ {
+  "n": 9,
+  "stage": "6-3",
+  "first": 37120,
+  "last": 37124,
+  "tas_skipped": true,
+  "natural_play_frame": 42371,
+  "start_presses": [
+   37124
+  ],
+  "skipped_play_frame": 37278,
+  "saved_vs_natural": 5093
+ },
+ {
+  "n": 10,
+  "stage": "6-4a",
+  "first": 37929,
+  "last": 37933,
+  "tas_skipped": true,
+  "natural_play_frame": 40692,
+  "start_presses": [
+   37933
+  ],
+  "skipped_play_frame": 38087,
+  "saved_vs_natural": 2605
+ },
+ {
+  "n": 11,
+  "stage": "6-4b",
+  "first": 38775,
+  "last": 38779,
+  "tas_skipped": true,
+  "natural_play_frame": 42193,
+  "start_presses": [
+   38779
+  ],
+  "skipped_play_frame": 38933,
+  "saved_vs_natural": 3260
+ }
+]

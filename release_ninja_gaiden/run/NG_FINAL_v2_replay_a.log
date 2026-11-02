@@ -1,0 +1,45 @@
+parsing command-line flags: --config=G:\AI World Record\Ninja Gaiden\emu_tmp\40516_05dd9079\config.ini --lua=G:\AI World Record\Ninja Gaiden\bridge.lua --userdata=port:56498 G:\AI World Record\Ninja Gaiden\Ninja Gaiden (USA).nes
+Using SDL2 for host input (keyboard + gamepads)
+ROM was not a multiple of 1024 bytes, and not a recognized header size: 16. Assume it's purely ROM data.
+------
+BEGIN NES rom analysis:
+Found iNES header:
+pr=128,ch=128,wr=8,vr=0,ba=0,pa=0|1,brd=MAPPER001,sys=
+Since this is iNES we can (somewhat) confidently parse PRG/CHR banks to hash.
+headerless rom hash: SHA1:15F245161179AB1959B7DC20E82ADD024D23AA3D
+headerless rom hash:  MD5:07C1B92AE9B78F209075A8CC6D3EEBF0
+DB: hash MD5:07C1B92AE9B78F209075A8CC6D3EEBF0 not in game database.
+DB: hash SHA1:15F245161179AB1959B7DC20E82ADD024D23AA3D not in game database.
+Could not locate game in bizhawk gamedb
+Chose board from nescartdb:
+pr=128,ch=128,wr=0,vr=0,ba=0,pa=0|0,brd=NES-SLROM,sys=NES-NTSC
+Final game detection results:
+pr=128,ch=128,wr=0,vr=0,ba=0,pa=0|0,brd=NES-SLROM,sys=NES-NTSC
+"Ninja Gaiden"
+Implemented by: class SxROM
+END NES rom analysis
+------
+Using NES system region of NTSC
+Core reported BoardID: "SxROM"
+[Lua Console] loaded script G:\AI World Record\Ninja Gaiden\bridge.lua
+ROM was not a multiple of 1024 bytes, and not a recognized header size: 16. Assume it's purely ROM data.
+------
+BEGIN NES rom analysis:
+Found iNES header:
+pr=128,ch=128,wr=8,vr=0,ba=0,pa=0|1,brd=MAPPER001,sys=
+Since this is iNES we can (somewhat) confidently parse PRG/CHR banks to hash.
+headerless rom hash: SHA1:15F245161179AB1959B7DC20E82ADD024D23AA3D
+headerless rom hash:  MD5:07C1B92AE9B78F209075A8CC6D3EEBF0
+DB: hash MD5:07C1B92AE9B78F209075A8CC6D3EEBF0 not in game database.
+DB: hash SHA1:15F245161179AB1959B7DC20E82ADD024D23AA3D not in game database.
+Could not locate game in bizhawk gamedb
+Chose board from nescartdb:
+pr=128,ch=128,wr=0,vr=0,ba=0,pa=0|0,brd=NES-SLROM,sys=NES-NTSC
+Final game detection results:
+pr=128,ch=128,wr=0,vr=0,ba=0,pa=0|0,brd=NES-SLROM,sys=NES-NTSC
+"Ninja Gaiden"
+Implemented by: class SxROM
+END NES rom analysis
+------
+Using NES system region of NTSC
+Core reported BoardID: "SxROM"

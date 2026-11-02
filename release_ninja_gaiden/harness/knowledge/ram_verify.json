@@ -1,0 +1,198 @@
+{
+ "pad_held_$2A_new_$29": {
+  "pass": true,
+  "pad": [
+   1,
+   1,
+   1
+  ],
+  "padnew": [
+   1,
+   0,
+   0
+  ]
+ },
+ "x_$86_sub_$85_walk_1.5px": {
+  "pass": true,
+  "deltas_in_1_256px": [
+   384
+  ],
+  "x_first": [
+   33,
+   128
+  ],
+  "x_last": [
+   62,
+   0
+  ],
+  "speed": [
+   1,
+   128
+  ]
+ },
+ "x_matches_sprite_oam": {
+  "pass": true,
+  "ram_x": 62,
+  "oam_x": [
+   49,
+   53,
+   57,
+   61,
+   65,
+   160
+  ]
+ },
+ "jump_y_$8A_vy_$89": {
+  "pass": true,
+  "vy_first": 252,
+  "y_min": 160,
+  "y_start": 208,
+  "y_end": 208,
+  "airborne_flag": 4
+ },
+ "scroll_$51_$52_while_x_fixed": {
+  "pass": true,
+  "scroll_first": 0,
+  "scroll_last": 106,
+  "x_last": 128
+ },
+ "timer_$63_ticks_with_subtimer_$62": {
+  "pass": true,
+  "frames_between_ticks": [
+   63,
+   63
+  ],
+  "main_loop_frames_without_column_wait_between_ticks": [
+   61,
+   61
+  ],
+  "timer": 142,
+  "game_lag_frames_in_window": []
+ },
+ "rng_$BF_plus1_per_frame": {
+  "pass": true,
+  "first": 201,
+  "last": 144
+ },
+ "pause_$1E_bit7_and_main_loop_skips": {
+  "pass": true,
+  "pause": [
+   128,
+   128,
+   128
+  ],
+  "timer_frozen": [
+   142,
+   14,
+   14
+  ]
+ },
+ "death_$8B_lives_$76_deathloop": {
+  "pass": true,
+  "death_wait_frames": 190,
+  "lives": [
+   2,
+   1
+  ]
+ },
+ "hp_$65_falls_when_hit": {
+  "pass": true,
+  "hp_first": 15,
+  "hp_min": 14,
+  "first_drop": 9266
+ },
+ "enemy_slots_$0400_id_$0460_x_$0480_y_$0490_hp": {
+  "pass": true,
+  "ids": [
+   0,
+   0,
+   0,
+   3,
+   3,
+   3,
+   42,
+   24
+  ],
+  "x": [
+   0,
+   0,
+   0,
+   130,
+   121,
+   127,
+   196,
+   174
+  ],
+  "y": [
+   0,
+   0,
+   0,
+   192,
+   192,
+   192,
+   184,
+   208
+  ],
+  "hp": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   32,
+   16
+  ],
+  "boss_display": 16,
+  "oam_xy": [
+   [
+    104,
+    31
+   ],
+   [
+    112,
+    31
+   ],
+   [
+    160,
+    38
+   ],
+   [
+    167,
+    160
+   ],
+   [
+    167,
+    176
+   ],
+   [
+    167,
+    192
+   ],
+   [
+    175,
+    160
+   ],
+   [
+    175,
+    176
+   ],
+   [
+    175,
+    192
+   ],
+   [
+    183,
+    160
+   ],
+   [
+    188,
+    176
+   ],
+   [
+    188,
+    191
+   ]
+  ]
+ }
+}

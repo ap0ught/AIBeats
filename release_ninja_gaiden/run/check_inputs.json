@@ -1,0 +1,196 @@
+{
+ "frames": 41390,
+ "params": {
+  "period": 5,
+  "hold": 2,
+  "release": 2,
+  "buttons": [
+   "Up",
+   "Down",
+   "Left",
+   "Right",
+   "Select",
+   "Start",
+   "B",
+   "A"
+  ],
+  "windows": [
+   [
+    600,
+    109
+   ],
+   [
+    1800,
+    246
+   ]
+  ]
+ },
+ "rules": {
+  "controller_1_only": {
+   "violations": 0,
+   "first": [],
+   "enforced": true
+  },
+  "no_left_right": {
+   "violations": 0,
+   "first": [],
+   "enforced": true
+  },
+  "no_up_down": {
+   "violations": 0,
+   "first": [],
+   "enforced": true
+  },
+  "press_period": {
+   "violations": 0,
+   "by_button": {},
+   "first": [],
+   "enforced": true
+  },
+  "min_hold": {
+   "violations": 0,
+   "by_button": {},
+   "first": [],
+   "enforced": true
+  },
+  "min_release": {
+   "violations": 0,
+   "by_button": {},
+   "first": [],
+   "enforced": true
+  },
+  "max_109_in_600_frames": {
+   "violations": 0,
+   "by_button": {},
+   "first": [],
+   "enforced": true
+  },
+  "max_246_in_1800_frames": {
+   "violations": 0,
+   "by_button": {},
+   "first": [],
+   "enforced": true
+  }
+ },
+ "stats": {
+  "Up": {
+   "presses": 595,
+   "frames_held": 1508,
+   "max_presses_in_60_frames": 12,
+   "min_frames_between_press_starts": 5,
+   "hold_length_histogram": {
+    "2": 298,
+    "3": 288,
+    "4": 4,
+    "5": 1,
+    "6": 1,
+    "7": 3
+   },
+   "max_presses_in_600_frames": 87,
+   "max_presses_in_1800_frames": 171
+  },
+  "Down": {
+   "presses": 85,
+   "frames_held": 184,
+   "max_presses_in_60_frames": 12,
+   "min_frames_between_press_starts": 5,
+   "hold_length_histogram": {
+    "2": 81,
+    "4": 3,
+    "8+": 1
+   },
+   "max_presses_in_600_frames": 52,
+   "max_presses_in_1800_frames": 68
+  },
+  "Left": {
+   "presses": 353,
+   "frames_held": 10351,
+   "max_presses_in_60_frames": 12,
+   "min_frames_between_press_starts": 5,
+   "hold_length_histogram": {
+    "2": 227,
+    "3": 36,
+    "4": 16,
+    "5": 6,
+    "6": 4,
+    "7": 2,
+    "8+": 62
+   },
+   "max_presses_in_600_frames": 39,
+   "max_presses_in_1800_frames": 54
+  },
+  "Right": {
+   "presses": 392,
+   "frames_held": 20479,
+   "max_presses_in_60_frames": 12,
+   "min_frames_between_press_starts": 5,
+   "hold_length_histogram": {
+    "2": 96,
+    "3": 138,
+    "4": 23,
+    "5": 10,
+    "6": 33,
+    "7": 5,
+    "8+": 87
+   },
+   "max_presses_in_600_frames": 38,
+   "max_presses_in_1800_frames": 51
+  },
+  "Select": {
+   "presses": 0,
+   "frames_held": 0,
+   "max_presses_in_60_frames": 0,
+   "min_frames_between_press_starts": null,
+   "hold_length_histogram": {},
+   "max_presses_in_600_frames": 0,
+   "max_presses_in_1800_frames": 0
+  },
+  "Start": {
+   "presses": 13,
+   "frames_held": 26,
+   "max_presses_in_60_frames": 3,
+   "min_frames_between_press_starts": 5,
+   "hold_length_histogram": {
+    "2": 13
+   },
+   "max_presses_in_600_frames": 3,
+   "max_presses_in_1800_frames": 3
+  },
+  "B": {
+   "presses": 408,
+   "frames_held": 1272,
+   "max_presses_in_60_frames": 12,
+   "min_frames_between_press_starts": 5,
+   "hold_length_histogram": {
+    "2": 385,
+    "3": 8,
+    "4": 3,
+    "5": 2,
+    "6": 2,
+    "7": 1,
+    "8+": 7
+   },
+   "max_presses_in_600_frames": 52,
+   "max_presses_in_1800_frames": 69
+  },
+  "A": {
+   "presses": 828,
+   "frames_held": 2007,
+   "max_presses_in_60_frames": 12,
+   "min_frames_between_press_starts": 5,
+   "hold_length_histogram": {
+    "2": 702,
+    "3": 37,
+    "4": 50,
+    "5": 15,
+    "6": 9,
+    "7": 5,
+    "8+": 10
+   },
+   "max_presses_in_600_frames": 78,
+   "max_presses_in_1800_frames": 125
+  }
+ },
+ "mode": "human",
+ "pass": true
+}
