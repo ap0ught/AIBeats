@@ -21,17 +21,19 @@ harness, journal, knowledge notes, and the final input movie. Game ROMs are not 
 - Video: [An AI Beat Contra's World Record by 24 Seconds](https://www.youtube.com/watch?v=OaePvbX8jqw)
 - Entry point: `README.md` in the folder; harness in `harness/`.
 
-### Ninja Gaiden
+### Ninja Gaiden — `release_ninja_gaiden/`
 - Run: 11:25, 6.5 s under the 11:32 human record.
 - Video: [Can AI Beat the World Record of Ninja Gaiden (NES)?](https://www.youtube.com/watch?v=VTVDW15C1C8)
-- No game folder and no release zip yet.
+- Full uncompressed release imported from [`AIPlaysNinjaGaiden`](https://github.com/bearsgaming-ui/AIPlaysNinjaGaiden), including the harness, knowledge notes, run artifacts, verification data, and final input movie.
+- Entry point: `release_ninja_gaiden/README.md`.
 
 ## Repository layout
 
 - `zelda/` — Zelda harness, journal, and run.
 - `battletoads/` — Battletoads harness, journal, and run.
 - `contra/` — Contra harness, journal, and run.
-- `releases/` — original release zips. Ninja Gaiden has a video and no zip yet.
+- `release_ninja_gaiden/` — uncompressed Ninja Gaiden AI release, including harness and verification artifacts.
+- `releases/` — original release zips.
 - `releases/release_battletoads.zip` came from https://github.com/bearsgaming-ui/AIBeatsBattletoads2.
 - `releases/release_battletoads_original.zip` came from https://github.com/bearsgaming-ui/AIBeatsBattletoads.
 - `releases/release_contra.zip` came from https://github.com/bearsgaming-ui/AI-Beats-Contra.
