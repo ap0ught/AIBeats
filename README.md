@@ -43,6 +43,7 @@ harness, journal, knowledge notes, and the final input movie. Game ROMs are not 
 ## Notes
 
 - Runs are tool-assisted: built with save states and search, played back in an emulator (BizHawk 2.11.1).
+- The Ninja Gaiden release directory is the uncompressed contents of `release_ninja_gaiden.zip`; the source archive remains available in [`AIPlaysNinjaGaiden`](https://github.com/bearsgaming-ui/AIPlaysNinjaGaiden).
 - Nothing here plays without your own copy of the cartridge; ROMs are deliberately excluded.
 
 
@@ -52,5 +53,6 @@ ROMs are not committed. Each game's `roms/` directory documents the expected fil
 - `zelda/roms/README.md`
 - `battletoads/roms/README.md`
 - `contra/roms/README.md`
+- `release_ninja_gaiden/` — use the ROM requirements documented in `release_ninja_gaiden/README.md`.
 
-Copy your own dump into the matching `roms/` folder; `.gitignore` keeps `*.nes` out of git.
+Copy your own dump into the matching game's documented location; `.gitignore` keeps `*.nes` out of git.
