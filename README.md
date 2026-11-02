@@ -32,8 +32,9 @@ harness, journal, knowledge notes, and the final input movie. Game ROMs are not 
 - `zelda/` — Zelda harness, journal, and run.
 - `battletoads/` — Battletoads harness, journal, and run.
 - `contra/` — Contra harness, journal, and run.
-- `release_ninja_gaiden/` — uncompressed Ninja Gaiden AI release, including harness and verification artifacts.
+- `release_ninja_gaiden/` — uncompressed contents of `release_ninja_gaiden.zip`, including the Ninja Gaiden AI harness and verification artifacts.
 - `releases/` — original release zips.
+- The Ninja Gaiden source archive `release_ninja_gaiden.zip` came from https://github.com/bearsgaming-ui/AIPlaysNinjaGaiden and was unpacked into `release_ninja_gaiden/` rather than committed as a second copy.
 - `releases/release_battletoads.zip` came from https://github.com/bearsgaming-ui/AIBeatsBattletoads2.
 - `releases/release_battletoads_original.zip` came from https://github.com/bearsgaming-ui/AIBeatsBattletoads.
 - `releases/release_contra.zip` came from https://github.com/bearsgaming-ui/AI-Beats-Contra.
