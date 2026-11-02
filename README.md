@@ -32,9 +32,8 @@ harness, journal, knowledge notes, and the final input movie. Game ROMs are not 
 - `zelda/` — Zelda harness, journal, and run.
 - `battletoads/` — Battletoads harness, journal, and run.
 - `contra/` — Contra harness, journal, and run.
-- `ninja_gaiden/` — uncompressed contents of `release_ninja_gaiden.zip`, including the Ninja Gaiden AI harness and verification artifacts.
-- `releases/` — original release zips.
-- The Ninja Gaiden source archive `release_ninja_gaiden.zip` came from https://github.com/bearsgaming-ui/AIPlaysNinjaGaiden and was unpacked into `ninja_gaiden/` rather than committed as a second copy.
+- `releases/release_ninja_gaiden.zip` — the original Ninja Gaiden release archive from https://github.com/bearsgaming-ui/AIPlaysNinjaGaiden.
+- The archive was unpacked into `ninja_gaiden/` for repository browsing and execution.
 - `releases/release_battletoads.zip` came from https://github.com/bearsgaming-ui/AIBeatsBattletoads2.
 - `releases/release_battletoads_original.zip` came from https://github.com/bearsgaming-ui/AIBeatsBattletoads.
 - `releases/release_contra.zip` came from https://github.com/bearsgaming-ui/AI-Beats-Contra.
@@ -43,7 +42,7 @@ harness, journal, knowledge notes, and the final input movie. Game ROMs are not 
 ## Notes
 
 - Runs are tool-assisted: built with save states and search, played back in an emulator (BizHawk 2.11.1).
-- The Ninja Gaiden release directory is the uncompressed contents of `release_ninja_gaiden.zip`; the source archive remains available in [`AIPlaysNinjaGaiden`](https://github.com/bearsgaming-ui/AIPlaysNinjaGaiden).
+- The Ninja Gaiden release directory contains the uncompressed contents of `releases/release_ninja_gaiden.zip`; the source archive came from [`AIPlaysNinjaGaiden`](https://github.com/bearsgaming-ui/AIPlaysNinjaGaiden).
 - Nothing here plays without your own copy of the cartridge; ROMs are deliberately excluded.
 
 
