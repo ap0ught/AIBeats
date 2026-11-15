@@ -1,0 +1,15 @@
+# never: the game
+*.nes
+
+# The src/ mirror is the recreated source; SLOT*.SRC are raw cartridge regions
+# written out as `addr: bytes  mnemonic`. That is cartridge-derived content and
+# src/README.md says none of it belongs in the tree ("no hex blobs, base64 or
+# incbin of it"). They stay on the machine that made them.
+src/SLOT*.SRC
+
+# Runtime artefacts.
+states/
+shots/
+logs/*.log
+__pycache__/
+*.pyc

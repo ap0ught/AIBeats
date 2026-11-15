@@ -33,6 +33,11 @@ harness, journal, knowledge notes, and the final input movie. Game ROMs are not 
 - Video: [AI Beats the Tetris 100 Line World Record Time by 28 Seconds](https://www.youtube.com/watch?v=CyshZ7BVok0&t=28s)
 - Entry point: `README.md` in the folder; the two `.bk2` movies and their input logs at the top of it, harness in `harness/`.
 
+### Magician — `magician/`
+- Target: Beta 1 (1990-03-02), the build the released Eurocom source was written for.
+- Work in progress: reverse-engineering + rebuild + Godot 4.7 port.
+- Entry point: `~/code/games/magician-nes` (rebuild) and `~/code/games/magician-godot` (port).
+
 ## Repository layout
 
 - `zelda/` — Zelda harness, journal, and run.
