@@ -1,0 +1,16 @@
+date,name,settings,frames,seconds,pieces,bizhawk_verified,note
+2022-03-07,record,Cheez console level 19,9828,163.54,243,,human world record (video retime 2:43.54)
+2026-11-13,plan_w400,width 400 floor 9 top 4,8560,142.43,259,yes,first plan under the record
+2026-11-13,s1_0,width 400 floor 8 top 3,8484,141.17,257,no,
+2026-11-13,s1_1,width 400 floor 7 top 3,8396,139.70,256,no,
+2026-11-13,s1_2,width 400 floor 7 top 2,8380,139.44,256,no,
+2026-11-13,s1_3,width 400 floor 6 top 2,8492,141.30,256,no,
+2026-11-13,s1_4,width 400 floor 8 top 4,8416,140.04,256,no,
+2026-11-13,s1_5,width 400 floor 8 top 3 wband 80,8380,139.44,258,no,
+2026-11-13,s1_6,width 400 floor 7 top 3 wband 80,8400,139.77,255,no,
+2026-11-13,s1_7,width 400 floor 9 top 3,8384,139.50,255,no,
+2026-11-13,s2_3,width 300 floor 8 top 2 wevent 30 bandfree 6,8216,136.71,258,no,38-43 clear events
+2026-11-13,s2_5,width 300 floor 10 top 3 wevent 40 bandfree 7,8108,134.91,256,yes,mixed clears: 5 singles 10 doubles 17 triples 6 tetrises
+2026-11-13,t1_2,tetris-only width 300 floor 12 top 2 bandfree 10,8232,136.97,256,yes,25 tetrises and nothing else (owner's request)
+2026-11-13,t2_1,tetris-only width 800 floor 11 top 2 bandfree 9,8188,136.24,257,yes,best tetris-only so far
+2026-11-13,a3_8,width 400 floor 10 top 3 wevent 60 bandfree 8,8132,135.31,257,no,any-piece sweep best; s2_5 (134.91) still the fastest

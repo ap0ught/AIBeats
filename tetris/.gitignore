@@ -1,0 +1,14 @@
+# never: the game. Same rule as zelda/ - the cartridge is the owner's, not the repo's.
+*.nes
+# The harness reads the ROM straight out of a one-file zip, so the *zip* is a ROM
+# too and is excluded here as well as the .nes inside it.
+*.zip
+
+# Runtime artefacts the harness writes (all regenerable from the inputs).
+states/
+shots/
+logs/
+video/
+.bridge_port
+__pycache__/
+*.pyc

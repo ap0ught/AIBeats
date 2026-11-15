@@ -1,0 +1,39 @@
+{
+ "movie": "tetris_ai_2m14s_any_piece.bk2",
+ "movie_sha1": "1f6735731297b05785fa65fad707ceb5ae576e65",
+ "rom_whole_sha1": "3026D28B63D94C921FE58364F8B0659D10B5A0AC",
+ "rom_data_sha1": "FD9079CB5E8479EB06D93C2AE5175BFCE871746A",
+ "seconds": 31.3,
+ "bizhawk": {
+  "movie_loaded": "true",
+  "movie_mode": "PLAY",
+  "movie_startsfromsavestate": "false",
+  "system": "NES",
+  "board": "SxROM",
+  "romhash": "3026D28B63D94C921FE58364F8B0659D10B5A0AC",
+  "end_framecount": "8419",
+  "end_movie_mode": "FINISHED"
+ },
+ "frames_compared": "2..8419 (8418 frames)",
+ "ram_and_lag_identical_to_reference": true,
+ "clock": {
+  "start_press_frame": 299,
+  "lines_100_in_ram_after_frame": 8406,
+  "lines_100_shown_frame": 8407,
+  "frames": 8108,
+  "seconds": 134.91,
+  "final_lines": 100,
+  "level": 19,
+  "clears_by_rows": {
+   "1": 5,
+   "2": 10,
+   "3": 17,
+   "4": 6
+  },
+  "world_record_time_s": 163.54,
+  "faster_by_s": 28.63
+ },
+ "result": "PASS",
+ "failures": [],
+ "checked_utc": "2026-11-14 14:29:29"
+}

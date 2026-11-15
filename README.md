@@ -27,13 +27,21 @@ harness, journal, knowledge notes, and the final input movie. Game ROMs are not 
 - Full uncompressed release imported from [`AIPlaysNinjaGaiden`](https://github.com/bearsgaming-ui/AIPlaysNinjaGaiden), including the harness, knowledge notes, run artifacts, verification data, and final input movie.
 - Entry point: `ninja_gaiden/README.md`.
 
+### Tetris — `tetris/`
+- Run: 100 lines, A-Type, level 19, 2:14.91 (8,108 frames, 256 pieces) from power-on. Second run, tetrises only: 2:16.24.
+- 28.63 s under the human world record (2:43.54, Cheez, 2022), holding itself to 30 presses a second on any button.
+- Video: [AI Beats the Tetris 100 Line World Record Time by 28 Seconds](https://www.youtube.com/watch?v=CyshZ7BVok0&t=28s)
+- Entry point: `README.md` in the folder; the two `.bk2` movies and their input logs at the top of it, harness in `harness/`.
+
 ## Repository layout
 
 - `zelda/` — Zelda harness, journal, and run.
 - `battletoads/` — Battletoads harness, journal, and run.
 - `contra/` — Contra harness, journal, and run.
+- `tetris/` — Tetris harness, two 100-lines runs, and their per-frame verification.
 - `releases/release_ninja_gaiden.zip` — the original Ninja Gaiden release archive from https://github.com/bearsgaming-ui/AIPlaysNinjaGaiden.
 - The archive was unpacked into `ninja_gaiden/` for repository browsing and execution.
+- `releases/release_tetris.zip` came from https://github.com/bearsgaming-ui/AI-Plays-Tetris.
 - `releases/release_battletoads.zip` came from https://github.com/bearsgaming-ui/AIBeatsBattletoads2.
 - `releases/release_battletoads_original.zip` came from https://github.com/bearsgaming-ui/AIBeatsBattletoads.
 - `releases/release_contra.zip` came from https://github.com/bearsgaming-ui/AI-Beats-Contra.
@@ -52,6 +60,7 @@ ROMs are not committed. Each game's `roms/` directory documents the expected fil
 - `zelda/roms/README.md`
 - `battletoads/roms/README.md`
 - `contra/roms/README.md`
+- `tetris/roms/README.md`
 - `ninja_gaiden/` — use the ROM requirements documented in `ninja_gaiden/README.md`.
 
 Copy your own dump into the matching game's documented location; `.gitignore` keeps `*.nes` out of git.

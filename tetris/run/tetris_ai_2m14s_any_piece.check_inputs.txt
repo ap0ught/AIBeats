@@ -1,0 +1,14 @@
+<projects>\releases\release_tetris\tetris_ai_2m14s_any_piece.inputs.txt: 8419 frames; mode HUMAN; cap: one press per 2 frames, hold >= 1, release >= 1; windows none; buttons Up,Down,Left,Right,Select,Start,B,A
+  ok   controller_1_only  violations      0
+  ok   no_left_right      violations      0
+  ok   no_up_down         violations      0
+  ok   press_period       violations      0
+  ok   min_hold           violations      0
+  ok   min_release        violations      0
+  Down   presses   112  held    866 f  fastest second  3 presses  min start-to-start 8  holds {'1': 2, '3': 15, '5': 20, '7': 28, '8+': 47}
+  Left   presses   340  held    340 f  fastest second 10 presses  min start-to-start 2  holds {'1': 340}
+  Right  presses   262  held    262 f  fastest second  8 presses  min start-to-start 2  holds {'1': 262}
+  Start  presses     4  held      7 f  fastest second  4 presses  min start-to-start 5  holds {'1': 1, '2': 3}
+  B      presses    25  held     25 f  fastest second  3 presses  min start-to-start 2  holds {'1': 25}
+  A      presses   125  held    127 f  fastest second  5 presses  min start-to-start 2  holds {'1': 124, '3': 1}
+RESULT: PASS

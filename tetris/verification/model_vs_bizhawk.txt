@@ -1,0 +1,9 @@
+The AI's Python copy of the game (harness/tet/nes.py, the ROM's own code) against BizHawk (NesHawk), all 2,048
+bytes of RAM after every frame from power-on (python work/compare_trace.py <run>):
+
+== tetris_ai_2m14s_any_piece (harness log name s2_5)
+s2_5: power-on RAM differs at 0 addresses
+s2_5: 8419 frames, 0 differ -> IDENTICAL
+== tetris_ai_2m16s_tetrises_only (harness log name t2_1)
+t2_1: power-on RAM differs at 0 addresses
+t2_1: 8499 frames, 0 differ -> IDENTICAL

@@ -1,0 +1,132 @@
+{
+ "frames": 8499,
+ "params": {
+  "period": 2,
+  "hold": 1,
+  "release": 1,
+  "buttons": [
+   "Up",
+   "Down",
+   "Left",
+   "Right",
+   "Select",
+   "Start",
+   "B",
+   "A"
+  ],
+  "windows": []
+ },
+ "rules": {
+  "controller_1_only": {
+   "violations": 0,
+   "first": [],
+   "enforced": true
+  },
+  "no_left_right": {
+   "violations": 0,
+   "first": [],
+   "enforced": true
+  },
+  "no_up_down": {
+   "violations": 0,
+   "first": [],
+   "enforced": true
+  },
+  "press_period": {
+   "violations": 0,
+   "by_button": {},
+   "first": [],
+   "enforced": true
+  },
+  "min_hold": {
+   "violations": 0,
+   "by_button": {},
+   "first": [],
+   "enforced": true
+  },
+  "min_release": {
+   "violations": 0,
+   "by_button": {},
+   "first": [],
+   "enforced": true
+  }
+ },
+ "stats": {
+  "Up": {
+   "presses": 0,
+   "frames_held": 0,
+   "max_presses_in_60_frames": 0,
+   "min_frames_between_press_starts": null,
+   "hold_length_histogram": {}
+  },
+  "Down": {
+   "presses": 111,
+   "frames_held": 967,
+   "max_presses_in_60_frames": 3,
+   "min_frames_between_press_starts": 8,
+   "hold_length_histogram": {
+    "1": 2,
+    "3": 15,
+    "5": 12,
+    "7": 21,
+    "8+": 61
+   }
+  },
+  "Left": {
+   "presses": 358,
+   "frames_held": 358,
+   "max_presses_in_60_frames": 10,
+   "min_frames_between_press_starts": 2,
+   "hold_length_histogram": {
+    "1": 358
+   }
+  },
+  "Right": {
+   "presses": 266,
+   "frames_held": 266,
+   "max_presses_in_60_frames": 8,
+   "min_frames_between_press_starts": 2,
+   "hold_length_histogram": {
+    "1": 266
+   }
+  },
+  "Select": {
+   "presses": 0,
+   "frames_held": 0,
+   "max_presses_in_60_frames": 0,
+   "min_frames_between_press_starts": null,
+   "hold_length_histogram": {}
+  },
+  "Start": {
+   "presses": 4,
+   "frames_held": 7,
+   "max_presses_in_60_frames": 4,
+   "min_frames_between_press_starts": 5,
+   "hold_length_histogram": {
+    "1": 1,
+    "2": 3
+   }
+  },
+  "B": {
+   "presses": 18,
+   "frames_held": 18,
+   "max_presses_in_60_frames": 2,
+   "min_frames_between_press_starts": 51,
+   "hold_length_histogram": {
+    "1": 18
+   }
+  },
+  "A": {
+   "presses": 139,
+   "frames_held": 141,
+   "max_presses_in_60_frames": 5,
+   "min_frames_between_press_starts": 2,
+   "hold_length_histogram": {
+    "1": 138,
+    "3": 1
+   }
+  }
+ },
+ "mode": "human",
+ "pass": true
+}
