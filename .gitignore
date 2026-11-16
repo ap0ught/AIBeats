@@ -1,1 +1,7 @@
 *.nes
+
+# Cartridge-derived source listings must never be committed, from any branch.
+# They live only in the magician working tree (the rest of magician/ is on the
+# `magician` branch, whose own .gitignore says the same); see
+# magician/src/README.md, "nothing here may contain cartridge-derived bytes".
+magician/src/SLOT*.SRC
