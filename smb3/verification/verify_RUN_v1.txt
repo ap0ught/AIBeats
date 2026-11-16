@@ -1,0 +1,382 @@
+FILE G:\AI World Record\SMB3\logs\RUN_v1.inputs.txt : 38503 rows
+(a) human-input judge
+   G:\AI World Record\SMB3\logs\RUN_v1.inputs.txt: 38503 frames; mode HUMAN; cap: one press per 5 frames, hold >= 1, release >= 1; windows 600:109,1800:246; buttons Up,Down,Left,Right,Select,Start,B,A
+   RESULT: PASS
+   JUDGE PASS
+Start presses in the first 400 rows: [13, 68]; timing start = row 68
+(the replays run 120 idle rows past the file's last row 38503, to see the fade after the end)
+(b) Mesen replay from power-on
+   38323 rows recorded from row 301 in 130 s, 203 events
+   row    412  (+   344)  tileset  tileset 0 -> 1 (world 1)
+   row    426  (+   358)  level    first non-lag row with tileset 1
+   row    753  (+   685)  suit     suit 0 -> 1
+   row   1384  (+  1316)  endlvl   goal card / level end flag
+   row   1735  (+  1667)  exitmap  Level_ExitToMap set
+   row   1740  (+  1672)  fade     first darker picture after Level_ExitToMap (row 1735), from the palette buffer: +5
+   row   1752  (+  1684)  BLACK    first all-black picture
+   row   1753  (+  1685)  tileset  tileset 1 -> 0 (world 1)
+   row   1765  (+  1697)  VISIBLE  first picture after the black
+   row   1860  (+  1792)  map      map usable
+   row   1944  (+  1876)  tileset  tileset 0 -> 3 (world 1)
+   row   1960  (+  1892)  level    first non-lag row with tileset 3
+   row   1976  (+  1908)  suit     suit 0 -> 1
+   row   2838  (+  2770)  endlvl   goal card / level end flag
+   row   3190  (+  3122)  exitmap  Level_ExitToMap set
+   row   3195  (+  3127)  fade     first darker picture after Level_ExitToMap (row 3190), from the palette buffer: +5
+   row   3207  (+  3139)  BLACK    first all-black picture
+   row   3208  (+  3140)  tileset  tileset 3 -> 0 (world 1)
+   row   3220  (+  3152)  VISIBLE  first picture after the black
+   row   3315  (+  3247)  map      map usable
+   row   3382  (+  3314)  tileset  tileset 0 -> 1 (world 1)
+   row   3396  (+  3328)  level    first non-lag row with tileset 1
+   row   3412  (+  3344)  suit     suit 0 -> 1
+   row   3816  (+  3748)  suit     suit 1 -> 3
+   row   4542  (+  4474)  jct      door (Level_JctCtl)
+   row   4560  (+  4492)  BLACK    first all-black picture
+   row   4560  (+  4492)  level    first non-lag row with tileset 7
+   row   4560  (+  4492)  tileset  tileset 1 -> 7 (world 1)
+   row   4570  (+  4502)  VISIBLE  first picture after the black
+   row   4979  (+  4911)  item     inventory 0,0 -> 12,0
+   row   5156  (+  5088)  exitmap  Level_ExitToMap set
+   row   5161  (+  5093)  fade     first darker picture after Level_ExitToMap (row 5156), from the palette buffer: +5
+   row   5173  (+  5105)  BLACK    first all-black picture
+   row   5174  (+  5106)  tileset  tileset 7 -> 0 (world 1)
+   row   5186  (+  5118)  VISIBLE  first picture after the black
+   row   5281  (+  5213)  map      map usable
+   row   5399  (+  5331)  tileset  tileset 0 -> 2 (world 1)
+   row   5419  (+  5351)  level    first non-lag row with tileset 2
+   row   5435  (+  5367)  suit     suit 0 -> 3
+   row   6112  (+  6044)  jct      door (Level_JctCtl)
+   row   6130  (+  6062)  BLACK    first all-black picture
+   row   6145  (+  6077)  VISIBLE  first picture after the black
+   row   6371  (+  6303)  item     inventory 12,0 -> 12,12
+   row   6467  (+  6399)  exitmap  Level_ExitToMap set
+   row   6472  (+  6404)  fade     first darker picture after Level_ExitToMap (row 6467), from the palette buffer: +5
+   row   6484  (+  6416)  BLACK    first all-black picture
+   row   6485  (+  6417)  tileset  tileset 2 -> 0 (world 1)
+   row   6497  (+  6429)  VISIBLE  first picture after the black
+   row   6604  (+  6536)  map      map usable
+   row   6619  (+  6551)  item     inventory 12,12 -> 12,0
+   row   6784  (+  6716)  world    world 1 -> 9
+   row   6801  (+  6733)  BLACK    first all-black picture
+   row   6813  (+  6745)  VISIBLE  first picture after the black
+   row   6965  (+  6897)  item     inventory 12,0 -> 0,0
+   row   7147  (+  7079)  BLACK    first all-black picture
+   row   7159  (+  7091)  VISIBLE  first picture after the black
+   row   7363  (+  7295)  world    world 9 -> 8
+   row   7652  (+  7584)  tileset  tileset 0 -> 10 (world 8)
+   row   7664  (+  7596)  level    first non-lag row with tileset 10
+   row   7680  (+  7612)  suit     suit 0 -> 3
+   row  13504  (+ 13436)  pmove    pipe (Level_PipeMove)
+   row  13564  (+ 13496)  jct      door (Level_JctCtl)
+   row  13582  (+ 13514)  BLACK    first all-black picture
+   row  13592  (+ 13524)  VISIBLE  first picture after the black
+   row  14028  (+ 13960)  item     inventory 0,0 -> 9,0
+   row  14124  (+ 14056)  exitmap  Level_ExitToMap set
+   row  14129  (+ 14061)  fade     first darker picture after Level_ExitToMap (row 14124), from the palette buffer: +5
+   row  14141  (+ 14073)  BLACK    first all-black picture
+   row  14142  (+ 14074)  tileset  tileset 10 -> 0 (world 8)
+   row  14155  (+ 14087)  VISIBLE  first picture after the black
+   row  14236  (+ 14168)  map      map usable
+   row  14319  (+ 14251)  tileset  tileset 0 -> 10 (world 8)
+   row  14331  (+ 14263)  level    first non-lag row with tileset 10
+   row  14347  (+ 14279)  suit     suit 0 -> 3
+   row  14862  (+ 14794)  suit     suit 3 -> 2
+   row  18780  (+ 18712)  pmove    pipe (Level_PipeMove)
+   row  18840  (+ 18772)  jct      door (Level_JctCtl)
+   row  18858  (+ 18790)  BLACK    first all-black picture
+   row  18868  (+ 18800)  VISIBLE  first picture after the black
+   row  19440  (+ 19372)  exitmap  Level_ExitToMap set
+   row  19445  (+ 19377)  fade     first darker picture after Level_ExitToMap (row 19440), from the palette buffer: +5
+   row  19457  (+ 19389)  BLACK    first all-black picture
+   row  19458  (+ 19390)  tileset  tileset 10 -> 0 (world 8)
+   row  19471  (+ 19403)  VISIBLE  first picture after the black
+   row  19603  (+ 19535)  map      map usable
+   row  19687  (+ 19619)  tileset  tileset 0 -> 14 (world 8)
+   row  19699  (+ 19631)  level    first non-lag row with tileset 14
+   row  19715  (+ 19647)  pmove    pipe (Level_PipeMove)
+   row  19715  (+ 19647)  suit     suit 0 -> 2
+   row  19818  (+ 19750)  pmove    pipe (Level_PipeMove)
+   row  19878  (+ 19810)  exitmap  Level_ExitToMap set
+   row  19878  (+ 19810)  jct      door (Level_JctCtl)
+   row  19883  (+ 19815)  fade     first darker picture after Level_ExitToMap (row 19878), from the palette buffer: +5
+   row  19895  (+ 19827)  BLACK    first all-black picture
+   row  19896  (+ 19828)  tileset  tileset 14 -> 0 (world 8)
+   row  19909  (+ 19841)  VISIBLE  first picture after the black
+   row  19965  (+ 19897)  map      map usable
+   row  20101  (+ 20033)  tileset  tileset 0 -> 10 (world 8)
+   row  20112  (+ 20044)  level    first non-lag row with tileset 10
+   row  20128  (+ 20060)  suit     suit 0 -> 2
+   row  22991  (+ 22923)  pmove    pipe (Level_PipeMove)
+   row  23051  (+ 22983)  jct      door (Level_JctCtl)
+   row  23069  (+ 23001)  BLACK    first all-black picture
+   row  23079  (+ 23011)  VISIBLE  first picture after the black
+   row  23653  (+ 23585)  exitmap  Level_ExitToMap set
+   row  23658  (+ 23590)  fade     first darker picture after Level_ExitToMap (row 23653), from the palette buffer: +5
+   row  23670  (+ 23602)  BLACK    first all-black picture
+   row  23671  (+ 23603)  tileset  tileset 10 -> 0 (world 8)
+   row  23684  (+ 23616)  VISIBLE  first picture after the black
+   row  23816  (+ 23748)  map      map usable
+   row  23883  (+ 23815)  tileset  tileset 0 -> 14 (world 8)
+   row  23895  (+ 23827)  level    first non-lag row with tileset 14
+   row  23911  (+ 23843)  pmove    pipe (Level_PipeMove)
+   row  23911  (+ 23843)  suit     suit 0 -> 2
+   row  24014  (+ 23946)  pmove    pipe (Level_PipeMove)
+   row  24074  (+ 24006)  exitmap  Level_ExitToMap set
+   row  24074  (+ 24006)  jct      door (Level_JctCtl)
+   row  24079  (+ 24011)  fade     first darker picture after Level_ExitToMap (row 24074), from the palette buffer: +5
+   row  24091  (+ 24023)  BLACK    first all-black picture
+   row  24092  (+ 24024)  tileset  tileset 14 -> 0 (world 8)
+   row  24105  (+ 24037)  VISIBLE  first picture after the black
+   row  24161  (+ 24093)  map      map usable
+   row  24245  (+ 24177)  tileset  tileset 0 -> 1 (world 8)
+   row  24259  (+ 24191)  level    first non-lag row with tileset 1
+   row  24275  (+ 24207)  suit     suit 0 -> 2
+   row  25213  (+ 25145)  endlvl   goal card / level end flag
+   row  25659  (+ 25591)  exitmap  Level_ExitToMap set
+   row  25664  (+ 25596)  fade     first darker picture after Level_ExitToMap (row 25659), from the palette buffer: +5
+   row  25676  (+ 25608)  BLACK    first all-black picture
+   row  25677  (+ 25609)  tileset  tileset 1 -> 0 (world 8)
+   row  25690  (+ 25622)  VISIBLE  first picture after the black
+   row  25755  (+ 25687)  map      map usable
+   row  25839  (+ 25771)  tileset  tileset 0 -> 14 (world 8)
+   row  25859  (+ 25791)  level    first non-lag row with tileset 14
+   row  25875  (+ 25807)  suit     suit 0 -> 2
+   row  26997  (+ 26929)  endlvl   goal card / level end flag
+   row  27347  (+ 27279)  exitmap  Level_ExitToMap set
+   row  27352  (+ 27284)  fade     first darker picture after Level_ExitToMap (row 27347), from the palette buffer: +5
+   row  27364  (+ 27296)  BLACK    first all-black picture
+   row  27365  (+ 27297)  tileset  tileset 14 -> 0 (world 8)
+   row  27378  (+ 27310)  VISIBLE  first picture after the black
+   row  27443  (+ 27375)  map      map usable
+   row  27561  (+ 27493)  tileset  tileset 0 -> 2 (world 8)
+   row  27581  (+ 27513)  level    first non-lag row with tileset 2
+   row  27597  (+ 27529)  suit     suit 0 -> 2
+   row  28012  (+ 27944)  jct      door (Level_JctCtl)
+   row  28030  (+ 27962)  BLACK    first all-black picture
+   row  28048  (+ 27980)  VISIBLE  first picture after the black
+   row  28385  (+ 28317)  jct      door (Level_JctCtl)
+   row  28403  (+ 28335)  BLACK    first all-black picture
+   row  28423  (+ 28355)  VISIBLE  first picture after the black
+   row  28757  (+ 28689)  jct      door (Level_JctCtl)
+   row  28775  (+ 28707)  BLACK    first all-black picture
+   row  28793  (+ 28725)  VISIBLE  first picture after the black
+   row  29050  (+ 28982)  jct      door (Level_JctCtl)
+   row  29068  (+ 29000)  BLACK    first all-black picture
+   row  29088  (+ 29020)  VISIBLE  first picture after the black
+   row  29904  (+ 29836)  exitmap  Level_ExitToMap set
+   row  29909  (+ 29841)  fade     first darker picture after Level_ExitToMap (row 29904), from the palette buffer: +5
+   row  29921  (+ 29853)  BLACK    first all-black picture
+   row  29922  (+ 29854)  tileset  tileset 2 -> 0 (world 8)
+   row  29935  (+ 29867)  VISIBLE  first picture after the black
+   row  30063  (+ 29995)  map      map usable
+   row  30181  (+ 30113)  tileset  tileset 0 -> 14 (world 8)
+   row  30193  (+ 30125)  level    first non-lag row with tileset 14
+   row  30209  (+ 30141)  pmove    pipe (Level_PipeMove)
+   row  30209  (+ 30141)  suit     suit 0 -> 2
+   row  30312  (+ 30244)  pmove    pipe (Level_PipeMove)
+   row  30372  (+ 30304)  exitmap  Level_ExitToMap set
+   row  30372  (+ 30304)  jct      door (Level_JctCtl)
+   row  30377  (+ 30309)  fade     first darker picture after Level_ExitToMap (row 30372), from the palette buffer: +5
+   row  30389  (+ 30321)  BLACK    first all-black picture
+   row  30390  (+ 30322)  tileset  tileset 14 -> 0 (world 8)
+   row  30403  (+ 30335)  VISIBLE  first picture after the black
+   row  30459  (+ 30391)  map      map usable
+   row  30525  (+ 30457)  tileset  tileset 0 -> 10 (world 8)
+   row  30537  (+ 30469)  level    first non-lag row with tileset 10
+   row  30553  (+ 30485)  suit     suit 0 -> 2
+   row  34413  (+ 34345)  pmove    pipe (Level_PipeMove)
+   row  34473  (+ 34405)  jct      door (Level_JctCtl)
+   row  34491  (+ 34423)  BLACK    first all-black picture
+   row  34501  (+ 34433)  VISIBLE  first picture after the black
+   row  35066  (+ 34998)  exitmap  Level_ExitToMap set
+   row  35071  (+ 35003)  fade     first darker picture after Level_ExitToMap (row 35066), from the palette buffer: +5
+   row  35083  (+ 35015)  BLACK    first all-black picture
+   row  35084  (+ 35016)  tileset  tileset 10 -> 0 (world 8)
+   row  35097  (+ 35029)  VISIBLE  first picture after the black
+   row  35229  (+ 35161)  map      map usable
+   row  35312  (+ 35244)  item     inventory 9,0 -> 0,0
+   row  35312  (+ 35244)  mstar    Map_Starman 0 -> 1
+   row  35377  (+ 35309)  tileset  tileset 0 -> 2 (world 8)
+   row  35406  (+ 35338)  level    first non-lag row with tileset 2
+   row  35422  (+ 35354)  mstar    Map_Starman 1 -> 0
+   row  35422  (+ 35354)  suit     suit 0 -> 2
+   row  35718  (+ 35650)  jct      door (Level_JctCtl)
+   row  35736  (+ 35668)  BLACK    first all-black picture
+   row  35755  (+ 35687)  VISIBLE  first picture after the black
+   row  36792  (+ 36724)  jct      door (Level_JctCtl)
+   row  36810  (+ 36742)  BLACK    first all-black picture
+   row  36839  (+ 36771)  VISIBLE  first picture after the black
+   row  38502  (+ 38434)  exitmap  Level_ExitToMap set
+   row  38507  (+ 38439)  fade     first darker picture after Level_ExitToMap (row 38502), from the palette buffer: +5
+   row  38519  (+ 38451)  BLACK    first all-black picture
+
+(c) BizHawk / NesHawk replay from power-on
+   NesHawk input = the file without its first 1 row(s) (power-on offset); rows below are FILE rows
+   window hider: started G:\AI World Record\harness\tools\hide_emus.py
+   core NesHawk rom 5F9019040FE23CB412A484E1EF430E59E589F9B4
+   38323 frames in 253 s, 197 RAM events, 6062 pictures looked at, 107 picture events
+   row    123  (+    55)  CREAM    title cleared: first one-colour picture after the Start press
+   row    135  (+    67)  MAP1     first picture of the World 1 map
+   row    412  (+   344)  BLACK    first all-black picture (NesHawk screenshot)
+   row    426  (+   358)  VISIBLE  first picture after the black (NesHawk screenshot)
+   row   1740  (+  1672)  FADE     first darker picture after Level_ExitToMap (row 1735): +5; rule's end = this - 5 = row 1735
+   row   1752  (+  1684)  BLACK    first all-black picture (NesHawk screenshot)
+   row   1765  (+  1697)  VISIBLE  first picture after the black (NesHawk screenshot)
+   row   1944  (+  1876)  BLACK    first all-black picture (NesHawk screenshot)
+   row   1960  (+  1892)  VISIBLE  first picture after the black (NesHawk screenshot)
+   row   3195  (+  3127)  FADE     first darker picture after Level_ExitToMap (row 3190): +5; rule's end = this - 5 = row 3190
+   row   3207  (+  3139)  BLACK    first all-black picture (NesHawk screenshot)
+   row   3220  (+  3152)  VISIBLE  first picture after the black (NesHawk screenshot)
+   row   3382  (+  3314)  BLACK    first all-black picture (NesHawk screenshot)
+   row   3396  (+  3328)  VISIBLE  first picture after the black (NesHawk screenshot)
+   row   4560  (+  4492)  BLACK    first all-black picture (NesHawk screenshot)
+   row   4571  (+  4503)  VISIBLE  first picture after the black (NesHawk screenshot)
+   row   5161  (+  5093)  FADE     first darker picture after Level_ExitToMap (row 5156): +5; rule's end = this - 5 = row 5156
+   row   5173  (+  5105)  BLACK    first all-black picture (NesHawk screenshot)
+   row   5186  (+  5118)  VISIBLE  first picture after the black (NesHawk screenshot)
+   row   5399  (+  5331)  BLACK    first all-black picture (NesHawk screenshot)
+   row   5419  (+  5351)  VISIBLE  first picture after the black (NesHawk screenshot)
+   row   6130  (+  6062)  BLACK    first all-black picture (NesHawk screenshot)
+   row   6145  (+  6077)  VISIBLE  first picture after the black (NesHawk screenshot)
+   row   6472  (+  6404)  FADE     first darker picture after Level_ExitToMap (row 6467): +5; rule's end = this - 5 = row 6467
+   row   6484  (+  6416)  BLACK    first all-black picture (NesHawk screenshot)
+   row   6497  (+  6429)  VISIBLE  first picture after the black (NesHawk screenshot)
+   row   6801  (+  6733)  BLACK    first all-black picture (NesHawk screenshot)
+   row   6813  (+  6745)  VISIBLE  first picture after the black (NesHawk screenshot)
+   row   7147  (+  7079)  BLACK    first all-black picture (NesHawk screenshot)
+   row   7159  (+  7091)  VISIBLE  first picture after the black (NesHawk screenshot)
+   row   7363  (+  7295)  BLACK    first all-black picture (NesHawk screenshot)
+   row   7376  (+  7308)  VISIBLE  first picture after the black (NesHawk screenshot)
+   row   7652  (+  7584)  BLACK    first all-black picture (NesHawk screenshot)
+   row   7664  (+  7596)  VISIBLE  first picture after the black (NesHawk screenshot)
+   row  13582  (+ 13514)  BLACK    first all-black picture (NesHawk screenshot)
+   row  13593  (+ 13525)  VISIBLE  first picture after the black (NesHawk screenshot)
+   row  14129  (+ 14061)  FADE     first darker picture after Level_ExitToMap (row 14124): +5; rule's end = this - 5 = row 14124
+   row  14141  (+ 14073)  BLACK    first all-black picture (NesHawk screenshot)
+   row  14155  (+ 14087)  VISIBLE  first picture after the black (NesHawk screenshot)
+   row  14319  (+ 14251)  BLACK    first all-black picture (NesHawk screenshot)
+   row  14331  (+ 14263)  VISIBLE  first picture after the black (NesHawk screenshot)
+   row  18858  (+ 18790)  BLACK    first all-black picture (NesHawk screenshot)
+   row  18869  (+ 18801)  VISIBLE  first picture after the black (NesHawk screenshot)
+   row  19445  (+ 19377)  FADE     first darker picture after Level_ExitToMap (row 19440): +5; rule's end = this - 5 = row 19440
+   row  19457  (+ 19389)  BLACK    first all-black picture (NesHawk screenshot)
+   row  19471  (+ 19403)  VISIBLE  first picture after the black (NesHawk screenshot)
+   row  19687  (+ 19619)  BLACK    first all-black picture (NesHawk screenshot)
+   row  19699  (+ 19631)  VISIBLE  first picture after the black (NesHawk screenshot)
+   row  19883  (+ 19815)  FADE     first darker picture after Level_ExitToMap (row 19878): +5; rule's end = this - 5 = row 19878
+   row  19895  (+ 19827)  BLACK    first all-black picture (NesHawk screenshot)
+   row  19909  (+ 19841)  VISIBLE  first picture after the black (NesHawk screenshot)
+   row  20101  (+ 20033)  BLACK    first all-black picture (NesHawk screenshot)
+   row  20112  (+ 20044)  VISIBLE  first picture after the black (NesHawk screenshot)
+   row  23069  (+ 23001)  BLACK    first all-black picture (NesHawk screenshot)
+   row  23080  (+ 23012)  VISIBLE  first picture after the black (NesHawk screenshot)
+   row  23658  (+ 23590)  FADE     first darker picture after Level_ExitToMap (row 23653): +5; rule's end = this - 5 = row 23653
+   row  23670  (+ 23602)  BLACK    first all-black picture (NesHawk screenshot)
+   row  23684  (+ 23616)  VISIBLE  first picture after the black (NesHawk screenshot)
+   row  23883  (+ 23815)  BLACK    first all-black picture (NesHawk screenshot)
+   row  23895  (+ 23827)  VISIBLE  first picture after the black (NesHawk screenshot)
+   row  24079  (+ 24011)  FADE     first darker picture after Level_ExitToMap (row 24074): +5; rule's end = this - 5 = row 24074
+   row  24091  (+ 24023)  BLACK    first all-black picture (NesHawk screenshot)
+   row  24105  (+ 24037)  VISIBLE  first picture after the black (NesHawk screenshot)
+   row  24245  (+ 24177)  BLACK    first all-black picture (NesHawk screenshot)
+   row  24259  (+ 24191)  VISIBLE  first picture after the black (NesHawk screenshot)
+   row  25664  (+ 25596)  FADE     first darker picture after Level_ExitToMap (row 25659): +5; rule's end = this - 5 = row 25659
+   row  25676  (+ 25608)  BLACK    first all-black picture (NesHawk screenshot)
+   row  25690  (+ 25622)  VISIBLE  first picture after the black (NesHawk screenshot)
+   row  25839  (+ 25771)  BLACK    first all-black picture (NesHawk screenshot)
+   row  25859  (+ 25791)  VISIBLE  first picture after the black (NesHawk screenshot)
+   row  27352  (+ 27284)  FADE     first darker picture after Level_ExitToMap (row 27347): +5; rule's end = this - 5 = row 27347
+   row  27364  (+ 27296)  BLACK    first all-black picture (NesHawk screenshot)
+   row  27378  (+ 27310)  VISIBLE  first picture after the black (NesHawk screenshot)
+   row  27561  (+ 27493)  BLACK    first all-black picture (NesHawk screenshot)
+   row  27581  (+ 27513)  VISIBLE  first picture after the black (NesHawk screenshot)
+   row  28030  (+ 27962)  BLACK    first all-black picture (NesHawk screenshot)
+   row  28048  (+ 27980)  VISIBLE  first picture after the black (NesHawk screenshot)
+   row  28403  (+ 28335)  BLACK    first all-black picture (NesHawk screenshot)
+   row  28423  (+ 28355)  VISIBLE  first picture after the black (NesHawk screenshot)
+   row  28775  (+ 28707)  BLACK    first all-black picture (NesHawk screenshot)
+   row  28793  (+ 28725)  VISIBLE  first picture after the black (NesHawk screenshot)
+   row  29068  (+ 29000)  BLACK    first all-black picture (NesHawk screenshot)
+   row  29088  (+ 29020)  VISIBLE  first picture after the black (NesHawk screenshot)
+   row  29909  (+ 29841)  FADE     first darker picture after Level_ExitToMap (row 29904): +5; rule's end = this - 5 = row 29904
+   row  29921  (+ 29853)  BLACK    first all-black picture (NesHawk screenshot)
+   row  29935  (+ 29867)  VISIBLE  first picture after the black (NesHawk screenshot)
+   row  30181  (+ 30113)  BLACK    first all-black picture (NesHawk screenshot)
+   row  30193  (+ 30125)  VISIBLE  first picture after the black (NesHawk screenshot)
+   row  30377  (+ 30309)  FADE     first darker picture after Level_ExitToMap (row 30372): +5; rule's end = this - 5 = row 30372
+   row  30389  (+ 30321)  BLACK    first all-black picture (NesHawk screenshot)
+   row  30403  (+ 30335)  VISIBLE  first picture after the black (NesHawk screenshot)
+   row  30525  (+ 30457)  BLACK    first all-black picture (NesHawk screenshot)
+   row  30537  (+ 30469)  VISIBLE  first picture after the black (NesHawk screenshot)
+   row  34491  (+ 34423)  BLACK    first all-black picture (NesHawk screenshot)
+   row  34502  (+ 34434)  VISIBLE  first picture after the black (NesHawk screenshot)
+   row  35071  (+ 35003)  FADE     first darker picture after Level_ExitToMap (row 35066): +5; rule's end = this - 5 = row 35066
+   row  35083  (+ 35015)  BLACK    first all-black picture (NesHawk screenshot)
+   row  35097  (+ 35029)  VISIBLE  first picture after the black (NesHawk screenshot)
+   row  35377  (+ 35309)  BLACK    first all-black picture (NesHawk screenshot)
+   row  35406  (+ 35338)  VISIBLE  first picture after the black (NesHawk screenshot)
+   row  35736  (+ 35668)  BLACK    first all-black picture (NesHawk screenshot)
+   row  35755  (+ 35687)  VISIBLE  first picture after the black (NesHawk screenshot)
+   row  36810  (+ 36742)  BLACK    first all-black picture (NesHawk screenshot)
+   row  36839  (+ 36771)  VISIBLE  first picture after the black (NesHawk screenshot)
+   row  38507  (+ 38439)  FADE     first darker picture after Level_ExitToMap (row 38502): +5; rule's end = this - 5 = row 38502
+   row  38519  (+ 38451)  BLACK    first all-black picture (NesHawk screenshot)
+   row  38524  (+ 38456)  VISIBLE  first picture after the black (NesHawk screenshot)
+
+OURS (NesHawk pictures) vs WR at the picture boundaries of research/wr_splits.md (NES frames since the Start press; + = we are behind)
+  # boundary                                                   kind      our row     ours        WR    diff   black..visible
+  1 start of: W1 map: START tile -> enter 1-1                  MAP1          135       67      67.2    -0.2
+    (title cleared: our row 123 = Start + 55; WR video 19104 torn / 19105 full = Start + 52.1 / 53.1 NES frames)
+  2 start of: 1-1                                              VISIBLE       426      358     360.0    -2.0   412..426
+  3 start of: W1 map: 1-1 -> 1-2                               BLACK        1752     1684    1674.4    +9.6   1752..1765
+  4 start of: 1-2                                              VISIBLE      1960     1892    1885.0    +7.0   1944..1960
+  5 start of: W1 map: 1-2 -> 1-3                               BLACK        3207     3139    3129.3    +9.7   3207..3220
+  6 start of: 1-3 (ends by running off behind the scenery)     VISIBLE      3396     3328    3317.8   +10.2   3382..3396
+  7 start of: 1-3 Toad House (whistle 1)                       BLACK        4560     4492    4433.7   +58.3   4560..4571
+  8 start of: W1 map: Toad House -> 1-Fortress                 BLACK        5173     5105    5040.3   +64.7   5173..5186
+  9 start of: 1-Fortress main room                             VISIBLE      5419     5351    5319.0   +32.0   5399..5419
+ 10 start of: 1-Fortress whistle room (whistle 2)              BLACK        6130     6062    6045.0   +17.0   6130..6145
+ 11 start of: W1 map: whistle 1 used (after 1-F)               BLACK        6484     6416    6397.9   +18.1   6484..6497
+ 12 start of: Warp Zone, 1st arrival: whistle 2 used           BLACK        6801     6733    6717.7   +15.3   6801..6813
+ 13 start of: Warp Zone, 2nd arrival: into the World 8 pipe    BLACK        7147     7079    7065.7   +13.3   7147..7159
+ 14 start of: W8 map 1: start -> enter 8-Tank                  BLACK        7363     7295    7285.2    +9.8   7363..7376
+ 15 start of: 8-Tank autoscroller                              VISIBLE      7664     7596    7584.0   +12.0   7652..7664
+ 16 start of: 8-Tank boss room (Boomerang Bro)                 BLACK       13582    13514   13494.6   +19.4   13582..13593
+ 17 start of: W8 map 1: 8-Tank -> enter 8-Navy                 BLACK       14141    14073   14089.2   -16.2   14141..14155
+ 18 start of: 8-Navy autoscroller                              VISIBLE     14331    14263   14279.7   -16.7   14319..14331
+ 19 start of: 8-Navy boss room (Boom Boom)                     BLACK       18858    18790   18808.7   -18.7   18858..18869
+ 20 start of: W8 map 1: 8-Navy -> pipe                         BLACK       19457    19389   19408.3   -19.3   19457..19471
+ 21 start of: W8 pipe connector 1                              VISIBLE     19699    19631   19650.9   -19.9   19687..19699
+ 22 start of: W8 map 2: 3 hand tiles (no grab) -> enter 8-Airs BLACK       19895    19827   19847.4   -20.4   19895..19909
+ 23 start of: 8-Airship autoscroller                           VISIBLE     20112    20044   20069.0   -25.0   20101..20112
+ 24 start of: 8-Airship boss room (Boom Boom)                  BLACK       23069    23001   23029.8   -28.8   23069..23080
+ 25 start of: W8 map 2: Airship -> pipe                        BLACK       23670    23602   23632.4   -30.4   23670..23684
+ 26 start of: W8 pipe connector 2                              VISIBLE     23895    23827   23858.0   -31.0   23883..23895
+ 27 start of: W8 map 3 (dark): -> enter 8-1                    BLACK       24091    24023   24054.5   -31.5   24091..24105
+ 28 start of: 8-1                                              VISIBLE     24259    24191   24225.0   -34.0   24245..24259
+ 29 start of: W8 map 3: 8-1 -> 8-2                             BLACK       25676    25608   25647.7   -39.7   25676..25690
+ 30 start of: 8-2                                              VISIBLE     25859    25791   25850.3   -59.3   25839..25859
+ 31 start of: W8 map 3: 8-2 -> 8-Fortress                      BLACK       27364    27296   27352.2   -56.2   27364..27378
+ 32 start of: 8-Fortress room 1                                VISIBLE     27581    27513   27572.8   -59.8   27561..27581
+ 33 start of: 8-Fortress room 2                                BLACK       28030    27962   28017.0   -55.0   28030..28048
+ 34 start of: 8-Fortress room 3                                BLACK       28403    28335   28389.0   -54.0   28403..28423
+ 35 start of: 8-Fortress room 4                                BLACK       28775    28707   28757.0   -50.0   28775..28793
+ 36 start of: 8-Fortress Boom Boom room                        BLACK       29068    29000   29044.7   -44.7   29068..29088
+ 37 start of: W8 map 3: 8-F -> pipe                            BLACK       29921    29853   29900.0   -47.0   29921..29935
+ 38 start of: W8 pipe connector 3                              VISIBLE     30193    30125   30175.7   -50.7   30181..30193
+ 39 start of: W8 map 4: -> enter 8-Tank2 (Super Tank)          BLACK       30389    30321   30372.2   -51.2   30389..30403
+ 40 start of: 8-Tank2 autoscroller                             VISIBLE     30537    30469   30519.6   -50.6   30525..30537
+ 41 start of: 8-Tank2 boss room (Boom Boom)                    BLACK       34491    34423   34476.1   -53.1   34491..34502
+ 42 start of: W8 map 4: Tank2 -> enter Bowser's Castle         BLACK       35083    35015   35075.6   -60.6   35083..35097
+ 43 start of: Bowser's Castle room 1                           VISIBLE     35406    35338   35404.5   -66.5   35377..35406
+ 44 start of: Bowser's Castle room 2                           BLACK       35736    35668   35734.4   -66.4   35736..35755
+ 45 start of: Bowser's room -> end of run                      BLACK       36810    36742   36817.2   -75.2   36810..36839
+   transitions seen: 45 (the WR run has 44; a different count = a transition was missed or the routes differ)
+WR: Start press (video 19050) -> door entry (video 57444 = first darker picture 57449 - 5): 38495.7 NES frames; official 10:40.533 = 38495.3
+WR picture to picture: World 1 map first visible (19117) -> first darker picture after the door (57449): 38433.5 NES frames (+/- 1.4)
+OURS, taking the LAST Level_ExitToMap fade of this file as the end (true only for a complete run):
+   Start press row 68 -> rule's end row 38502 (first darker picture 38507 - 5): 38434 rows = 639.514 s; WR by the same rule 38495.7 -> diff -61.7 (official time: -61.3)
+   picture to picture: map row 135 -> fade row 38507: 38372 rows; WR 38433.5 -> diff -61.5
+   events: Mesen 197, BizHawk 197; row offsets BizHawk - Mesen: {0: 197}; events of another kind: 0
+   VERDICT: the two emulators agree on every milestone (constant offset 0)

@@ -1,0 +1,326 @@
+{
+ "start_frame": 19050,
+ "end_frame": 57444,
+ "map1_frame": 19117,
+ "fade_frame": 57449,
+ "map1_to_fade_nes": 38433.5,
+ "end_nes": 38495.7,
+ "rate": 1.0026483123306849,
+ "boundaries": [
+  {
+   "n": 1,
+   "name": "start of: W1 map: START tile -> enter 1-1",
+   "kind": "MAP1",
+   "frame": 19117,
+   "nes": 67.2
+  },
+  {
+   "n": 2,
+   "name": "start of: 1-1",
+   "kind": "VISIBLE",
+   "frame": 19409,
+   "nes": 360.0
+  },
+  {
+   "n": 3,
+   "name": "start of: W1 map: 1-1 -> 1-2",
+   "kind": "BLACK",
+   "frame": 20720,
+   "nes": 1674.4
+  },
+  {
+   "n": 4,
+   "name": "start of: 1-2",
+   "kind": "VISIBLE",
+   "frame": 20930,
+   "nes": 1885.0
+  },
+  {
+   "n": 5,
+   "name": "start of: W1 map: 1-2 -> 1-3",
+   "kind": "BLACK",
+   "frame": 22171,
+   "nes": 3129.3
+  },
+  {
+   "n": 6,
+   "name": "start of: 1-3 (ends by running off behind the scenery)",
+   "kind": "VISIBLE",
+   "frame": 22359,
+   "nes": 3317.8
+  },
+  {
+   "n": 7,
+   "name": "start of: 1-3 Toad House (whistle 1)",
+   "kind": "BLACK",
+   "frame": 23472,
+   "nes": 4433.7
+  },
+  {
+   "n": 8,
+   "name": "start of: W1 map: Toad House -> 1-Fortress",
+   "kind": "BLACK",
+   "frame": 24077,
+   "nes": 5040.3
+  },
+  {
+   "n": 9,
+   "name": "start of: 1-Fortress main room",
+   "kind": "VISIBLE",
+   "frame": 24355,
+   "nes": 5319.0
+  },
+  {
+   "n": 10,
+   "name": "start of: 1-Fortress whistle room (whistle 2)",
+   "kind": "BLACK",
+   "frame": 25079,
+   "nes": 6045.0
+  },
+  {
+   "n": 11,
+   "name": "start of: W1 map: whistle 1 used (after 1-F)",
+   "kind": "BLACK",
+   "frame": 25431,
+   "nes": 6397.9
+  },
+  {
+   "n": 12,
+   "name": "start of: Warp Zone, 1st arrival: whistle 2 used",
+   "kind": "BLACK",
+   "frame": 25750,
+   "nes": 6717.7
+  },
+  {
+   "n": 13,
+   "name": "start of: Warp Zone, 2nd arrival: into the World 8 pipe",
+   "kind": "BLACK",
+   "frame": 26097,
+   "nes": 7065.7
+  },
+  {
+   "n": 14,
+   "name": "start of: W8 map 1: start -> enter 8-Tank",
+   "kind": "BLACK",
+   "frame": 26316,
+   "nes": 7285.2
+  },
+  {
+   "n": 15,
+   "name": "start of: 8-Tank autoscroller",
+   "kind": "VISIBLE",
+   "frame": 26614,
+   "nes": 7584.0
+  },
+  {
+   "n": 16,
+   "name": "start of: 8-Tank boss room (Boomerang Bro)",
+   "kind": "BLACK",
+   "frame": 32509,
+   "nes": 13494.6
+  },
+  {
+   "n": 17,
+   "name": "start of: W8 map 1: 8-Tank -> enter 8-Navy",
+   "kind": "BLACK",
+   "frame": 33102,
+   "nes": 14089.2
+  },
+  {
+   "n": 18,
+   "name": "start of: 8-Navy autoscroller",
+   "kind": "VISIBLE",
+   "frame": 33292,
+   "nes": 14279.7
+  },
+  {
+   "n": 19,
+   "name": "start of: 8-Navy boss room (Boom Boom)",
+   "kind": "BLACK",
+   "frame": 37809,
+   "nes": 18808.7
+  },
+  {
+   "n": 20,
+   "name": "start of: W8 map 1: 8-Navy -> pipe",
+   "kind": "BLACK",
+   "frame": 38407,
+   "nes": 19408.3
+  },
+  {
+   "n": 21,
+   "name": "start of: W8 pipe connector 1",
+   "kind": "VISIBLE",
+   "frame": 38649,
+   "nes": 19650.9
+  },
+  {
+   "n": 22,
+   "name": "start of: W8 map 2: 3 hand tiles (no grab) -> enter 8-Airship",
+   "kind": "BLACK",
+   "frame": 38845,
+   "nes": 19847.4
+  },
+  {
+   "n": 23,
+   "name": "start of: 8-Airship autoscroller",
+   "kind": "VISIBLE",
+   "frame": 39066,
+   "nes": 20069.0
+  },
+  {
+   "n": 24,
+   "name": "start of: 8-Airship boss room (Boom Boom)",
+   "kind": "BLACK",
+   "frame": 42019,
+   "nes": 23029.8
+  },
+  {
+   "n": 25,
+   "name": "start of: W8 map 2: Airship -> pipe",
+   "kind": "BLACK",
+   "frame": 42620,
+   "nes": 23632.4
+  },
+  {
+   "n": 26,
+   "name": "start of: W8 pipe connector 2",
+   "kind": "VISIBLE",
+   "frame": 42845,
+   "nes": 23858.0
+  },
+  {
+   "n": 27,
+   "name": "start of: W8 map 3 (dark): -> enter 8-1",
+   "kind": "BLACK",
+   "frame": 43041,
+   "nes": 24054.5
+  },
+  {
+   "n": 28,
+   "name": "start of: 8-1",
+   "kind": "VISIBLE",
+   "frame": 43211,
+   "nes": 24225.0
+  },
+  {
+   "n": 29,
+   "name": "start of: W8 map 3: 8-1 -> 8-2",
+   "kind": "BLACK",
+   "frame": 44630,
+   "nes": 25647.7
+  },
+  {
+   "n": 30,
+   "name": "start of: 8-2",
+   "kind": "VISIBLE",
+   "frame": 44832,
+   "nes": 25850.3
+  },
+  {
+   "n": 31,
+   "name": "start of: W8 map 3: 8-2 -> 8-Fortress",
+   "kind": "BLACK",
+   "frame": 46330,
+   "nes": 27352.2
+  },
+  {
+   "n": 32,
+   "name": "start of: 8-Fortress room 1",
+   "kind": "VISIBLE",
+   "frame": 46550,
+   "nes": 27572.8
+  },
+  {
+   "n": 33,
+   "name": "start of: 8-Fortress room 2",
+   "kind": "BLACK",
+   "frame": 46993,
+   "nes": 28017.0
+  },
+  {
+   "n": 34,
+   "name": "start of: 8-Fortress room 3",
+   "kind": "BLACK",
+   "frame": 47364,
+   "nes": 28389.0
+  },
+  {
+   "n": 35,
+   "name": "start of: 8-Fortress room 4",
+   "kind": "BLACK",
+   "frame": 47731,
+   "nes": 28757.0
+  },
+  {
+   "n": 36,
+   "name": "start of: 8-Fortress Boom Boom room",
+   "kind": "BLACK",
+   "frame": 48018,
+   "nes": 29044.7
+  },
+  {
+   "n": 37,
+   "name": "start of: W8 map 3: 8-F -> pipe",
+   "kind": "BLACK",
+   "frame": 48871,
+   "nes": 29900.0
+  },
+  {
+   "n": 38,
+   "name": "start of: W8 pipe connector 3",
+   "kind": "VISIBLE",
+   "frame": 49146,
+   "nes": 30175.7
+  },
+  {
+   "n": 39,
+   "name": "start of: W8 map 4: -> enter 8-Tank2 (Super Tank)",
+   "kind": "BLACK",
+   "frame": 49342,
+   "nes": 30372.2
+  },
+  {
+   "n": 40,
+   "name": "start of: 8-Tank2 autoscroller",
+   "kind": "VISIBLE",
+   "frame": 49489,
+   "nes": 30519.6
+  },
+  {
+   "n": 41,
+   "name": "start of: 8-Tank2 boss room (Boom Boom)",
+   "kind": "BLACK",
+   "frame": 53435,
+   "nes": 34476.1
+  },
+  {
+   "n": 42,
+   "name": "start of: W8 map 4: Tank2 -> enter Bowser's Castle",
+   "kind": "BLACK",
+   "frame": 54033,
+   "nes": 35075.6
+  },
+  {
+   "n": 43,
+   "name": "start of: Bowser's Castle room 1",
+   "kind": "VISIBLE",
+   "frame": 54361,
+   "nes": 35404.5
+  },
+  {
+   "n": 44,
+   "name": "start of: Bowser's Castle room 2",
+   "kind": "BLACK",
+   "frame": 54690,
+   "nes": 35734.4
+  },
+  {
+   "n": 45,
+   "name": "start of: Bowser's room -> end of run",
+   "kind": "BLACK",
+   "frame": 55770,
+   "nes": 36817.2
+  }
+ ]
+}

@@ -1,0 +1,7 @@
+# never: the game
+*.nes
+
+# The release ran without a harness, so there are no states/shots/logs to ignore;
+# this is the Python the checker leaves behind.
+__pycache__/
+*.pyc

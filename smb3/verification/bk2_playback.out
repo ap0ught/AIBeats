@@ -1,0 +1,55 @@
+EmuHawk pid 22280: playing smb3_ai_10m39s.bk2 to frame 38623 ...
+{
+ "movie": "smb3_ai_10m39s.bk2",
+ "movie_sha1": "d006b92829758d8dc5da383943ef5b95d9a6111e",
+ "rom_whole_sha1": "5f9019040fe23cb412a484e1ef430e59e589f9b4",
+ "rom_headerless_sha1": "a611b90b4833b20a364bf06ee3be3b9093ea4df9",
+ "seconds": 313.7,
+ "bizhawk": {
+  "start_framecount": "1",
+  "movie_loaded": "true",
+  "movie_mode": "PLAY",
+  "movie_length": "38623",
+  "movie_startsfromsavestate": "false",
+  "movie_header Core": "NesHawk",
+  "movie_header SHA1": "5F9019040FE23CB412A484E1EF430E59E589F9B4",
+  "romhash": "5F9019040FE23CB412A484E1EF430E59E589F9B4",
+  "board": "TxROM",
+  "end_framecount": "38623",
+  "end_movie_mode": "FINISHED"
+ },
+ "movie_modes": [
+  "movie_mode_at_frame 2 PLAY",
+  "movie_mode_at_frame 38623 FINISHED"
+ ],
+ "core_seen": "NesHawk",
+ "trace_sha1_2_to_38623": "0bac2e729dbca3718d221b3711c21622b3e434c6",
+ "ram_sha1_at_38503": "0312f20a5091f5669d88b67489b1fb844c04a156",
+ "lag_frames_2_to_38623": 1451,
+ "clock_ram": {
+  "start_presses_seen": [
+   13,
+   68
+  ],
+  "end_Level_ExitToMap": 38502,
+  "end_tileset": 2,
+  "end_world": 8
+ },
+ "clock": {
+  "frames": 38434,
+  "seconds": 639.514,
+  "time": "10:39.514"
+ },
+ "pictures": {
+  "38506": {
+   "mean_brightness": 39.57
+  },
+  "38507": {
+   "mean_brightness": 26.18
+  }
+ },
+ "result": "PASS",
+ "failures": [],
+ "checked_utc": "2026-11-15 10:47:25"
+}
+exit 0
